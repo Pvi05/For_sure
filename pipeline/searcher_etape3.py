@@ -43,8 +43,8 @@ def _get_client() -> Client:
     global _client
     if _client is None:
         _client = Client()
-        handle = os.getenv("BSKY_HANDLE", "for-sure.bsky.social")
-        password = os.getenv("BSKY_APP_PASSWORD", "LFfqA_n..7kz9KZ")
+        handle = os.getenv("BSKY_HANDLE", "")
+        password = os.getenv("BSKY_APP_PASSWORD", "")
         _client.login(handle, password)
     return _client
 
