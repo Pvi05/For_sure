@@ -1,0 +1,448 @@
+{
+  "meta": {
+    "built_at": "2026-02-22T11:49:18.008072",
+    "node_count": 12,
+    "edge_count": 8,
+    "max_depth": 4,
+    "global_distortion": 0.928,
+    "primary_source_ids": [
+      "at://did:plc:xoywspomddm3u4jkadnl5ed6/app.bsky.feed.post/3mfc7ntzd7c2m"
+    ]
+  },
+  "nodes": [
+    {
+      "id": "at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z",
+      "uri": "at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z",
+      "author_handle": "mathieuhourdin.bsky.social",
+      "author_did": "did:plc:jyszdkkd7q4ejj4mah36jgde",
+      "date": "2026-02-21T14:35:04.993Z",
+      "text_preview": "Bravo au journaliste de bfm sur place, qui répète à chaque fois qu'il prend la parole que les participants au rassemblement de Lyon essaient…",
+      "likes": 433,
+      "reposts": 127,
+      "replies": 12,
+      "depth": 0,
+      "is_root": true,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.482,
+      "keywords": [
+        "journaliste",
+        "bfm",
+        "rassemblement",
+        "Lyon",
+        "croix gammées",
+        "néonazis"
+      ],
+      "entities": [
+        "bfm",
+        "Lyon"
+      ],
+      "claims": [
+        "Le journaliste de bfm affirme que les participants au rassemblement de Lyon essaient de masquer leur appartenance.",
+        "Le journaliste de bfm voit des croix gammées.",
+        "Le journaliste de bfm qualifie les participants de néonazis."
+      ]
+    },
+    {
+      "id": "at://did:plc:66gl2bn6tpnq374x33nh66t2/app.bsky.feed.post/3mfetpt2zfk25",
+      "uri": "at://did:plc:66gl2bn6tpnq374x33nh66t2/app.bsky.feed.post/3mfetpt2zfk25",
+      "author_handle": "fabulousfab.bsky.social",
+      "author_did": "did:plc:66gl2bn6tpnq374x33nh66t2",
+      "date": "2026-02-21T14:33:24.165Z",
+      "text_preview": "Manif de Lyon : on vient de passer de Francetv infos à BFM tant la couverture de FranceInfos était pathétique. pas un mot sur le pédigrée de…",
+      "likes": 14,
+      "reposts": 6,
+      "replies": 1,
+      "depth": 1,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.241,
+      "keywords": []
+    },
+    {
+      "id": "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3mferyarcy22y",
+      "uri": "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3mferyarcy22y",
+      "author_handle": "marinetondelier.fr",
+      "author_did": "did:plc:gixn227k63od3d4cyrwp67w5",
+      "date": "2026-02-21T14:02:19.480Z",
+      "text_preview": "Des militants d'extrême droite de toute l'Europe sont à Lyon pour faire une démonstration de force néofasciste, plus que pour rendre hommage…",
+      "likes": 209,
+      "reposts": 47,
+      "replies": 33,
+      "depth": 1,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.7,
+      "virality_score": 0.427,
+      "keywords": [
+        "extrême droite",
+        "néofasciste",
+        "manifestation",
+        "Lyon",
+        "interdite",
+        "France"
+      ],
+      "entities": [
+        "Europe",
+        "Lyon",
+        "Quentin",
+        "France"
+      ],
+      "claims": [
+        "Des militants d'extrême droite de toute l'Europe sont à Lyon.",
+        "La manifestation n'a pas été interdite."
+      ]
+    },
+    {
+      "id": "at://did:plc:4wcmmsuypbgdgspz4h3v75ab/app.bsky.feed.post/3mfbzo5sphs27",
+      "uri": "at://did:plc:4wcmmsuypbgdgspz4h3v75ab/app.bsky.feed.post/3mfbzo5sphs27",
+      "author_handle": "valeriepalanchon.bsky.social",
+      "author_did": "did:plc:4wcmmsuypbgdgspz4h3v75ab",
+      "date": "2026-02-20T11:41:51.555Z",
+      "text_preview": "On verra qui s’y affiche… du taff pour les RG.\nEt une occasion de voir la face cachée de l’extrême droite en France et en Europe. \nCeci dit,…",
+      "likes": 4,
+      "reposts": 1,
+      "replies": 0,
+      "depth": 2,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.134,
+      "keywords": []
+    },
+    {
+      "id": "at://did:plc:xtnxxfjqeciahkumbnqkv4mf/app.bsky.feed.post/3mfegpvvmjs2t",
+      "uri": "at://did:plc:xtnxxfjqeciahkumbnqkv4mf/app.bsky.feed.post/3mfegpvvmjs2t",
+      "author_handle": "cyriellechatelain.fr",
+      "author_did": "did:plc:xtnxxfjqeciahkumbnqkv4mf",
+      "date": "2026-02-21T10:40:48.491Z",
+      "text_preview": "NON M. le Président, la manifestation qui se déroule aujourd’hui à Lyon n’est pas un moment de recueillement. \n\nC’est un rassemblement de gr…",
+      "likes": 274,
+      "reposts": 110,
+      "replies": 9,
+      "depth": 2,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.7,
+      "virality_score": 0.459,
+      "keywords": [
+        "manifestation",
+        "Lyon",
+        "intégristes",
+        "néonazis",
+        "suprémacistes",
+        "interdiction"
+      ],
+      "entities": [
+        "Lyon",
+        "Quentin Deranque"
+      ],
+      "claims": [
+        "La manifestation à Lyon est un rassemblement de groupes intégristes néonazis et suprémacistes.",
+        "La famille de Quentin Deranque ne participe pas à la manifestation.",
+        "Le maire de Lyon demande l'interdiction de la manifestation."
+      ]
+    },
+    {
+      "id": "at://did:plc:pjuzfb5wpu5injo5idihkvxm/app.bsky.feed.post/3mferkzrpdc2g",
+      "uri": "at://did:plc:pjuzfb5wpu5injo5idihkvxm/app.bsky.feed.post/3mferkzrpdc2g",
+      "author_handle": "pierre-lemerle.bsky.social",
+      "author_did": "did:plc:pjuzfb5wpu5injo5idihkvxm",
+      "date": "2026-02-21T13:54:55.944Z",
+      "text_preview": "\"On va revenir, dormez pas tranquille\"\nUn militant, lunettes de soleil et casquette sur la tête vient de menacer des personnes sur leur balc…",
+      "likes": 64,
+      "reposts": 47,
+      "replies": 4,
+      "depth": 2,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.378,
+      "keywords": []
+    },
+    {
+      "id": "at://did:plc:uo4didwt5qe4onrscbmqwvwm/app.bsky.feed.post/3mfcki4ctrr2p",
+      "uri": "at://did:plc:uo4didwt5qe4onrscbmqwvwm/app.bsky.feed.post/3mfcki4ctrr2p",
+      "author_handle": "liberation.fr",
+      "author_did": "did:plc:uo4didwt5qe4onrscbmqwvwm",
+      "date": "2026-02-20T16:42:41.917Z",
+      "text_preview": "«Une très forte intrusion du pouvoir politique dans l’exercice de la justice» : après la mort de Quentin Deranque, Gérald Darmanin inquiète …",
+      "likes": 47,
+      "reposts": 19,
+      "replies": 11,
+      "depth": 2,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.9,
+      "virality_score": 0.336,
+      "keywords": []
+    },
+    {
+      "id": "at://did:plc:eqco7femxjwltoq2t2bv7rh2/app.bsky.feed.post/3mfadnq5duc2u",
+      "uri": "at://did:plc:eqco7femxjwltoq2t2bv7rh2/app.bsky.feed.post/3mfadnq5duc2u",
+      "author_handle": "soleilvanille.bsky.social",
+      "author_did": "did:plc:eqco7femxjwltoq2t2bv7rh2",
+      "date": "2026-02-19T19:35:15.125Z",
+      "text_preview": "La marche prévue samedi à #Lyon \"n’est pas à l'initiative des parents\" de Quentin Deranque a précisé leur avocat et \"ils n'y participeront p…",
+      "likes": 11,
+      "reposts": 14,
+      "replies": 1,
+      "depth": 3,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.276,
+      "keywords": []
+    },
+    {
+      "id": "at://did:plc:tig2ljjjsbr3py4d7o2poeft/app.bsky.feed.post/3mfc2pxdlts2h",
+      "uri": "at://did:plc:tig2ljjjsbr3py4d7o2poeft/app.bsky.feed.post/3mfc2pxdlts2h",
+      "author_handle": "sylvaingrandserre.bsky.social",
+      "author_did": "did:plc:tig2ljjjsbr3py4d7o2poeft",
+      "date": "2026-02-20T12:00:45.618Z",
+      "text_preview": "Bardella recommande aux cadres du RN de ne pas se rendre à la marche d'hommage à Quentin Deranque prévue samedi à Lyon. Il ne faudrait pas q…",
+      "likes": 20,
+      "reposts": 16,
+      "replies": 4,
+      "depth": 3,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.299,
+      "keywords": []
+    },
+    {
+      "id": "at://did:plc:3fku6rbchamq3symzjznprwy/app.bsky.feed.post/3mfcjzrpkei2d",
+      "uri": "at://did:plc:3fku6rbchamq3symzjznprwy/app.bsky.feed.post/3mfcjzrpkei2d",
+      "author_handle": "publicsenat.fr",
+      "author_did": "did:plc:3fku6rbchamq3symzjznprwy",
+      "date": "2026-02-20T16:34:37.000Z",
+      "text_preview": "La marche prévue samedi à Lyon en hommage à Quentin Deranque, l’étudiant nationaliste frappé à mort il y a une semaine dans cette ville, fai…",
+      "likes": 4,
+      "reposts": 1,
+      "replies": 2,
+      "depth": 3,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.9,
+      "virality_score": 0.156,
+      "keywords": []
+    },
+    {
+      "id": "at://did:plc:jmkxazofykgyo5nq7tutdq6p/app.bsky.feed.post/3mfe2odtyhs2r",
+      "uri": "at://did:plc:jmkxazofykgyo5nq7tutdq6p/app.bsky.feed.post/3mfe2odtyhs2r",
+      "author_handle": "medericgc.bsky.social",
+      "author_did": "did:plc:jmkxazofykgyo5nq7tutdq6p",
+      "date": "2026-02-21T07:05:11.108Z",
+      "text_preview": "Siamo hélas pas tutti antifascisti, et il y a beaucoup trop de fascisti jusqu’au sommet de l’État, mais nous serons suffisamment déterminés,…",
+      "likes": 128,
+      "reposts": 20,
+      "replies": 2,
+      "depth": 3,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.371,
+      "keywords": []
+    },
+    {
+      "id": "at://did:plc:xoywspomddm3u4jkadnl5ed6/app.bsky.feed.post/3mfc7ntzd7c2m",
+      "uri": "at://did:plc:xoywspomddm3u4jkadnl5ed6/app.bsky.feed.post/3mfc7ntzd7c2m",
+      "author_handle": "ricardoparreira.com",
+      "author_did": "did:plc:xoywspomddm3u4jkadnl5ed6",
+      "date": "2026-02-20T13:29:03.736Z",
+      "text_preview": "Ces néonazis sont bien à l’aise.\n\nEt ils auront la police pour les protéger. Elle est belle, la démocratie.\n\nLa liberté (d’expression) d’êtr…",
+      "likes": 225,
+      "reposts": 99,
+      "replies": 11,
+      "depth": 3,
+      "is_root": false,
+      "is_primary": true,
+      "fiability_score": 0.7,
+      "virality_score": 0.449,
+      "keywords": [
+        "néonazis",
+        "police",
+        "démocratie",
+        "liberté",
+        "racistes",
+        "inégalité"
+      ],
+      "entities": [],
+      "claims": [
+        "Les néonazis sont protégés par la police.",
+        "La liberté d'expression est utilisée pour justifier le racisme.",
+        "Le projet politique des néonazis est de revenir à l'inégalité naturelle."
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "at://did:plc:66gl2bn6tpnq374x33nh66t2/app.bsky.feed.post/3mfetpt2zfk25",
+      "target": "at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z",
+      "similarity_score": 0.7036,
+      "info_lost": [
+        "La critique de la couverture de FranceInfo par @fabulousfab.bsky.social",
+        "La mention du 'pédigrée de l'organisatrice' du rassemblement",
+        "La description des participants masqués en 'lunettes noires, doudounes noires, bérets noirs'"
+      ],
+      "info_added": [
+        "L'éloge du journaliste de BFM par @mathieuhourdin.bsky.social",
+        "La mention que le journaliste de BFM 'répète à chaque fois qu'il prend la parole' ses observations",
+        "L'affirmation que les participants 'essaient de masquer leur appartenance'",
+        "La mention de 'croix gammées' vues par le journaliste de BFM",
+        "L'affirmation que les participants sont des 'néonazis'"
+      ],
+      "distortion_score": 0.7,
+      "tone_shift": "more_partisan",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T11:53:23.656581"
+    },
+    {
+      "source": "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3mferyarcy22y",
+      "target": "at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z",
+      "similarity_score": 0.628,
+      "info_lost": [
+        "La présence de militants d'extrême droite de toute l'Europe à Lyon.",
+        "L'objectif principal du rassemblement est une démonstration de force néofasciste, plus qu'un hommage à Quentin.",
+        "Les risques présentés par la manifestation.",
+        "Le fait que la manifestation n'a pas été interdite.",
+        "La critique du 'deux poids, deux mesures' en France."
+      ],
+      "info_added": [
+        "L'existence d'un journaliste de BFM sur place.",
+        "Le fait que le journaliste répète que les participants essaient de masquer leur appartenance.",
+        "Le fait que le journaliste voit des croix gammées et qualifie les participants de néonazis.",
+        "L'approbation du journaliste de BFM par l'auteur du post récent ('Bravo au journaliste')."
+      ],
+      "distortion_score": 0.7,
+      "tone_shift": "more_partisan",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T11:50:23.391238"
+    },
+    {
+      "source": "at://did:plc:xtnxxfjqeciahkumbnqkv4mf/app.bsky.feed.post/3mfegpvvmjs2t",
+      "target": "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3mferyarcy22y",
+      "similarity_score": 0.6815,
+      "info_lost": [
+        "La manifestation n'est pas un moment de recueillement.",
+        "La famille de Quentin Deranque ne participe pas à la manifestation.",
+        "Le maire de Lyon a demandé l'interdiction de la manifestation."
+      ],
+      "info_added": [
+        "Des militants d'extrême droite de toute l'Europe sont à Lyon.",
+        "La manifestation est une démonstration de force néofasciste.",
+        "La manifestation n'a pas été interdite malgré les risques.",
+        "Il y a un 'deux poids, deux mesures' en France."
+      ],
+      "distortion_score": 0.6,
+      "tone_shift": "more_partisan",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T11:51:20.534900"
+    },
+    {
+      "source": "at://did:plc:pjuzfb5wpu5injo5idihkvxm/app.bsky.feed.post/3mferkzrpdc2g",
+      "target": "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3mferyarcy22y",
+      "similarity_score": 0.5854,
+      "info_lost": [
+        "La description spécifique d'un incident : un militant menaçant des personnes sur leur balcon avec la citation exacte \"On va revenir, dormez pas tranquille\".",
+        "La description physique du militant (lunettes de soleil et casquette).",
+        "La localisation précise de l'incident (Place Jean-Jaurès).",
+        "La mention de @rue89lyon.fr comme source ou observateur."
+      ],
+      "info_added": [
+        "L'affirmation que des militants d'extrême droite de toute l'Europe sont présents à Lyon.",
+        "L'interprétation que la manifestation est une \"démonstration de force néofasciste\" plutôt qu'un hommage.",
+        "La mention des \"risques que cette manif présente\".",
+        "La critique de la non-interdiction de la manifestation.",
+        "L'expression \"Le deux poids, deux mesures se porte bien en France\"."
+      ],
+      "distortion_score": 0.7,
+      "tone_shift": "more_partisan",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T11:53:18.255407"
+    },
+    {
+      "source": "at://did:plc:uo4didwt5qe4onrscbmqwvwm/app.bsky.feed.post/3mfcki4ctrr2p",
+      "target": "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3mferyarcy22y",
+      "similarity_score": 0.3452,
+      "info_lost": [
+        "La nature de l'inquiétude des professionnels du droit concernant Gérald Darmanin.",
+        "La citation spécifique : «Une très forte intrusion du pouvoir politique dans l’exercice de la justice»."
+      ],
+      "info_added": [
+        "La présence de militants d'extrême droite de toute l'Europe à Lyon.",
+        "La description de la manifestation comme une 'démonstration de force néofasciste'.",
+        "L'affirmation que la manifestation n'a pas été interdite malgré les risques.",
+        "L'expression 'deux poids, deux mesures' pour critiquer la situation."
+      ],
+      "distortion_score": 0.9,
+      "tone_shift": "more_partisan",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T11:53:21.136339"
+    },
+    {
+      "source": "at://did:plc:tig2ljjjsbr3py4d7o2poeft/app.bsky.feed.post/3mfc2pxdlts2h",
+      "target": "at://did:plc:xtnxxfjqeciahkumbnqkv4mf/app.bsky.feed.post/3mfegpvvmjs2t",
+      "similarity_score": 0.6934,
+      "info_lost": [
+        "La recommandation de Bardella aux cadres du RN de ne pas se rendre à la marche.",
+        "La raison invoquée par Bardella : éviter que la présence de néo-nazis ne 'salisse' l'image du RN avant les municipales.",
+        "La date de la marche : 'samedi' (implicitement le 22 février 2026)."
+      ],
+      "info_added": [
+        "L'interpellation directe de 'M. le Président' (implicitement le Président de la République).",
+        "L'affirmation que la manifestation 'se déroule aujourd’hui' (21 février 2026).",
+        "La caractérisation des participants comme 'groupes intégristes néonazis et suprémacistes'.",
+        "L'information que 'La famille de Quentin Deranque n’y participe pas'.",
+        "L'approbation de la demande d'interdiction du maire de Lyon."
+      ],
+      "distortion_score": 0.7,
+      "tone_shift": "more_partisan",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T11:53:15.367090"
+    },
+    {
+      "source": "at://did:plc:jmkxazofykgyo5nq7tutdq6p/app.bsky.feed.post/3mfe2odtyhs2r",
+      "target": "at://did:plc:xtnxxfjqeciahkumbnqkv4mf/app.bsky.feed.post/3mfegpvvmjs2t",
+      "similarity_score": 0.569,
+      "info_lost": [
+        "L'appel à la solidarité et à la détermination pour lutter contre la 'moisissure brune' ('tutti insieme').",
+        "La mention 'Forza aux camarades lyonnais aujourd’hui ✊🏼' qui implique un soutien à une action spécifique.",
+        "L'affirmation qu'il y a 'beaucoup trop de fascisti jusqu’au sommet de l’État'."
+      ],
+      "info_added": [
+        "L'interpellation directe du Président de la République ('NON M. le Président').",
+        "La caractérisation de la manifestation comme 'un rassemblement de groupes intégristes néonazis et suprémacistes'.",
+        "La précision que la famille de Quentin Deranque ne participe pas à la manifestation.",
+        "La mention que le maire de Lyon demande l'interdiction de la manifestation."
+      ],
+      "distortion_score": 0.7,
+      "tone_shift": "more_partisan",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T11:53:11.946487"
+    },
+    {
+      "source": "at://did:plc:xoywspomddm3u4jkadnl5ed6/app.bsky.feed.post/3mfc7ntzd7c2m",
+      "target": "at://did:plc:xtnxxfjqeciahkumbnqkv4mf/app.bsky.feed.post/3mfegpvvmjs2t",
+      "similarity_score": 0.4594,
+      "info_lost": [
+        "La mention de la police protégeant les manifestants.",
+        "L'affirmation que la liberté d'expression est utilisée pour être raciste.",
+        "Le projet politique des néonazis est de revenir à l'inégalité naturelle."
+      ],
+      "info_added": [
+        "L'interpellation directe de 'M. le Président'.",
+        "La précision que la manifestation n'est pas un moment de recueillement.",
+        "La mention des groupes 'intégristes' et 'suprémacistes'.",
+        "L'information que la famille de Quentin Deranque ne participe pas à la manifestation.",
+        "L'approbation de la demande d'interdiction du maire de Lyon."
+      ],
+      "distortion_score": 0.4,
+      "tone_shift": "more_partisan",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T11:52:20.364553"
+    }
+  ]
+}

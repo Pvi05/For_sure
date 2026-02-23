@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "built_at": "2026-02-22T10:08:08.794611",
+    "node_count": 2,
+    "edge_count": 1,
+    "max_depth": 4,
+    "global_distortion": null,
+    "primary_source_ids": []
+  },
+  "nodes": [
+    {
+      "id": "at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z",
+      "uri": "at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z",
+      "author_handle": "mathieuhourdin.bsky.social",
+      "author_did": "did:plc:jyszdkkd7q4ejj4mah36jgde",
+      "date": "2026-02-21T14:35:04.993Z",
+      "text_preview": "Bravo au journaliste de bfm sur place, qui répète à chaque fois qu'il prend la parole que les participants au rassemblement de Lyon essaient…",
+      "likes": 425,
+      "reposts": 123,
+      "replies": 12,
+      "depth": 0,
+      "is_root": true,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.48,
+      "keywords": [
+        "journaliste",
+        "bfm",
+        "rassemblement",
+        "Lyon",
+        "croix gammées",
+        "néonazis"
+      ],
+      "entities": [
+        "bfm",
+        "Lyon"
+      ],
+      "claims": [
+        "Le journaliste de bfm affirme que les participants au rassemblement de Lyon essaient de masquer leur appartenance.",
+        "Le journaliste de bfm voit des croix gammées.",
+        "Le journaliste de bfm qualifie les participants de néonazis."
+      ]
+    },
+    {
+      "id": "at://did:plc:66gl2bn6tpnq374x33nh66t2/app.bsky.feed.post/3mfetpt2zfk25",
+      "uri": "at://did:plc:66gl2bn6tpnq374x33nh66t2/app.bsky.feed.post/3mfetpt2zfk25",
+      "author_handle": "fabulousfab.bsky.social",
+      "author_did": "did:plc:66gl2bn6tpnq374x33nh66t2",
+      "date": "2026-02-21T14:33:24.165Z",
+      "text_preview": "Manif de Lyon : on vient de passer de Francetv infos à BFM tant la couverture de FranceInfos était pathétique. pas un mot sur le pédigrée de…",
+      "likes": 14,
+      "reposts": 6,
+      "replies": 1,
+      "depth": 1,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.241,
+      "keywords": []
+    }
+  ],
+  "links": [
+    {
+      "source": "at://did:plc:66gl2bn6tpnq374x33nh66t2/app.bsky.feed.post/3mfetpt2zfk25",
+      "target": "at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z",
+      "similarity_score": 0.7036,
+      "info_lost": [
+        "La critique de la couverture de FranceInfo par @fabulousfab.bsky.social",
+        "La mention du 'pédigrée de l'organisatrice' du rassemblement",
+        "La description des participants masqués en 'lunettes noires, doudounes noires, bérets noirs'"
+      ],
+      "info_added": [
+        "L'éloge du journaliste de BFM par @mathieuhourdin.bsky.social",
+        "La mention que le journaliste de BFM 'répète à chaque fois qu'il prend la parole' ses observations",
+        "L'affirmation que les participants 'essaient de masquer leur appartenance'",
+        "La mention de 'croix gammées' vues par le journaliste de BFM",
+        "L'affirmation que les participants sont des 'néonazis'"
+      ],
+      "distortion_score": 0.7,
+      "tone_shift": "more_partisan",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T10:08:44.084428"
+    }
+  ]
+}

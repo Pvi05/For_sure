@@ -1,0 +1,666 @@
+<div class="container-fluid py-4 px-4">
+
+  <%# ── Loading ─────────────────────────────────────────────────────────── %>
+  <style>
+    @keyframes drawEdge  { to { stroke-dashoffset: 0; } }
+    @keyframes nodeAppear { from { opacity:0; transform:scale(0.1); } to { opacity:1; transform:scale(1); } }
+    @keyframes rootGlow  { 0%,100% { r:18; opacity:1; } 50% { r:22; opacity:.75; } }
+    @keyframes stagePulse { 0%,100% { opacity:1; } 50% { opacity:.4; } }
+    .net-edge  { fill:none; animation: drawEdge ease forwards; }
+    .net-node  { opacity:0; transform-origin:center center; animation: nodeAppear .4s ease forwards; }
+    .net-root  { animation: rootGlow 2s ease-in-out infinite; }
+    .stage-active { animation: stagePulse 1.2s ease-in-out infinite; color:#38bdf8 !important; }
+    .stage-done   { color:#86efac !important; }
+    .stage-pending { color:#475569 !important; }
+  </style>
+
+<div id="loading" class="py-5 d-flex flex-column align-items-center justify-content-center" style="min-height:60vh">
+  <div class="card shadow border-0 w-100 mx-auto" style="max-width:720px;background:#0f172a;color:#e2e8f0">
+    <div class="card-header d-flex align-items-center gap-2 border-0" style="background:#1e293b">
+      <div class="spinner-border spinner-border-sm text-info" role="status"></div>
+      <span style="font-size:.85rem;color:#94a3b8">Analyse en cours…</span>
+    </div>
+    <div class="card-body p-0">
+      <pre id="log-box"
+           style="margin:0;padding:1rem;font-size:.78rem;line-height:1.6;
+                  background:#0f172a;color:#94a3b8;
+                  height:350px;overflow-y:auto;border-radius:0 0 .375rem .375rem;
+                  white-space:pre-wrap;word-break:break-word"></pre>
+    </div>
+  </div>
+</div>
+
+
+  <%# ── Error ───────────────────────────────────────────────────────────── %>
+  <div id="error-box" class="d-none alert alert-danger" role="alert">
+    <strong>Erreur :</strong> <span id="error-text"></span>
+  </div>
+
+  <%# ── Result ──────────────────────────────────────────────────────────── %>
+  <div id="result" class="d-none">
+
+    <div class="d-flex align-items-center justify-content-between mb-4">
+      <h2 class="fw-bold mb-0">Analyse de provenance</h2>
+      <%= link_to "← Nouvelle analyse", root_path, class: "btn btn-outline-secondary btn-sm" %>
+    </div>
+
+    <%# Summary cards %>
+    <div class="row g-3 mb-4" id="summary-cards"></div>
+
+    <%# Synthesis section %>
+    <div id="synthesis-section" class="d-none mb-4">
+
+      <%# Verdict + score %>
+      <div class="card shadow-sm mb-3">
+        <div class="card-body">
+          <div class="row align-items-center g-3">
+            <div class="col-md-2 text-center">
+              <div id="syn-score-circle" style="width:90px;height:90px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;margin:auto;font-size:1.6rem;font-weight:700;color:#fff"></div>
+              <div class="text-muted small mt-1">Véracité</div>
+            </div>
+            <div class="col-md-10">
+              <h5 class="fw-bold mb-2">Verdict</h5>
+              <p id="syn-verdict" class="mb-0 fs-6"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <%# Narrative %>
+      <div class="card shadow-sm mb-3">
+        <div class="card-header py-2"><h6 class="mb-0">📖 Analyse narrative</h6></div>
+        <div class="card-body">
+          <p id="syn-narrative" class="mb-0" style="line-height:1.7"></p>
+        </div>
+      </div>
+
+      <%# Parcours de l'information %>
+      <div class="card shadow-sm mb-3" id="syn-journey-card">
+        <div class="card-header py-2"><h6 class="mb-0">🗺️ Parcours de l'information</h6></div>
+        <div class="card-body p-0">
+          <div id="syn-journey" class="p-3"></div>
+        </div>
+      </div>
+
+      <%# Top amplifiers %>
+      <div class="card shadow-sm mb-3 d-none" id="syn-amplifiers-card">
+        <div class="card-header py-2"><h6 class="mb-0">📣 Principaux amplificateurs</h6></div>
+        <div class="card-body">
+          <div id="syn-amplifiers" class="d-flex flex-wrap gap-2"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <%# Timeline card %>
+    <div class="card shadow-sm mb-4">
+      <div class="card-header d-flex flex-wrap align-items-center gap-3">
+        <h5 class="mb-0">Timeline de propagation</h5>
+        <div class="ms-auto d-flex align-items-center gap-2 small flex-wrap">
+          <span class="text-muted">Fiabilité :</span>
+          <span class="badge rounded-pill px-2" style="background:#ef4444">Faible</span>
+          <span class="badge rounded-pill px-2" style="background:#f97316">Moyenne</span>
+          <span class="badge rounded-pill px-2" style="background:#eab308">Bonne</span>
+          <span class="badge rounded-pill px-2" style="background:#22c55e">Haute</span>
+          <span class="text-muted ms-2">| Taille = viralité &nbsp;| Flèche = distorsion</span>
+        </div>
+      </div>
+      <div class="card-body p-0">
+        <div id="timeline-container" style="overflow-x:auto; min-height:420px">
+          <svg id="timeline" style="display:block"></svg>
+        </div>
+        <p class="text-muted small text-center pb-2 mb-0">
+          Cliquez sur un nœud ou une flèche pour voir les détails
+        </p>
+      </div>
+    </div>
+
+    <%# Detail panel %>
+    <div id="detail-panel" class="card shadow-sm mb-4 d-none">
+      <div class="card-header d-flex align-items-center gap-3">
+        <h6 class="mb-0 fw-bold" id="detail-title"></h6>
+        <span class="ms-auto badge fs-6 px-3 py-2" id="detail-badge"></span>
+      </div>
+      <div class="card-body">
+        <div class="row g-4">
+          <div class="col-md-6">
+            <p class="text-muted small mb-1">Date</p>
+            <p id="detail-date" class="mb-3 fw-semibold"></p>
+
+            <p class="text-muted small mb-1">Extrait du post</p>
+            <p id="detail-text" class="fst-italic border-start border-3 border-info ps-3 mb-3"></p>
+
+            <div class="d-flex gap-1 flex-wrap" id="detail-keywords"></div>
+          </div>
+          <div class="col-md-6">
+            <p class="text-muted small mb-1">Affirmations détectées</p>
+            <ul id="detail-claims" class="small ps-3 mb-0"></ul>
+          </div>
+        </div>
+
+        <%# Link-specific section %>
+        <div id="link-section" class="mt-4 d-none">
+          <hr class="my-3">
+          <p class="fw-semibold small mb-3">Distorsion sur ce lien</p>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <p class="text-muted small mb-1">🔴 Informations perdues</p>
+              <ul id="detail-lost" class="small text-danger ps-3 mb-0"></ul>
+            </div>
+            <div class="col-md-6">
+              <p class="text-muted small mb-1">🟢 Informations ajoutées</p>
+              <ul id="detail-added" class="small text-success ps-3 mb-0"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+<script>
+// ── Loading stages ─────────────────────────────────────────────────────────
+const STAGES = [
+  { emoji: "📡", text: "Récupération du post Bluesky",    start:   0, end:  10 },
+  { emoji: "🔑", text: "Extraction des mots-clés",        start:  10, end:  25 },
+  { emoji: "🔍", text: "Recherche des antécédents",       start:  25, end:  80 },
+  { emoji: "🧠", text: "Validation sémantique (IA)",      start:  80, end: 150 },
+  { emoji: "🔗", text: "Analyse des distorsions",         start: 150, end: 185 },
+  { emoji: "🕸️", text: "Construction du graphe",          start: 185, end: 205 },
+  { emoji: "✍️", text: "Synthèse narrative",              start: 205, end: 230 },
+];
+const TOTAL_SEC = 230;
+
+(function initLoadingAnimation() {
+  const stagesEl  = document.getElementById("loading-stages");
+  const barEl     = document.getElementById("loading-bar");
+  const elapsedEl = document.getElementById("loading-elapsed");
+  if (!stagesEl) return;
+
+  stagesEl.innerHTML = STAGES.map((s, i) =>
+    `<div id="lstage-${i}" class="stage-pending">
+       <span style="display:inline-block;width:1.4em">${s.emoji}</span>
+       <span>${s.text}</span>
+     </div>`
+  ).join("");
+
+  const startTime = Date.now();
+
+  const tick = setInterval(() => {
+    const elapsed = Math.round((Date.now() - startTime) / 1000);
+    const pct     = Math.min(Math.round((elapsed / TOTAL_SEC) * 100), 97);
+    barEl.style.width = pct + "%";
+
+    const mins = Math.floor(elapsed / 60);
+    const secs = elapsed % 60;
+    const rem  = Math.max(0, TOTAL_SEC - elapsed);
+    const remM = Math.floor(rem / 60), remS = rem % 60;
+    elapsedEl.textContent =
+      `${mins}m${String(secs).padStart(2,"0")}s écoulées` +
+      (rem > 0 ? `  ·  ~${remM}m${String(remS).padStart(2,"0")}s restantes` : "");
+
+    STAGES.forEach((s, i) => {
+      const el = document.getElementById(`lstage-${i}`);
+      if (!el) return;
+      if (elapsed >= s.end) {
+        el.className = "stage-done";
+        el.querySelector("span:first-child").textContent = "✅";
+      } else if (elapsed >= s.start) {
+        el.className = "stage-active";
+      }
+    });
+
+    if (elapsed >= TOTAL_SEC * 1.5) clearInterval(tick);
+  }, 1000);
+})();
+
+// ── Polling ────────────────────────────────────────────────────────────────
+const STATUS_URL = "<%= check_status_path(@job_id) %>";
+const logBox = document.getElementById("log-box");
+
+const poll = setInterval(async () => {
+  const res  = await fetch(STATUS_URL);
+  const data = await res.json();
+
+  if (data.logs) {
+    logBox.textContent = data.logs.join("\n");
+    logBox.scrollTop = logBox.scrollHeight;
+  }
+
+  if (data.status === "done") {
+    clearInterval(poll);
+    document.getElementById("loading").classList.add("d-none");
+    document.getElementById("result").classList.remove("d-none");
+    if (data.graph)     renderDashboard(data.graph);
+    if (data.synthesis) renderSynthesis(data.synthesis);
+  } else if (data.status === "error") {
+    clearInterval(poll);
+    document.getElementById("loading").classList.add("d-none");
+    document.getElementById("error-box").classList.remove("d-none");
+    document.getElementById("error-text").textContent =
+      (data.logs || []).slice(-5).join("\n") || "Erreur inconnue.";
+  }
+}, 2000);
+
+// ── Synthesis ──────────────────────────────────────────────────────────────
+function renderSynthesis(s) {
+  const isFallback = !s.narrative || s.narrative.includes("indisponible");
+  if (isFallback && (!s.distortions || s.distortions.length === 0)) return;
+
+  document.getElementById("synthesis-section").classList.remove("d-none");
+
+  // ── Score circle ─────────────────────────────────────────────────────────
+  const score   = s.veracity_score ?? 0.5;
+  const scorePct = Math.round(score * 100);
+  const scoreColor = score >= 0.7 ? "#22c55e" : score >= 0.4 ? "#f97316" : "#ef4444";
+  const scoreLabel = score >= 0.7 ? "Fiable" : score >= 0.4 ? "Douteux" : "Non fiable";
+  const circle = document.getElementById("syn-score-circle");
+  circle.style.background = scoreColor;
+  circle.innerHTML = `<span>${scorePct}%</span><span style="font-size:0.65rem;font-weight:400">${scoreLabel}</span>`;
+
+  // ── Verdict ───────────────────────────────────────────────────────────────
+  document.getElementById("syn-verdict").textContent = s.verdict || "—";
+
+  // ── Narrative ─────────────────────────────────────────────────────────────
+  document.getElementById("syn-narrative").textContent = isFallback
+    ? "La synthèse narrative n'a pas pu être générée automatiquement pour ce graphe."
+    : s.narrative;
+
+  // ── Parcours de l'information ─────────────────────────────────────────────
+  const journey = document.getElementById("syn-journey");
+  const distortions = s.distortions || [];
+
+  if (distortions.length === 0 && !s.original_fact) {
+    document.getElementById("syn-journey-card").classList.add("d-none");
+  } else {
+    const toneLabels = {
+      more_partisan:  "⚡ Plus partisan",
+      less_partisan:  "🕊️ Moins partisan",
+      more_alarmist:  "🚨 Plus alarmiste",
+      minimizes:      "📉 Minimisé",
+      neutral:        "➖ Neutre",
+    };
+
+    const distortionBg = d => {
+      if (d >= 0.7) return "#fef2f2";
+      if (d >= 0.4) return "#fff7ed";
+      return "#f0fdf4";
+    };
+    const distortionBorder = d => {
+      if (d >= 0.7) return "#ef4444";
+      if (d >= 0.4) return "#f97316";
+      return "#22c55e";
+    };
+
+    let html = "";
+
+    // Source originale
+    if (s.original_fact) {
+      html += `
+        <div class="d-flex gap-3 align-items-start mb-2">
+          <div class="text-center" style="min-width:40px">
+            <div style="width:36px;height:36px;border-radius:50%;background:#22c55e;display:flex;align-items:center;justify-content:center;color:#fff;font-size:1rem">📌</div>
+          </div>
+          <div class="flex-grow-1">
+            <div class="text-muted small fw-semibold mb-1">Source originale${distortions[0] ? " · " + distortions[0].from_author : ""}</div>
+            <div class="p-2 rounded border small fst-italic" style="background:#f0fdf4;border-color:#22c55e!important">${escHtml(s.original_fact)}</div>
+          </div>
+        </div>`;
+    }
+
+    // Étapes de distorsion
+    distortions.forEach((d, i) => {
+      const pct  = Math.round((d.distortion_score || 0) * 100);
+      const bg   = distortionBg(d.distortion_score || 0);
+      const bord = distortionBorder(d.distortion_score || 0);
+      const tone = toneLabels[d.tone_shift] || d.tone_shift || "";
+
+      html += `
+        <div class="d-flex gap-3 align-items-start">
+          <div class="text-center" style="min-width:40px">
+            <div style="width:2px;height:24px;background:#dee2e6;margin:0 auto"></div>
+            <div style="width:36px;height:36px;border-radius:50%;background:${bord};display:flex;align-items:center;justify-content:center;color:#fff;font-size:0.75rem;font-weight:700">${pct}%</div>
+          </div>
+          <div class="flex-grow-1 mb-2" style="padding-top:24px">
+            <div class="p-2 rounded border small" style="background:${bg};border-color:${bord}!important">
+              <div class="fw-semibold mb-1">${escHtml(d.to_author)} <span class="text-muted fw-normal ms-2">${tone}</span></div>
+              <div class="text-muted mb-2">${escHtml(d.what_changed || "")}</div>
+              <div class="row g-2">
+                ${d.info_lost?.length ? `<div class="col-md-6"><span class="text-danger small fw-semibold">🔴 Perdu</span><ul class="small text-danger ps-3 mb-0">${d.info_lost.map(x => `<li>${escHtml(x)}</li>`).join("")}</ul></div>` : ""}
+                ${d.info_added?.length ? `<div class="col-md-6"><span class="text-success small fw-semibold">🟢 Ajouté</span><ul class="small text-success ps-3 mb-0">${d.info_added.map(x => `<li>${escHtml(x)}</li>`).join("")}</ul></div>` : ""}
+              </div>
+            </div>
+          </div>
+        </div>`;
+    });
+
+    // Version finale
+    if (s.final_version) {
+      html += `
+        <div class="d-flex gap-3 align-items-start">
+          <div class="text-center" style="min-width:40px">
+            <div style="width:2px;height:24px;background:#dee2e6;margin:0 auto"></div>
+            <div style="width:36px;height:36px;border-radius:50%;background:#3b82f6;display:flex;align-items:center;justify-content:center;color:#fff;font-size:1rem">🎯</div>
+          </div>
+          <div class="flex-grow-1" style="padding-top:24px">
+            <div class="text-muted small fw-semibold mb-1">Post analysé</div>
+            <div class="p-2 rounded border small fst-italic" style="background:#eff6ff;border-color:#3b82f6!important">${escHtml(s.final_version)}</div>
+          </div>
+        </div>`;
+    }
+
+    journey.innerHTML = html;
+  }
+
+  // ── Top amplifiers ────────────────────────────────────────────────────────
+  if (s.top_amplifiers && s.top_amplifiers.length > 0) {
+    document.getElementById("syn-amplifiers-card").classList.remove("d-none");
+    document.getElementById("syn-amplifiers").innerHTML = s.top_amplifiers
+      .map(h => `<span class="badge bg-danger rounded-pill px-3 py-2">📣 ${escHtml(h)}</span>`)
+      .join("");
+  }
+}
+
+function escHtml(str) {
+  return String(str)
+    .replace(/&/g, "&amp;").replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+}
+
+// ── Dashboard ──────────────────────────────────────────────────────────────
+function renderDashboard(graph) {
+  renderSummary(graph.meta);
+  renderTimeline(graph);
+}
+
+// ── Summary cards ──────────────────────────────────────────────────────────
+function renderSummary(meta) {
+  const rawDist = meta.global_distortion;
+  const distValue = rawDist != null ? Math.round(rawDist * 100) + "%" : "N/A";
+  const distColor = rawDist == null ? "secondary"
+                  : rawDist > 0.65  ? "danger"
+                  : rawDist > 0.35  ? "warning"
+                  : "success";
+
+  const cards = [
+    { label: "Posts analysés",    value: meta.node_count ?? "—",                    icon: "🔵", color: "info"    },
+    { label: "Connexions",        value: meta.edge_count ?? "—",                    icon: "🔗", color: "primary" },
+    { label: "Distorsion globale",value: distValue,                                 icon: "⚠️", color: distColor },
+    { label: "Sources primaires", value: (meta.primary_source_ids || []).length,    icon: "📌", color: "success" },
+  ];
+
+  document.getElementById("summary-cards").innerHTML = cards.map(c => `
+    <div class="col-6 col-md-3">
+      <div class="card border-${c.color} h-100 text-center">
+        <div class="card-body py-3">
+          <div style="font-size:2rem">${c.icon}</div>
+          <div class="fs-2 fw-bold text-${c.color}">${c.value}</div>
+          <div class="text-muted small">${c.label}</div>
+        </div>
+      </div>
+    </div>
+  `).join("");
+}
+
+// ── Timeline D3 ────────────────────────────────────────────────────────────
+function renderTimeline(graph) {
+  const rawNodes = graph.nodes.map(d => ({ ...d, dateObj: new Date(d.date) }));
+  const rawLinks = graph.links;
+
+  const container = document.getElementById("timeline-container");
+  const W = Math.max(container.clientWidth || 960, 960);
+  const H = 460;
+  const M = { top: 30, right: 50, bottom: 56, left: 50 };
+  const iW = W - M.left - M.right;
+  const iH = H - M.top  - M.bottom;
+
+  // ── Scales ─────────────────────────────────────────────────────────────
+  const pad = 20 * 60 * 1000; // 20 min padding
+  const [minD, maxD] = d3.extent(rawNodes, d => d.dateObj);
+  const xScale = d3.scaleTime()
+    .domain([new Date(+minD - pad), new Date(+maxD + pad)])
+    .range([0, iW]);
+
+  const fiabilityColor = f => {
+    if (f >= 0.8) return "#22c55e";
+    if (f >= 0.6) return "#84cc16";
+    if (f >= 0.4) return "#eab308";
+    if (f >= 0.2) return "#f97316";
+    return "#ef4444";
+  };
+
+  const nodeR = d => 8 + d.virality_score * 14;
+
+  // ── Force simulation (y only — x locked to time) ───────────────────────
+  rawNodes.forEach(d => {
+    d.x = xScale(d.dateObj);
+    d.y = iH / 2;
+  });
+
+  const sim = d3.forceSimulation(rawNodes)
+    .force("x",       d3.forceX(d => xScale(d.dateObj)).strength(0.95))
+    .force("y",       d3.forceY(iH / 2).strength(0.05))
+    .force("collide", d3.forceCollide(d => nodeR(d) + 6))
+    .stop();
+
+  for (let i = 0; i < 400; i++) sim.tick();
+
+  rawNodes.forEach(d => {
+    d.y = Math.max(nodeR(d) + 4, Math.min(iH - nodeR(d) - 4, d.y));
+  });
+
+  // ── Node lookup ────────────────────────────────────────────────────────
+  const byId = {};
+  rawNodes.forEach(d => { byId[d.id] = d; });
+
+  const linkData = rawLinks
+    .map(l => ({ ...l, source: byId[l.source], target: byId[l.target] }))
+    .filter(l => l.source && l.target);
+
+  // ── SVG setup ──────────────────────────────────────────────────────────
+  const svg = d3.select("#timeline")
+    .attr("width",  W)
+    .attr("height", H);
+
+  const defs = svg.append("defs");
+
+  // Arrow markers (one per colour)
+  [["low",  "#22c55e"], ["mid", "#f97316"], ["high", "#ef4444"]].forEach(([id, col]) => {
+    defs.append("marker")
+      .attr("id",           `arr-${id}`)
+      .attr("viewBox",      "0 -5 10 10")
+      .attr("refX",         8)
+      .attr("refY",         0)
+      .attr("markerWidth",  6)
+      .attr("markerHeight", 6)
+      .attr("orient",       "auto")
+      .append("path")
+        .attr("d",    "M0,-5L10,0L0,5")
+        .attr("fill", col);
+  });
+
+  const g = svg.append("g").attr("transform", `translate(${M.left},${M.top})`);
+
+  // ── Grid lines ─────────────────────────────────────────────────────────
+  g.append("g")
+    .call(d3.axisBottom(xScale).ticks(6).tickSize(-iH).tickFormat(""))
+    .attr("transform", `translate(0,${iH})`)
+    .call(el => el.select(".domain").remove())
+    .call(el => el.selectAll(".tick line")
+      .attr("stroke", "#e2e8f0").attr("stroke-dasharray", "4,4"));
+
+  // ── X axis ─────────────────────────────────────────────────────────────
+  g.append("g")
+    .attr("transform", `translate(0,${iH})`)
+    .call(d3.axisBottom(xScale).ticks(6).tickFormat(d3.timeFormat("%d/%m %H:%M")))
+    .call(el => el.select(".domain").attr("stroke", "#94a3b8"))
+    .call(el => el.selectAll("text").attr("fill", "#64748b").attr("font-size", "11px"));
+
+  g.append("text")
+    .attr("x", iW / 2).attr("y", iH + 46)
+    .attr("text-anchor", "middle")
+    .attr("fill", "#94a3b8").attr("font-size", "11px")
+    .text("← Sources originales · · · · · · · · · · · · · · · Post analysé →");
+
+  // ── Links ──────────────────────────────────────────────────────────────
+  const linkMarker = d => {
+    if (d.distortion_score < 0.35) return "url(#arr-low)";
+    if (d.distortion_score < 0.65) return "url(#arr-mid)";
+    return "url(#arr-high)";
+  };
+
+  const linkStroke = d => {
+    if (d.distortion_score < 0.35) return "#22c55e";
+    if (d.distortion_score < 0.65) return "#f97316";
+    return "#ef4444";
+  };
+
+  g.append("g").selectAll("path")
+    .data(linkData)
+    .join("path")
+      .attr("fill",         "none")
+      .attr("stroke",       linkStroke)
+      .attr("stroke-width", d => 1.5 + d.distortion_score * 2.5)
+      .attr("stroke-opacity", 0.7)
+      .attr("marker-end",   linkMarker)
+      .attr("d", d => {
+        const { x: sx, y: sy } = d.source;
+        const { x: tx, y: ty } = d.target;
+        const len = Math.sqrt((tx-sx)**2 + (ty-sy)**2) || 1;
+        const ux = (tx-sx)/len, uy = (ty-sy)/len;
+        const x1 = sx + ux * nodeR(d.source);
+        const y1 = sy + uy * nodeR(d.source);
+        const x2 = tx - ux * (nodeR(d.target) + 9);
+        const y2 = ty - uy * (nodeR(d.target) + 9);
+        const cx = (x1 + x2) / 2;
+        return `M${x1},${y1} C${cx},${y1} ${cx},${y2} ${x2},${y2}`;
+      })
+      .style("cursor", "pointer")
+      .on("click", (_, d) => showLinkDetail(d));
+
+  // ── Nodes ──────────────────────────────────────────────────────────────
+  const nodeG = g.append("g").selectAll("g")
+    .data(rawNodes)
+    .join("g")
+      .attr("transform", d => `translate(${d.x},${d.y})`)
+      .style("cursor", "pointer")
+      .on("click", (_, d) => showNodeDetail(d, linkData));
+
+  // Outer glow ring for root node
+  nodeG.filter(d => d.is_root)
+    .append("circle")
+      .attr("r", d => nodeR(d) + 7)
+      .attr("fill", "none")
+      .attr("stroke", "#fff")
+      .attr("stroke-width", 2.5)
+      .attr("opacity", 0.55);
+
+  // Main circle
+  nodeG.append("circle")
+    .attr("r",            nodeR)
+    .attr("fill",         d => fiabilityColor(d.fiability_score))
+    .attr("stroke",       "#1e293b")
+    .attr("stroke-width", 1.5);
+
+  // White dot for primary sources
+  nodeG.filter(d => d.is_primary)
+    .append("circle")
+      .attr("r", 3).attr("fill", "#fff").attr("cy", -2);
+
+  // Author label
+  nodeG.append("text")
+    .attr("dy",           d => nodeR(d) + 14)
+    .attr("text-anchor",  "middle")
+    .attr("font-size",    "9px")
+    .attr("fill",         "#475569")
+    .text(d => d.author_handle.split(".")[0]);
+
+  // Native tooltip
+  nodeG.append("title")
+    .text(d => [
+      d.author_handle,
+      `Fiabilité : ${Math.round(d.fiability_score * 100)}%`,
+      `Viralité  : ${Math.round(d.virality_score  * 100)}%`,
+      new Date(d.date).toLocaleString("fr-FR"),
+    ].join("\n"));
+}
+
+// ── Detail panels ──────────────────────────────────────────────────────────
+function openPanel() {
+  const panel = document.getElementById("detail-panel");
+  panel.classList.remove("d-none");
+  panel.scrollIntoView({ behavior: "smooth", block: "nearest" });
+}
+
+function fiabilityLabel(f) {
+  if (f >= 0.8) return ["Très fiable",  "#22c55e"];
+  if (f >= 0.6) return ["Fiable",        "#84cc16"];
+  if (f >= 0.4) return ["Peu fiable",    "#eab308"];
+  if (f >= 0.2) return ["Douteuse",      "#f97316"];
+  return              ["Non fiable",     "#ef4444"];
+}
+
+function showNodeDetail(d, linkData) {
+  openPanel();
+  document.getElementById("link-section").classList.add("d-none");
+
+  const [label, color] = fiabilityLabel(d.fiability_score);
+  document.getElementById("detail-title").innerHTML =
+    `<a href="https://bsky.app/profile/${d.author_handle}" target="_blank" rel="noopener" class="text-reset">${d.author_handle}</a>`;
+
+  const badge = document.getElementById("detail-badge");
+  badge.textContent = `${label} · ${Math.round(d.fiability_score * 100)}%`;
+  badge.style.background = color;
+
+  document.getElementById("detail-date").textContent =
+    new Date(d.date).toLocaleString("fr-FR", { dateStyle: "full", timeStyle: "short" });
+
+  document.getElementById("detail-text").textContent = d.text_preview || "—";
+
+  document.getElementById("detail-keywords").innerHTML =
+    (d.keywords || []).map(kw => `<span class="badge bg-secondary rounded-pill me-1">${kw}</span>`).join("");
+
+  document.getElementById("detail-claims").innerHTML =
+    (d.claims || []).map(c => `<li>${c}</li>`).join("") ||
+    "<li class='text-muted'>Aucune affirmation détectée</li>";
+}
+
+function showLinkDetail(link) {
+  openPanel();
+
+  const dist = Math.round(link.distortion_score * 100);
+  const distColor = dist > 65 ? "#ef4444" : dist > 35 ? "#f97316" : "#22c55e";
+
+  document.getElementById("detail-title").textContent =
+    `${link.source.author_handle}  →  ${link.target.author_handle}`;
+
+  const badge = document.getElementById("detail-badge");
+  badge.textContent = `Distorsion : ${dist}%`;
+  badge.style.background = distColor;
+
+  const toneMap = {
+    more_partisan: "Plus partisan",
+    less_partisan: "Moins partisan",
+    neutral:       "Neutre",
+    alarmist:      "Alarmiste",
+  };
+  document.getElementById("detail-date").textContent =
+    `Tonalité : ${toneMap[link.tone_shift] || link.tone_shift || "—"}` +
+    (link.is_fact_check ? "  ·  ✅ Fact-check" : "");
+
+  document.getElementById("detail-text").textContent =
+    `Similarité sémantique : ${Math.round((link.similarity_score || 0) * 100)}%`;
+
+  document.getElementById("detail-keywords").innerHTML = "";
+  document.getElementById("detail-claims").innerHTML = "";
+
+  document.getElementById("link-section").classList.remove("d-none");
+
+  document.getElementById("detail-lost").innerHTML =
+    (link.info_lost  || []).map(i => `<li>${i}</li>`).join("") || "<li>—</li>";
+  document.getElementById("detail-added").innerHTML =
+    (link.info_added || []).map(i => `<li>${i}</li>`).join("") || "<li>—</li>";
+}
+</script>

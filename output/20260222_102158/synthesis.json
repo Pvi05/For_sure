@@ -1,0 +1,30 @@
+{
+  "original_fact": "@fabulousfab.bsky.social a critiqué la couverture de FranceInfo sur la manifestation de Lyon, la jugeant 'pathétique' pour ne pas avoir mentionné le 'pédigrée' de l'organisatrice, et a indiqué être passé à BFM.",
+  "final_version": "Le post affirme qu'un journaliste de BFM sur place à Lyon répète que les participants au rassemblement essaient de masquer leur appartenance, voit des croix gammées parmi eux et les qualifie de néonazis.",
+  "distortions": [
+    {
+      "step": 1,
+      "from_author": "@fabulousfab.bsky.social",
+      "to_author": "@mathieuhourdin.bsky.social",
+      "what_changed": "Le post initial, qui critiquait la couverture de FranceInfo pour son manque de détails sur le 'pédigrée' de l'organisatrice d'une manifestation à Lyon, a été transformé. Le post suivant a introduit un éloge du journaliste de BFM et a ajouté des affirmations spécifiques et graves attribuées à ce journaliste, notamment la présence de 'croix gammées' et la qualification des participants de 'néonazis', informations totalement absentes de la source primaire.",
+      "info_lost": [
+        "La critique de la couverture de FranceInfo jugée 'pathétique' par l'utilisateur de ti-1.",
+        "L'absence de mention du 'pédigrée de l'organisatrice' dans la couverture de FranceInfo.",
+        "La description des participants masqués, en lunettes noires, doudounes noires, bérets noirs."
+      ],
+      "info_added": [
+        "L'éloge du journaliste de BFM pour sa couverture.",
+        "La mention explicite que le journaliste de BFM répète que les participants essaient de masquer leur appartenance.",
+        "L'affirmation que le journaliste de BFM voit des 'croix gammées' et qualifie les participants de 'néonazis'."
+      ],
+      "tone_shift": "more_partisan",
+      "distortion_score": 0.7
+    }
+  ],
+  "verdict": "Le post analysé est fortement déformé par rapport à la source primaire. Il inverse le ton, passant d'une critique d'un média à un éloge d'un autre, et introduit des affirmations graves et non vérifiées, totalement absentes du message original.",
+  "veracity_score": 0.175,
+  "narrative": "L'information a subi une transformation radicale dès le premier relais. Initialement, le post de @fabulousfab.bsky.social exprimait une critique envers FranceInfo pour sa couverture jugée 'pathétique' d'une manifestation à Lyon, notamment pour l'omission du 'pédigrée' de l'organisatrice, et mentionnait un passage à BFM. Cependant, le post de @mathieuhourdin.bsky.social a complètement altéré ce message. Il a introduit un éloge du journaliste de BFM et a ajouté des affirmations très spécifiques et incendiaires attribuées à ce journaliste, telles que la présence de 'croix gammées' parmi les participants et leur qualification de 'néonazis'. Ces éléments n'étaient absolument pas présents dans la source primaire, marquant une déformation majeure et l'introduction d'informations nouvelles et non étayées.",
+  "top_amplifiers": [
+    "@mathieuhourdin.bsky.social"
+  ]
+}

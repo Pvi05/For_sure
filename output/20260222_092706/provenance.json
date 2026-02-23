@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "built_at": "2026-02-22T09:27:06.221190",
+    "node_count": 1,
+    "edge_count": 0,
+    "max_depth": 4,
+    "global_distortion": 0.0,
+    "primary_source_ids": [
+      "at://did:plc:u3vos2rmh3ly2hntwgj5x2ea/app.bsky.feed.post/3mfg4m7n4js2j"
+    ]
+  },
+  "nodes": [
+    {
+      "id": "at://did:plc:u3vos2rmh3ly2hntwgj5x2ea/app.bsky.feed.post/3mfg4m7n4js2j",
+      "uri": "at://did:plc:u3vos2rmh3ly2hntwgj5x2ea/app.bsky.feed.post/3mfg4m7n4js2j",
+      "author_handle": "geopolitis.bsky.social",
+      "author_did": "did:plc:u3vos2rmh3ly2hntwgj5x2ea",
+      "date": "2026-02-22T02:45:06.540Z",
+      "text_preview": "Echec cuisant de la russie au Sahel.\n\n\"Fondé au Mali en 2017, le Jama’at Nusrat al-Islam wal-Muslimin (Jnim) est aujourd’hui le principal gr…",
+      "likes": 7,
+      "reposts": 0,
+      "replies": 1,
+      "depth": 0,
+      "is_root": true,
+      "is_primary": true,
+      "fiability_score": 0.2,
+      "virality_score": 0.147,
+      "keywords": [
+        "Russie",
+        "Sahel",
+        "échec",
+        "Jnim",
+        "jihadiste",
+        "violences"
+      ],
+      "entities": [
+        "Russie",
+        "Sahel",
+        "Mali",
+        "Jama’at Nusrat al-Islam wal-Muslimin",
+        "Jnim",
+        "al-Qaeda"
+      ],
+      "claims": [
+        "Le Jama’at Nusrat al-Islam wal-Muslimin (Jnim) a été fondé au Mali en 2017.",
+        "Le Jnim est le principal groupe jihadiste au Sahel central.",
+        "Depuis 2019, les violences du Jnim se sont propagées."
+      ]
+    }
+  ],
+  "links": []
+}

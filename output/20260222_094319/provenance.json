@@ -1,0 +1,670 @@
+{
+  "meta": {
+    "built_at": "2026-02-22T09:43:19.842602",
+    "node_count": 19,
+    "edge_count": 12,
+    "max_depth": 4,
+    "global_distortion": 0.995,
+    "primary_source_ids": [
+      "at://did:plc:rtbuijtxr7u3vh2rvja3rgid/app.bsky.feed.post/3mfc5xb2dp22z",
+      "at://did:plc:xoywspomddm3u4jkadnl5ed6/app.bsky.feed.post/3mfc7ntzd7c2m"
+    ]
+  },
+  "nodes": [
+    {
+      "id": "at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z",
+      "uri": "at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z",
+      "author_handle": "mathieuhourdin.bsky.social",
+      "author_did": "did:plc:jyszdkkd7q4ejj4mah36jgde",
+      "date": "2026-02-21T14:35:04.993Z",
+      "text_preview": "Bravo au journaliste de bfm sur place, qui répète à chaque fois qu'il prend la parole que les participants au rassemblement de Lyon essaient…",
+      "likes": 423,
+      "reposts": 123,
+      "replies": 12,
+      "depth": 0,
+      "is_root": true,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.48,
+      "keywords": [
+        "journaliste",
+        "bfm",
+        "rassemblement",
+        "Lyon",
+        "croix gammées",
+        "néonazis"
+      ],
+      "entities": [
+        "bfm",
+        "Lyon"
+      ],
+      "claims": [
+        "Le journaliste de bfm affirme que les participants au rassemblement de Lyon essaient de masquer leur appartenance.",
+        "Le journaliste de bfm voit des croix gammées parmi les participants.",
+        "Le journaliste de bfm qualifie les participants de néonazis."
+      ]
+    },
+    {
+      "id": "at://did:plc:rtbuijtxr7u3vh2rvja3rgid/app.bsky.feed.post/3mfc5xb2dp22z",
+      "uri": "at://did:plc:rtbuijtxr7u3vh2rvja3rgid/app.bsky.feed.post/3mfc5xb2dp22z",
+      "author_handle": "libertalialivre.bsky.social",
+      "author_did": "did:plc:rtbuijtxr7u3vh2rvja3rgid",
+      "date": "2026-02-20T12:58:31.903Z",
+      "text_preview": "Ce samedi 21 février, alors que des milliers de néonazis venant de toute l'Europe défileront en toute légalité dans Lyon, on aura une pensée…",
+      "likes": 621,
+      "reposts": 309,
+      "replies": 14,
+      "depth": 1,
+      "is_root": false,
+      "is_primary": true,
+      "fiability_score": 0.2,
+      "virality_score": 0.53,
+      "keywords": [
+        "néonazis",
+        "défilé",
+        "Lyon",
+        "résistant",
+        "juif",
+        "communiste"
+      ],
+      "entities": [
+        "Lyon",
+        "Alter Mojsze Goldman",
+        "FTP-MOI",
+        "Europe"
+      ],
+      "claims": [
+        "Des milliers de néonazis défileront à Lyon le 21 février.",
+        "Alter Mojsze Goldman était un résistant juif et communiste.",
+        "Alter Mojsze Goldman était à la tête du groupe lyonnais FTP-MOI."
+      ]
+    },
+    {
+      "id": "at://did:plc:smyamtbmvzxl7obpxh3fzmhj/app.bsky.feed.post/3mfemcltqfs22",
+      "uri": "at://did:plc:smyamtbmvzxl7obpxh3fzmhj/app.bsky.feed.post/3mfemcltqfs22",
+      "author_handle": "solidaires69.bsky.social",
+      "author_did": "did:plc:smyamtbmvzxl7obpxh3fzmhj",
+      "date": "2026-02-21T12:20:44.185Z",
+      "text_preview": "Communiqué du collectif Fermons les locaux fascistes dont Solidaires Rhône est membre, sur la situation à Lyon vis à vis de l'extrême droite",
+      "likes": 111,
+      "reposts": 61,
+      "replies": 5,
+      "depth": 1,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.405,
+      "keywords": []
+    },
+    {
+      "id": "at://did:plc:xoywspomddm3u4jkadnl5ed6/app.bsky.feed.post/3mfc7ntzd7c2m",
+      "uri": "at://did:plc:xoywspomddm3u4jkadnl5ed6/app.bsky.feed.post/3mfc7ntzd7c2m",
+      "author_handle": "ricardoparreira.com",
+      "author_did": "did:plc:xoywspomddm3u4jkadnl5ed6",
+      "date": "2026-02-20T13:29:03.736Z",
+      "text_preview": "Ces néonazis sont bien à l’aise.\n\nEt ils auront la police pour les protéger. Elle est belle, la démocratie.\n\nLa liberté (d’expression) d’êtr…",
+      "likes": 225,
+      "reposts": 99,
+      "replies": 11,
+      "depth": 1,
+      "is_root": false,
+      "is_primary": true,
+      "fiability_score": 0.7,
+      "virality_score": 0.449,
+      "keywords": []
+    },
+    {
+      "id": "at://did:plc:h7aaqh3rdzxn4u5nxojpglch/app.bsky.feed.post/3mfcyuzdroc24",
+      "uri": "at://did:plc:h7aaqh3rdzxn4u5nxojpglch/app.bsky.feed.post/3mfcyuzdroc24",
+      "author_handle": "matthieusuc.bsky.social",
+      "author_did": "did:plc:h7aaqh3rdzxn4u5nxojpglch",
+      "date": "2026-02-20T21:00:27.748Z",
+      "text_preview": "ALERTE PERCÉE CONCEPTUELLE : Derrière la marche en hommage à Quentin Deranque, le groupuscule néofasciste Lyon Populaire, supposé dissous...…",
+      "likes": 85,
+      "reposts": 45,
+      "replies": 2,
+      "depth": 1,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.382,
+      "keywords": []
+    },
+    {
+      "id": "at://did:plc:mgpekbbv6q3i6jdwhtr4l36d/app.bsky.feed.post/3mfeqol4sk22g",
+      "uri": "at://did:plc:mgpekbbv6q3i6jdwhtr4l36d/app.bsky.feed.post/3mfeqol4sk22g",
+      "author_handle": "mmompontet.bsky.social",
+      "author_did": "did:plc:mgpekbbv6q3i6jdwhtr4l36d",
+      "date": "2026-02-21T13:39:01.046Z",
+      "text_preview": "Quel symbole ! Tandis que ce 21 février à Lyon on laisse défiler impunément des racailles néonazis, se souvenir que c'était aussi un 21 févr…",
+      "likes": 298,
+      "reposts": 186,
+      "replies": 9,
+      "depth": 1,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.485,
+      "keywords": []
+    },
+    {
+      "id": "at://did:plc:omtqqkwusnfvxos7pxvl4fgo/app.bsky.feed.post/3mfacctrbfs2e",
+      "uri": "at://did:plc:omtqqkwusnfvxos7pxvl4fgo/app.bsky.feed.post/3mfacctrbfs2e",
+      "author_handle": "blast-info.fr",
+      "author_did": "did:plc:omtqqkwusnfvxos7pxvl4fgo",
+      "date": "2026-02-19T19:11:16.124Z",
+      "text_preview": "Mort de Quentin à Lyon : contre-enquête au cœur d’une ville gangrénée par la violence d’extrême-droite",
+      "likes": 278,
+      "reposts": 197,
+      "replies": 12,
+      "depth": 1,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.7,
+      "virality_score": 0.486,
+      "keywords": [
+        "Mort",
+        "Quentin",
+        "Lyon",
+        "Contre-enquête",
+        "Violence",
+        "Extrême-droite"
+      ],
+      "entities": [
+        "Quentin",
+        "Lyon"
+      ],
+      "claims": [
+        "Quentin est mort à Lyon.",
+        "Une contre-enquête est menée à Lyon.",
+        "Lyon est gangrénée par la violence d'extrême-droite."
+      ]
+    },
+    {
+      "id": "at://did:plc:fyn5u4oplkkqv557z52wpmpy/app.bsky.feed.post/3mfbnt3cisc2k",
+      "uri": "at://did:plc:fyn5u4oplkkqv557z52wpmpy/app.bsky.feed.post/3mfbnt3cisc2k",
+      "author_handle": "jslnrbd.bsky.social",
+      "author_did": "did:plc:fyn5u4oplkkqv557z52wpmpy",
+      "date": "2026-02-20T08:09:51.793Z",
+      "text_preview": "L’union des droites on va appeler ça le Rassemblement National Socialiste…",
+      "likes": 222,
+      "reposts": 56,
+      "replies": 36,
+      "depth": 1,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.435,
+      "keywords": []
+    },
+    {
+      "id": "at://did:plc:akyr42wq6jadj4m4kbnkhspf/app.bsky.feed.post/3mfeca4xhcc2g",
+      "uri": "at://did:plc:akyr42wq6jadj4m4kbnkhspf/app.bsky.feed.post/3mfeca4xhcc2g",
+      "author_handle": "thenest.bsky.social",
+      "author_did": "did:plc:akyr42wq6jadj4m4kbnkhspf",
+      "date": "2026-02-21T09:20:24.054Z",
+      "text_preview": "Faites attention si vous êtes à Rennes Brest Saint Brieuc Quimperlé, Nantes, Lille.\nLyon n'est pas la seule concernée par l'invasion fascist…",
+      "likes": 216,
+      "reposts": 79,
+      "replies": 25,
+      "depth": 1,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.442,
+      "keywords": []
+    },
+    {
+      "id": "at://did:plc:tytyo7jhiuo5gnd6tq6pwyif/app.bsky.feed.post/3mfeq4rfl4s2a",
+      "uri": "at://did:plc:tytyo7jhiuo5gnd6tq6pwyif/app.bsky.feed.post/3mfeq4rfl4s2a",
+      "author_handle": "panettonepazzo.bsky.social",
+      "author_did": "did:plc:tytyo7jhiuo5gnd6tq6pwyif",
+      "date": "2026-02-21T13:29:03.652Z",
+      "text_preview": "La fascisme ne s’installe pas ex-nihilo.\nIl a besoin de soutiens, de relais, de complaisances, de collaboration active, de compromissions.\nP…",
+      "likes": 800,
+      "reposts": 413,
+      "replies": 59,
+      "depth": 1,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.553,
+      "keywords": [
+        "fascisme",
+        "soutiens",
+        "relais",
+        "collaboration",
+        "compromissions",
+        "normalisation"
+      ],
+      "entities": [
+        "Région",
+        "Lyon"
+      ],
+      "claims": [
+        "Le fascisme a besoin de soutiens, de relais, de complaisances, de collaboration active et de compromissions pour s'installer et prospérer.",
+        "L'action de la Région à Lyon est un exemple de normalisation du fascisme."
+      ]
+    },
+    {
+      "id": "at://did:plc:evxarlbhxnctuonzh3ms2vn7/app.bsky.feed.post/3mfe5ps3etc2u",
+      "uri": "at://did:plc:evxarlbhxnctuonzh3ms2vn7/app.bsky.feed.post/3mfe5ps3etc2u",
+      "author_handle": "cecileblanchard.bsky.social",
+      "author_did": "did:plc:evxarlbhxnctuonzh3ms2vn7",
+      "date": "2026-02-21T07:59:40.805Z",
+      "text_preview": "\"Depuis l’annonce de la mort du jeune militant nationaliste à Lyon, le garde des Sceaux a multiplié les déclarations intempestives, au mépri…",
+      "likes": 8,
+      "reposts": 5,
+      "replies": 0,
+      "depth": 2,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.214,
+      "keywords": []
+    },
+    {
+      "id": "at://did:plc:frhtlnejrsyxb6g4cwr7ge3w/app.bsky.feed.post/3mfcx5qda222l",
+      "uri": "at://did:plc:frhtlnejrsyxb6g4cwr7ge3w/app.bsky.feed.post/3mfcx5qda222l",
+      "author_handle": "anttonrouget.bsky.social",
+      "author_did": "did:plc:frhtlnejrsyxb6g4cwr7ge3w",
+      "date": "2026-02-20T20:29:32.785Z",
+      "text_preview": "Qui est ce «Vincent, ami de #Quentin», mis en avant pour la manifestation de samedi ? \n\nUn membre de Lyon Populaire - groupe dissous en 2025…",
+      "likes": 919,
+      "reposts": 579,
+      "replies": 42,
+      "depth": 2,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.572,
+      "keywords": [
+        "Vincent",
+        "Quentin",
+        "manifestation",
+        "Lyon Populaire",
+        "nazisme",
+        "députée RN"
+      ],
+      "entities": [
+        "Vincent",
+        "Quentin",
+        "Lyon Populaire",
+        "Mediapart",
+        "RN"
+      ],
+      "claims": [
+        "Vincent, ami de Quentin, est mis en avant pour la manifestation de samedi.",
+        "Vincent est un membre de Lyon Populaire, groupe dissous en 2025 pour son exaltation du nazisme.",
+        "Vincent travaille pour une députée RN."
+      ]
+    },
+    {
+      "id": "at://did:plc:x6iwiot43norkasv6mnxvfgs/app.bsky.feed.post/3mfcghtwn3s2y",
+      "uri": "at://did:plc:x6iwiot43norkasv6mnxvfgs/app.bsky.feed.post/3mfcghtwn3s2y",
+      "author_handle": "cedricmas.bsky.social",
+      "author_did": "did:plc:x6iwiot43norkasv6mnxvfgs",
+      "date": "2026-02-20T15:30:58.515Z",
+      "text_preview": "Hommage à Quentin : Ne venez pas comme vous êtes d'habitude... cachez vos sigles, tatouages et symboles...\n\n\"Soyez le moins néonazi possible…",
+      "likes": 434,
+      "reposts": 167,
+      "replies": 15,
+      "depth": 3,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.493,
+      "keywords": [
+        "hommage",
+        "néonazi",
+        "taqiya",
+        "sigles",
+        "tatouages",
+        "symboles"
+      ],
+      "entities": [
+        "Quentin"
+      ],
+      "claims": [
+        "Le post fait référence à un hommage à Quentin.",
+        "Le post cite une instruction demandant de cacher les sigles, tatouages et symboles.",
+        "Le post cite une instruction demandant d'être le moins néonazi possible sur les images."
+      ]
+    },
+    {
+      "id": "at://did:plc:ew7owxcivlwt7k52dg6mt3o2/app.bsky.feed.post/3mfcf2wasl22u",
+      "uri": "at://did:plc:ew7owxcivlwt7k52dg6mt3o2/app.bsky.feed.post/3mfcf2wasl22u",
+      "author_handle": "mrnawak.bsky.social",
+      "author_did": "did:plc:ew7owxcivlwt7k52dg6mt3o2",
+      "date": "2026-02-20T15:05:50.996Z",
+      "text_preview": "Reprise du post avec l'image et son ALT :\nConsignes néo nazies pour samedi. Ces gens ont peur d’eux-mêmes.",
+      "likes": 30,
+      "reposts": 15,
+      "replies": 2,
+      "depth": 4,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.303,
+      "keywords": []
+    },
+    {
+      "id": "at://did:plc:ew7owxcivlwt7k52dg6mt3o2/app.bsky.feed.post/3mfbt6yy3nc2u",
+      "uri": "at://did:plc:ew7owxcivlwt7k52dg6mt3o2/app.bsky.feed.post/3mfbt6yy3nc2u",
+      "author_handle": "mrnawak.bsky.social",
+      "author_did": "did:plc:ew7owxcivlwt7k52dg6mt3o2",
+      "date": "2026-02-20T09:46:00.721Z",
+      "text_preview": "Reprise du post, et son image avec le ALT :\nça donne ce genre de consignes, comme ça, full premier degré, mais tkt les fachos c'est la gauch…",
+      "likes": 64,
+      "reposts": 37,
+      "replies": 10,
+      "depth": 4,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.37,
+      "keywords": []
+    },
+    {
+      "id": "at://did:plc:yhai2lodxljiaof5xww7hpkf/app.bsky.feed.post/3mf6w4dxmgx23",
+      "uri": "at://did:plc:yhai2lodxljiaof5xww7hpkf/app.bsky.feed.post/3mf6w4dxmgx23",
+      "author_handle": "revolutionpermanente.fr",
+      "author_did": "did:plc:yhai2lodxljiaof5xww7hpkf",
+      "date": "2026-02-19T06:00:12.606Z",
+      "text_preview": "⚫️ Mort de Quentin : c’est l’extrême droite qui a tendu une embuscade aux antifascistes\n\nUne enquête du média Contre Attaque, confirmée par …",
+      "likes": 48,
+      "reposts": 31,
+      "replies": 1,
+      "depth": 2,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.7,
+      "virality_score": 0.348,
+      "keywords": []
+    },
+    {
+      "id": "at://did:plc:3sur65jk7flosjvu724yvqwd/app.bsky.feed.post/3mf7w4yf6cc2g",
+      "uri": "at://did:plc:3sur65jk7flosjvu724yvqwd/app.bsky.feed.post/3mf7w4yf6cc2g",
+      "author_handle": "greubelinux.bsky.social",
+      "author_did": "did:plc:3sur65jk7flosjvu724yvqwd",
+      "date": "2026-02-19T15:33:14.741Z",
+      "text_preview": "⚫️ Mort de Quentin : c’est l’extrême droite qui a tendu une embuscade aux antifascistes\n\nUne enquête du média Contre Attaque, confirmée par …",
+      "likes": 16,
+      "reposts": 14,
+      "replies": 0,
+      "depth": 2,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.281,
+      "keywords": []
+    },
+    {
+      "id": "at://did:plc:omtqqkwusnfvxos7pxvl4fgo/app.bsky.feed.post/3mfabxws4rk2e",
+      "uri": "at://did:plc:omtqqkwusnfvxos7pxvl4fgo/app.bsky.feed.post/3mfabxws4rk2e",
+      "author_handle": "blast-info.fr",
+      "author_did": "did:plc:omtqqkwusnfvxos7pxvl4fgo",
+      "date": "2026-02-19T19:05:10.197Z",
+      "text_preview": "Pour Blast, Elian Delacôte, journaliste à @rue89lyon.fr, nous éclaire sur l'ancrage de l'extrême droite radicale à Lyon, qui s'est illustrée…",
+      "likes": 84,
+      "reposts": 40,
+      "replies": 3,
+      "depth": 2,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.7,
+      "virality_score": 0.377,
+      "keywords": []
+    },
+    {
+      "id": "at://did:plc:7igznywwdqkarznjtm73lmjc/app.bsky.feed.post/3mf5l2q3b6k2l",
+      "uri": "at://did:plc:7igznywwdqkarznjtm73lmjc/app.bsky.feed.post/3mf5l2q3b6k2l",
+      "author_handle": "gfoa-w.bsky.social",
+      "author_did": "did:plc:7igznywwdqkarznjtm73lmjc",
+      "date": "2026-02-18T17:09:48.281Z",
+      "text_preview": "Vor knapp einer Woche starb der junge Rechtsextremist #Quentin #Deranque nach einer Auseinandersetzung mit Linken. \n\nNeonazis, Identitäre un…",
+      "likes": 8,
+      "reposts": 2,
+      "replies": 1,
+      "depth": 2,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.186,
+      "keywords": []
+    }
+  ],
+  "links": [
+    {
+      "source": "at://did:plc:rtbuijtxr7u3vh2rvja3rgid/app.bsky.feed.post/3mfc5xb2dp22z",
+      "target": "at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z",
+      "similarity_score": 0.6579,
+      "info_lost": [
+        "La date précise du défilé (samedi 21 février)",
+        "Le nombre de participants (milliers)",
+        "La provenance des participants (toute l'Europe)",
+        "La légalité du défilé",
+        "La référence à Alter Mojsze Goldman, résistant juif et communiste, et son rôle dans le FTP-MOI lyonnais"
+      ],
+      "info_added": [
+        "La mention d'un journaliste de BFM sur place",
+        "Le fait que les participants essaient de masquer leur appartenance",
+        "L'observation de croix gammées par le journaliste",
+        "L'affirmation que le journaliste qualifie les participants de néonazis"
+      ],
+      "distortion_score": 0.6,
+      "tone_shift": "more_partisan",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T09:46:36.062500"
+    },
+    {
+      "source": "at://did:plc:xoywspomddm3u4jkadnl5ed6/app.bsky.feed.post/3mfc7ntzd7c2m",
+      "target": "at://did:plc:x6iwiot43norkasv6mnxvfgs/app.bsky.feed.post/3mfcghtwn3s2y",
+      "similarity_score": 0.3935,
+      "info_lost": [
+        "La mention explicite de la police protégeant les néonazis.",
+        "La critique de la démocratie et de la liberté d'expression comme permettant le racisme.",
+        "L'affirmation que le projet politique des néonazis est de revenir à l'inégalité naturelle."
+      ],
+      "info_added": [
+        "La référence à un 'Hommage à Quentin'.",
+        "L'instruction 'Ne venez pas comme vous êtes d'habitude... cachez vos sigles, tatouages et symboles...'.",
+        "La citation 'Soyez le moins néonazi possible sur les images. Faites un effort on y est presque, c'est pas le moment de flancher'.",
+        "Le terme 'Taqiya' pour décrire le comportement des personnes mentionnées."
+      ],
+      "distortion_score": 0.7,
+      "tone_shift": "more_partisan",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T09:46:26.517645"
+    },
+    {
+      "source": "at://did:plc:omtqqkwusnfvxos7pxvl4fgo/app.bsky.feed.post/3mfacctrbfs2e",
+      "target": "at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z",
+      "similarity_score": 0.4956,
+      "info_lost": [
+        "Le décès de Quentin à Lyon comme événement central",
+        "La notion de 'contre-enquête'",
+        "L'affirmation que Lyon est 'gangrénée par la violence d'extrême-droite'"
+      ],
+      "info_added": [
+        "La présence d'un journaliste de BFM sur place",
+        "Le fait que le journaliste répète des informations",
+        "L'observation par le journaliste de tentatives de masquer l'appartenance des participants",
+        "L'observation par le journaliste de 'croix gammées etc.'",
+        "L'affirmation par le journaliste que les participants sont des 'néonazis'",
+        "L'expression d'un 'bravo' au journaliste"
+      ],
+      "distortion_score": 0.7,
+      "tone_shift": "more_partisan",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T09:47:20.995948"
+    },
+    {
+      "source": "at://did:plc:tytyo7jhiuo5gnd6tq6pwyif/app.bsky.feed.post/3mfeq4rfl4s2a",
+      "target": "at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z",
+      "similarity_score": 0.3971,
+      "info_lost": [
+        "L'analyse générale sur la normalisation du fascisme et les conditions de son installation (soutiens, relais, complaisances, collaboration active, compromissions).",
+        "La référence spécifique à l'action de la Région à Lyon comme un exemple 'chimiquement pur' de ce processus."
+      ],
+      "info_added": [
+        "La mention d'un journaliste de BFM TV sur place.",
+        "Le fait que ce journaliste répète que les participants au rassemblement de Lyon essaient de masquer leur appartenance.",
+        "L'observation par le journaliste de 'croix gammées etc'.",
+        "L'affirmation du journaliste que les participants sont des 'néonazis'."
+      ],
+      "distortion_score": 0.8,
+      "tone_shift": "more_partisan",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T09:44:13.487917"
+    },
+    {
+      "source": "at://did:plc:evxarlbhxnctuonzh3ms2vn7/app.bsky.feed.post/3mfe5ps3etc2u",
+      "target": "at://did:plc:tytyo7jhiuo5gnd6tq6pwyif/app.bsky.feed.post/3mfeq4rfl4s2a",
+      "similarity_score": 0.3875,
+      "info_lost": [
+        "L'identité du ministre mis en cause (garde des Sceaux)",
+        "La nature des déclarations (intempestives, au mépris des principes juridiques)",
+        "Le lien avec la mort d'un jeune militant nationaliste à Lyon",
+        "La référence à un article de Libération"
+      ],
+      "info_added": [
+        "Le concept de l'installation du fascisme (ex-nihilo, soutiens, relais, complaisances, collaboration active, compromissions)",
+        "L'idée de normalisation et de prospérité du fascisme",
+        "L'accusation directe que la Région à Lyon est un exemple 'chimiquement pur' de ce processus"
+      ],
+      "distortion_score": 0.9,
+      "tone_shift": "more_partisan",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T09:46:33.637287"
+    },
+    {
+      "source": "at://did:plc:frhtlnejrsyxb6g4cwr7ge3w/app.bsky.feed.post/3mfcx5qda222l",
+      "target": "at://did:plc:tytyo7jhiuo5gnd6tq6pwyif/app.bsky.feed.post/3mfeq4rfl4s2a",
+      "similarity_score": 0.3708,
+      "info_lost": [
+        "L'identité spécifique de 'Vincent, ami de Quentin' (membre de Lyon Populaire, groupe dissous pour exaltation du nazisme, et travaillant pour une députée RN).",
+        "La référence à la manifestation de samedi.",
+        "La source spécifique de l'information (Mediapart)."
+      ],
+      "info_added": [
+        "Une généralisation sur la manière dont le fascisme s'installe (besoin de soutiens, relais, complaisances, collaboration active, compromissions).",
+        "L'affirmation que 'Ce que fait la Région à Lyon en est un exemple chimiquement pur'."
+      ],
+      "distortion_score": 0.8,
+      "tone_shift": "more_alarmist",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T09:44:58.860748"
+    },
+    {
+      "source": "at://did:plc:x6iwiot43norkasv6mnxvfgs/app.bsky.feed.post/3mfcghtwn3s2y",
+      "target": "at://did:plc:frhtlnejrsyxb6g4cwr7ge3w/app.bsky.feed.post/3mfcx5qda222l",
+      "similarity_score": 0.4833,
+      "info_lost": [
+        "L'appel à cacher les sigles, tatouages et symboles lors de l'hommage à Quentin.",
+        "La citation ironique : \"Soyez le moins néonazi possible sur les images. Faites un effort on y est presque, c'est pas le moment de flancher\".",
+        "La mention du 'niveau de Taqiya' de ces gens."
+      ],
+      "info_added": [
+        "L'identification de «Vincent, ami de #Quentin» comme un membre de Lyon Populaire.",
+        "L'information que Lyon Populaire a été dissous en 2025 pour son exaltation du nazisme.",
+        "L'information que Vincent travaille pour une députée RN.",
+        "La référence à Mediapart comme source de l'information sur Vincent.",
+        "Le lien vers l'article de Mediapart."
+      ],
+      "distortion_score": 0.6,
+      "tone_shift": "more_partisan",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T09:45:39.023503"
+    },
+    {
+      "source": "at://did:plc:ew7owxcivlwt7k52dg6mt3o2/app.bsky.feed.post/3mfcf2wasl22u",
+      "target": "at://did:plc:x6iwiot43norkasv6mnxvfgs/app.bsky.feed.post/3mfcghtwn3s2y",
+      "similarity_score": 0.5204,
+      "info_lost": [
+        "L'image et son texte ALT qui accompagnaient le post original de @mrnawak.bsky.social."
+      ],
+      "info_added": [
+        "La mention explicite de 'Hommage à Quentin'.",
+        "La citation directe des consignes : 'Ne venez pas comme vous êtes d'habitude... cachez vos sigles, tatouages et symboles...' et 'Soyez le moins néonazi possible sur les images. Faites un effort on y est presque, c'est pas le moment de flancher'.",
+        "L'interprétation de ces consignes comme du 'Taqiya'."
+      ],
+      "distortion_score": 0.4,
+      "tone_shift": "more_partisan",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T09:46:31.359089"
+    },
+    {
+      "source": "at://did:plc:ew7owxcivlwt7k52dg6mt3o2/app.bsky.feed.post/3mfbt6yy3nc2u",
+      "target": "at://did:plc:x6iwiot43norkasv6mnxvfgs/app.bsky.feed.post/3mfcghtwn3s2y",
+      "similarity_score": 0.3814,
+      "info_lost": [
+        "Le fait que les consignes sont présentées comme 'full premier degré' dans ti-1, ce qui est une interprétation de l'auteur de ti-1."
+      ],
+      "info_added": [
+        "La mention 'Hommage à Quentin'",
+        "La citation 'Soyez le moins néonazi possible sur les images. Faites un effort on y est presque, c'est pas le moment de flancher'",
+        "L'expression 'Le niveau de Taqiya de ces gens.'"
+      ],
+      "distortion_score": 0.6,
+      "tone_shift": "more_partisan",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T09:46:29.069845"
+    },
+    {
+      "source": "at://did:plc:yhai2lodxljiaof5xww7hpkf/app.bsky.feed.post/3mf6w4dxmgx23",
+      "target": "at://did:plc:omtqqkwusnfvxos7pxvl4fgo/app.bsky.feed.post/3mfacctrbfs2e",
+      "similarity_score": 0.6631,
+      "info_lost": [
+        "L'affirmation spécifique que 'c'est l'extrême droite qui a tendu une embuscade aux antifascistes'.",
+        "La mention d'une enquête du média Contre Attaque.",
+        "La confirmation de cette enquête par Le Canard enchaîné.",
+        "Le détail que l'affrontement a été initié par un groupe d'une quinzaine de néofascistes."
+      ],
+      "info_added": [
+        "L'expression 'contre-enquête'.",
+        "La description de Lyon comme 'une ville gangrénée par la violence d'extrême-droite'."
+      ],
+      "distortion_score": 0.6,
+      "tone_shift": "more_partisan",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T09:48:20.656148"
+    },
+    {
+      "source": "at://did:plc:3sur65jk7flosjvu724yvqwd/app.bsky.feed.post/3mf7w4yf6cc2g",
+      "target": "at://did:plc:omtqqkwusnfvxos7pxvl4fgo/app.bsky.feed.post/3mfacctrbfs2e",
+      "similarity_score": 0.6558,
+      "info_lost": [
+        "L'affirmation explicite que l'extrême droite a tendu une embuscade aux antifascistes.",
+        "La mention des médias 'Contre Attaque' et 'Le Canard enchaîné' comme sources confirmant l'enquête.",
+        "Le lien vers l'article de 'revolutionpermanente.fr'."
+      ],
+      "info_added": [
+        "L'expression 'contre-enquête' suggérant une investigation approfondie ou une remise en question d'une version précédente.",
+        "La caractérisation de Lyon comme 'une ville gangrénée par la violence d'extrême-droite'."
+      ],
+      "distortion_score": 0.6,
+      "tone_shift": "more_partisan",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T09:48:23.426522"
+    },
+    {
+      "source": "at://did:plc:omtqqkwusnfvxos7pxvl4fgo/app.bsky.feed.post/3mfabxws4rk2e",
+      "target": "at://did:plc:omtqqkwusnfvxos7pxvl4fgo/app.bsky.feed.post/3mfacctrbfs2e",
+      "similarity_score": 0.5696,
+      "info_lost": [
+        "L'identité du journaliste (Elian Delacôte) et sa source (Rue89Lyon) qui éclairent sur l'ancrage de l'extrême droite radicale à Lyon.",
+        "La mention que l'extrême droite s'est illustrée dans de nombreuses agressions 'ces dernières décennies', ce qui donne une perspective historique."
+      ],
+      "info_added": [
+        "La mention spécifique de la 'Mort de Quentin à Lyon' comme sujet central de l'enquête.",
+        "L'expression 'contre-enquête' pour décrire le travail journalistique.",
+        "La caractérisation de Lyon comme 'une ville gangrénée par la violence d’extrême-droite'."
+      ],
+      "distortion_score": 0.6,
+      "tone_shift": "more_alarmist",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T09:48:17.863104"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d22" for="edge" attr.name="analyzed_at" attr.type="string" />
+  <key id="d21" for="edge" attr.name="is_fact_check" attr.type="boolean" />
+  <key id="d20" for="edge" attr.name="tone_shift" attr.type="string" />
+  <key id="d19" for="edge" attr.name="distortion_score" attr.type="double" />
+  <key id="d18" for="edge" attr.name="info_added" attr.type="string" />
+  <key id="d17" for="edge" attr.name="info_lost" attr.type="string" />
+  <key id="d16" for="edge" attr.name="similarity_score" attr.type="double" />
+  <key id="d15" for="node" attr.name="claims" attr.type="string" />
+  <key id="d14" for="node" attr.name="entities" attr.type="string" />
+  <key id="d13" for="node" attr.name="keywords" attr.type="string" />
+  <key id="d12" for="node" attr.name="virality_score" attr.type="double" />
+  <key id="d11" for="node" attr.name="fiability_score" attr.type="double" />
+  <key id="d10" for="node" attr.name="is_primary" attr.type="boolean" />
+  <key id="d9" for="node" attr.name="is_root" attr.type="boolean" />
+  <key id="d8" for="node" attr.name="depth" attr.type="long" />
+  <key id="d7" for="node" attr.name="replies" attr.type="long" />
+  <key id="d6" for="node" attr.name="reposts" attr.type="long" />
+  <key id="d5" for="node" attr.name="likes" attr.type="long" />
+  <key id="d4" for="node" attr.name="text_preview" attr.type="string" />
+  <key id="d3" for="node" attr.name="date" attr.type="string" />
+  <key id="d2" for="node" attr.name="author_did" attr.type="string" />
+  <key id="d1" for="node" attr.name="author_handle" attr.type="string" />
+  <key id="d0" for="node" attr.name="uri" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z">
+      <data key="d0">at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z</data>
+      <data key="d1">mathieuhourdin.bsky.social</data>
+      <data key="d2">did:plc:jyszdkkd7q4ejj4mah36jgde</data>
+      <data key="d3">2026-02-21T14:35:04.993Z</data>
+      <data key="d4">Bravo au journaliste de bfm sur place, qui répète à chaque fois qu'il prend la parole que les participants au rassemblement de Lyon essaient…</data>
+      <data key="d5">432</data>
+      <data key="d6">127</data>
+      <data key="d7">12</data>
+      <data key="d8">0</data>
+      <data key="d9">True</data>
+      <data key="d10">False</data>
+      <data key="d11">0.2</data>
+      <data key="d12">0.482</data>
+      <data key="d13">["journaliste", "bfm", "rassemblement", "Lyon", "croix gammées", "néonazis"]</data>
+      <data key="d14">["bfm", "Lyon"]</data>
+      <data key="d15">["Le journaliste de bfm affirme que les participants au rassemblement de Lyon essaient de masquer leur appartenance.", "Le journaliste de bfm voit des croix gammées parmi les participants.", "Le journaliste de bfm qualifie les participants de néonazis."]</data>
+    </node>
+    <node id="at://did:plc:66gl2bn6tpnq374x33nh66t2/app.bsky.feed.post/3mfetpt2zfk25">
+      <data key="d0">at://did:plc:66gl2bn6tpnq374x33nh66t2/app.bsky.feed.post/3mfetpt2zfk25</data>
+      <data key="d1">fabulousfab.bsky.social</data>
+      <data key="d2">did:plc:66gl2bn6tpnq374x33nh66t2</data>
+      <data key="d3">2026-02-21T14:33:24.165Z</data>
+      <data key="d4">Manif de Lyon : on vient de passer de Francetv infos à BFM tant la couverture de FranceInfos était pathétique. pas un mot sur le pédigrée de…</data>
+      <data key="d5">14</data>
+      <data key="d6">6</data>
+      <data key="d7">1</data>
+      <data key="d8">1</data>
+      <data key="d9">False</data>
+      <data key="d10">False</data>
+      <data key="d11">0.2</data>
+      <data key="d12">0.241</data>
+      <data key="d13">["manif", "Lyon", "couverture", "médias", "rassemblement", "organisatrice"]</data>
+      <data key="d14">["Lyon", "Francetv infos", "BFM", "FranceInfos"]</data>
+      <data key="d15">["La couverture de FranceInfos sur la manif de Lyon est jugée pathétique.", "FranceInfos n'a pas mentionné le pédigrée de l'organisatrice du rassemblement.", "FranceInfos n'a pas mentionné la présence de types masqués et vêtus de noir."]</data>
+    </node>
+    <node id="at://did:plc:fzrirjjqh2bbvmi5crwucd4o/app.bsky.feed.post/3mfepd6vatc2y">
+      <data key="d0">at://did:plc:fzrirjjqh2bbvmi5crwucd4o/app.bsky.feed.post/3mfepd6vatc2y</data>
+      <data key="d1">gouglov.bsky.social</data>
+      <data key="d2">did:plc:fzrirjjqh2bbvmi5crwucd4o</data>
+      <data key="d3">2026-02-21T13:14:45.386Z</data>
+      <data key="d4">Je suis à Lyon. Ne prenez pas le métro B voire même le D, surtout si vous faites partie d'une minorité. C'est vraiment infernal : les fachos…</data>
+      <data key="d5">356</data>
+      <data key="d6">286</data>
+      <data key="d7">10</data>
+      <data key="d8">2</data>
+      <data key="d9">False</data>
+      <data key="d10">True</data>
+      <data key="d11">0.2</data>
+      <data key="d12">0.511</data>
+      <data key="d13">["Lyon", "métro", "agression", "fachos", "Primevère", "tram"]</data>
+      <data key="d14">["Lyon", "Métro B", "Métro D", "Jaurès", "Primevère"]</data>
+      <data key="d15">["Le métro B et D à Lyon sont déconseillés, surtout pour les minorités.", "Des personnes agressives sont présentes dans le métro et se regroupent à Jaurès.", "Le tram est recommandé pour se rendre à Primevère afin de contourner la zone."]</data>
+    </node>
+    <node id="at://did:plc:jgmbaxorgcfqlv2xuxmcdbfh/app.bsky.feed.post/3mfeaezlav222">
+      <data key="d0">at://did:plc:jgmbaxorgcfqlv2xuxmcdbfh/app.bsky.feed.post/3mfeaezlav222</data>
+      <data key="d1">pierrebat.cpesr.fr</data>
+      <data key="d2">did:plc:jgmbaxorgcfqlv2xuxmcdbfh</data>
+      <data key="d3">2026-02-21T08:47:20.678Z</data>
+      <data key="d4">Donc aujourd'hui, on va autoriser une manif de nazis dont le point d'arrivée se trouve à moins de 200 mètres du centre opérationnel de la Ge…</data>
+      <data key="d5">138</data>
+      <data key="d6">69</data>
+      <data key="d7">12</data>
+      <data key="d8">2</data>
+      <data key="d9">False</data>
+      <data key="d10">False</data>
+      <data key="d11">0.7</data>
+      <data key="d12">0.419</data>
+      <data key="d13">["manifestation", "nazis", "Lyon", "Gestapo", "torture", "mises à mort"]</data>
+      <data key="d14">["Gestapo", "Lyon", "MSH"]</data>
+      <data key="d15">["Une manifestation de nazis est autorisée à Lyon.", "Le point d'arrivée de la manifestation est à moins de 200 mètres du centre opérationnel de la Gestapo à Lyon (la MSH).", "La MSH était le lieu de tortures et de mises à mort."]</data>
+    </node>
+    <node id="at://did:plc:wdg72jzh2bx7kuslzapb6eud/app.bsky.feed.post/3mfe76wujvk2z">
+      <data key="d0">at://did:plc:wdg72jzh2bx7kuslzapb6eud/app.bsky.feed.post/3mfe76wujvk2z</data>
+      <data key="d1">mathildelarrere.bsky.social</data>
+      <data key="d2">did:plc:wdg72jzh2bx7kuslzapb6eud</data>
+      <data key="d3">2026-02-21T08:26:02.883Z</data>
+      <data key="d4">Ils étaient "20 et 3 étrangers et nos frères pourtant"
+
+C'est aujourd'hui le triste anniversaire de l'exécution de 23 résistants, 23 antifas…</data>
+      <data key="d5">754</data>
+      <data key="d6">414</data>
+      <data key="d7">13</data>
+      <data key="d8">3</data>
+      <data key="d9">False</data>
+      <data key="d10">False</data>
+      <data key="d11">0.2</data>
+      <data key="d12">0.549</data>
+      <data key="d13">["anniversaire", "exécution", "résistants", "antifascistes", "nazis", "combat"]</data>
+      <data key="d14">["groupe Manouchian", "Lyon"]</data>
+      <data key="d15">["23 résistants et antifascistes ont été exécutés.", "Le groupe Manouchian est honoré.", "Des héritiers de nazis défilent à Lyon."]</data>
+    </node>
+    <node id="at://did:plc:n2ne6buxjl3ve323cu2j7edz/app.bsky.feed.post/3mfcgiy5usc2o">
+      <data key="d0">at://did:plc:n2ne6buxjl3ve323cu2j7edz/app.bsky.feed.post/3mfcgiy5usc2o</data>
+      <data key="d1">gdeleur.bsky.social</data>
+      <data key="d2">did:plc:n2ne6buxjl3ve323cu2j7edz</data>
+      <data key="d3">2026-02-20T15:31:36.501Z</data>
+      <data key="d4">La marche suprémaciste blanche des nénonazis partira demain de la place Jean-Jaurès à Lyon. Le cynisme atteint son climax.</data>
+      <data key="d5">594</data>
+      <data key="d6">155</data>
+      <data key="d7">31</data>
+      <data key="d8">4</data>
+      <data key="d9">False</data>
+      <data key="d10">True</data>
+      <data key="d11">0.2</data>
+      <data key="d12">0.504</data>
+      <data key="d13">[]</data>
+    </node>
+    <edge source="at://did:plc:66gl2bn6tpnq374x33nh66t2/app.bsky.feed.post/3mfetpt2zfk25" target="at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z">
+      <data key="d16">0.7036</data>
+      <data key="d17">["La critique de la couverture de FranceInfo jugée 'pathétique' par l'utilisateur de ti-1.", "L'absence de mention du 'pédigrée de l'organisatrice' dans la couverture de FranceInfo.", "La description des participants masqués, en lunettes noires, doudounes noires, bérets noirs."]</data>
+      <data key="d18">["L'éloge du journaliste de BFM pour sa couverture.", "La mention explicite que le journaliste de BFM répète que les participants essaient de masquer leur appartenance.", "L'affirmation que le journaliste de BFM voit des 'croix gammées' et qualifie les participants de 'néonazis'."]</data>
+      <data key="d19">0.7</data>
+      <data key="d20">more_partisan</data>
+      <data key="d21">False</data>
+      <data key="d22">2026-02-22T11:21:06.633604</data>
+    </edge>
+    <edge source="at://did:plc:fzrirjjqh2bbvmi5crwucd4o/app.bsky.feed.post/3mfepd6vatc2y" target="at://did:plc:66gl2bn6tpnq374x33nh66t2/app.bsky.feed.post/3mfetpt2zfk25">
+      <data key="d16">0.3729</data>
+      <data key="d17">["La localisation spécifique des incidents (métro B, D, Jaurès)", "La cible des agressions (minorités)", "La nature des agresseurs (fachos)", "Le conseil de privilégier le tram pour Primevère"]</data>
+      <data key="d18">["La critique de la couverture médiatique de FranceInfo et BFM", "La mention du 'pédigrée de l'organisatrice de ce rassemblement'", "La description des participants masqués (lunettes noires, doudounes noires, bérets noirs)"]</data>
+      <data key="d19">0.8</data>
+      <data key="d20">more_partisan</data>
+      <data key="d21">False</data>
+      <data key="d22">2026-02-22T11:21:34.589897</data>
+    </edge>
+    <edge source="at://did:plc:jgmbaxorgcfqlv2xuxmcdbfh/app.bsky.feed.post/3mfeaezlav222" target="at://did:plc:66gl2bn6tpnq374x33nh66t2/app.bsky.feed.post/3mfetpt2zfk25">
+      <data key="d16">0.3209</data>
+      <data key="d17">["La nature 'nazie' de la manifestation", "La localisation spécifique du point d'arrivée de la manifestation (moins de 200 mètres du centre opérationnel de la Gestapo à Lyon, la MSH)", "La référence aux tortures et mises à mort ayant eu lieu à la MSH", "L'interrogation sur la prise de conscience de la situation"]</data>
+      <data key="d18">["La comparaison de la couverture médiatique entre Francetv infos et BFM", "La critique de la couverture de FranceInfos comme 'pathétique'", "L'absence de mention du 'pédigrée de l'organisatrice'", "La description des participants : 'types masqués, en lunettes noires, doudounes noires, bérets noirs...'"]</data>
+      <data key="d19">0.8</data>
+      <data key="d20">more_partisan</data>
+      <data key="d21">False</data>
+      <data key="d22">2026-02-22T11:22:11.072462</data>
+    </edge>
+    <edge source="at://did:plc:wdg72jzh2bx7kuslzapb6eud/app.bsky.feed.post/3mfe76wujvk2z" target="at://did:plc:jgmbaxorgcfqlv2xuxmcdbfh/app.bsky.feed.post/3mfeaezlav222">
+      <data key="d16">0.566</data>
+      <data key="d17">["Le contexte de l'anniversaire de l'exécution du groupe Manouchian et des 23 résistants/antifascistes.", "La citation \"20 et 3 étrangers et nos frères pourtant\"."]</data>
+      <data key="d18">["La localisation précise du centre opérationnel de la Gestapo à Lyon (la MSH) et sa proximité avec le point d'arrivée de la manifestation.", "La mention des tortures et mises à mort ayant eu lieu à la MSH."]</data>
+      <data key="d19">0.4</data>
+      <data key="d20">more_alarmist</data>
+      <data key="d21">False</data>
+      <data key="d22">2026-02-22T11:22:43.907505</data>
+    </edge>
+    <edge source="at://did:plc:n2ne6buxjl3ve323cu2j7edz/app.bsky.feed.post/3mfcgiy5usc2o" target="at://did:plc:wdg72jzh2bx7kuslzapb6eud/app.bsky.feed.post/3mfe76wujvk2z">
+      <data key="d16">0.3996</data>
+      <data key="d17">["L'heure ou le moment précis du départ de la marche (demain)", "La mention du 'cynisme atteint son climax'"]</data>
+      <data key="d18">["La référence à la citation '20 et 3 étrangers et nos frères pourtant'", "La date du 21 février comme anniversaire de l'exécution de 23 résistants/antifascistes", "La mention du groupe Manouchian", "L'hommage à ceux qui ont combattu les nazis", "L'expression 'Honneur au groupe Manouchian' et 'Honneur à celle et ceux qui ont combattu les nazis'", "La qualification des participants à la marche de Lyon comme 'héritiers' des nazis"]</data>
+      <data key="d19">0.4</data>
+      <data key="d20">more_partisan</data>
+      <data key="d21">False</data>
+      <data key="d22">2026-02-22T11:23:13.891770</data>
+    </edge>
+  </graph>
+</graphml>

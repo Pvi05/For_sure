@@ -1,0 +1,109 @@
+{
+  "original_fact": "Un rassemblement de milliers de néonazis venant de toute l'Europe est prévu à Lyon le 21 février, perçu comme étant protégé par la police et suscitant des critiques sur la démocratie et la liberté d'expression.",
+  "final_version": "Le journaliste de bfm affirme que les participants au rassemblement de Lyon essaient de masquer leur appartenance, voit des croix gammées parmi eux et les qualifie de néonazis.",
+  "distortions": [
+    {
+      "step": 1,
+      "from_author": "@libertalialivre.bsky.social",
+      "to_author": "@mathieuhourdin.bsky.social",
+      "what_changed": "L'information est passée d'une description d'un défilé néonazi légal à Lyon avec une pensée pour un résistant, à un compte-rendu d'un journaliste BFM sur place observant des participants masquant leur appartenance et des croix gammées. Des détails contextuels sur le défilé et la référence historique sont perdus, remplacés par une observation en direct.",
+      "info_lost": [
+        "La date précise du défilé (samedi 21 février)",
+        "Le nombre de participants (milliers)",
+        "La provenance des participants (toute l'Europe)",
+        "La légalité du défilé",
+        "La référence à Alter Mojsze Goldman, résistant juif et communiste, et son rôle dans le FTP-MOI lyonnais"
+      ],
+      "info_added": [
+        "La mention d'un journaliste de BFM sur place",
+        "Le fait que les participants essaient de masquer leur appartenance",
+        "L'observation de croix gammées par le journaliste",
+        "L'affirmation que le journaliste qualifie les participants de néonazis"
+      ],
+      "tone_shift": "more_partisan",
+      "distortion_score": 0.6
+    },
+    {
+      "step": 1,
+      "from_author": "@ricardoparreira.com",
+      "to_author": "@cedricmas.bsky.social",
+      "what_changed": "Le post initial critiquant la protection policière des néonazis et la démocratie est transformé en une référence à un \"Hommage à Quentin\" avec des instructions pour les participants de masquer leurs symboles néonazis, introduisant le terme \"Taqiya\".",
+      "info_lost": [
+        "La mention explicite de la police protégeant les néonazis.",
+        "La critique de la démocratie et de la liberté d'expression comme permettant le racisme.",
+        "L'affirmation que le projet politique des néonazis est de revenir à l'inégalité naturelle."
+      ],
+      "info_added": [
+        "La référence à un 'Hommage à Quentin'.",
+        "L'instruction 'Ne venez pas comme vous êtes d'habitude... cachez vos sigles, tatouages et symboles...'.",
+        "La citation 'Soyez le moins néonazi possible sur les images. Faites un effort on y est presque, c'est pas le moment de flancher'.",
+        "Le terme 'Taqiya' pour décrire le comportement des personnes mentionnées."
+      ],
+      "tone_shift": "more_partisan",
+      "distortion_score": 0.7
+    },
+    {
+      "step": 2,
+      "from_author": "@cedricmas.bsky.social",
+      "to_author": "@anttonrouget.bsky.social",
+      "what_changed": "Le post passe d'une instruction générale de dissimulation pour un \"Hommage à Quentin\" à une identification spécifique de \"Vincent, ami de Quentin\" comme membre d'un groupe néonazi dissous et employé d'une députée RN, avec une source Mediapart.",
+      "info_lost": [
+        "L'appel à cacher les sigles, tatouages et symboles lors de l'hommage à Quentin.",
+        "La citation ironique : \"Soyez le moins néonazi possible sur les images. Faites un effort on y est presque, c'est pas le moment de flancher\".",
+        "La mention du 'niveau de Taqiya' de ces gens."
+      ],
+      "info_added": [
+        "L'identification de «Vincent, ami de #Quentin» comme un membre de Lyon Populaire.",
+        "L'information que Lyon Populaire a été dissous en 2025 pour son exaltation du nazisme.",
+        "L'information que Vincent travaille pour une députée RN.",
+        "La référence à Mediapart comme source de l'information sur Vincent.",
+        "Le lien vers l'article de Mediapart."
+      ],
+      "tone_shift": "more_partisan",
+      "distortion_score": 0.6
+    },
+    {
+      "step": 3,
+      "from_author": "@anttonrouget.bsky.social",
+      "to_author": "@panettonepazzo.bsky.social",
+      "what_changed": "L'information spécifique sur \"Vincent\" et ses affiliations est perdue, remplacée par une généralisation sur la propagation du fascisme et une accusation envers l'action de la Région à Lyon comme exemple de normalisation.",
+      "info_lost": [
+        "L'identité spécifique de 'Vincent, ami de Quentin' (membre de Lyon Populaire, groupe dissous pour exaltation du nazisme, et travaillant pour une députée RN).",
+        "La référence à la manifestation de samedi.",
+        "La source spécifique de l'information (Mediapart)."
+      ],
+      "info_added": [
+        "Une généralisation sur la manière dont le fascisme s'installe (besoin de soutiens, relais, complaisances, collaboration active, compromissions).",
+        "L'affirmation que 'Ce que fait la Région à Lyon en est un exemple chimiquement pur'."
+      ],
+      "tone_shift": "more_alarmist",
+      "distortion_score": 0.8
+    },
+    {
+      "step": 4,
+      "from_author": "@panettonepazzo.bsky.social",
+      "to_author": "@mathieuhourdin.bsky.social",
+      "what_changed": "Le post passe d'une analyse générale sur la normalisation du fascisme et l'action de la Région à Lyon à un compte-rendu direct d'un journaliste BFM sur place, observant des participants masquant leur appartenance et des croix gammées, et les qualifiant de néonazis.",
+      "info_lost": [
+        "L'analyse générale sur la normalisation du fascisme et les conditions de son installation (soutiens, relais, complaisances, collaboration active, compromissions).",
+        "La référence spécifique à l'action de la Région à Lyon comme un exemple 'chimiquement pur' de ce processus."
+      ],
+      "info_added": [
+        "La mention d'un journaliste de BFM TV sur place.",
+        "Le fait que ce journaliste répète que les participants au rassemblement de Lyon essaient de masquer leur appartenance.",
+        "L'observation par le journaliste de 'croix gammées etc'.",
+        "L'affirmation du journaliste que les participants sont des 'néonazis'."
+      ],
+      "tone_shift": "more_partisan",
+      "distortion_score": 0.8
+    }
+  ],
+  "verdict": "Le post analysé s'éloigne considérablement des faits originaux en transformant une description directe d'un rassemblement néonazi en un compte-rendu des observations d'un journaliste BFM, introduisant de nouvelles informations sur le comportement des participants et l'attribution de ces observations.",
+  "veracity_score": 0.152,
+  "narrative": "L'information a débuté avec deux sources primaires : l'une (faible fiabilité) annonçant un défilé de milliers de néonazis à Lyon le 21 février, l'autre (plus fiable) critiquant la protection policière de néonazis et la démocratie. Sur deux chemins de propagation distincts, cette information a subi des transformations majeures. Un chemin a directement déformé la description du défilé en un reportage d'un journaliste BFM observant des participants masquant leur affiliation et des croix gammées. Le second chemin, plus complexe, a vu la critique initiale évoluer vers des instructions de dissimulation pour un \"Hommage à Quentin\", puis l'identification d'un individu lié à un groupe néonazi dissous, avant de généraliser sur la normalisation du fascisme, pour finalement converger vers le récit du journaliste BFM. Le post final de @mathieuhourdin.bsky.social présente une version fortement filtrée par le prisme d'un reportage en direct, perdant la plupart du contexte original et des analyses critiques, tout en ajoutant de nouveaux éléments sur le comportement des participants et les observations du journaliste.",
+  "top_amplifiers": [
+    "@anttonrouget.bsky.social",
+    "@panettonepazzo.bsky.social",
+    "@cedricmas.bsky.social"
+  ]
+}

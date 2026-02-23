@@ -1,0 +1,72 @@
+{
+  "original_fact": "Des néonazis sont protégés par la police, utilisant la liberté d'expression pour le racisme et visant un retour à l'inégalité naturelle.",
+  "final_version": "Un journaliste de BFM sur place à Lyon affirme que les participants au rassemblement essaient de masquer leur appartenance, voit des croix gammées et les qualifie de néonazis.",
+  "distortions": [
+    {
+      "step": 1,
+      "from_author": "@ricardoparreira.com",
+      "to_author": "@cyriellechatelain.fr",
+      "what_changed": "Le focus passe d'une critique générale des néonazis et de la démocratie à une manifestation spécifique à Lyon. Le post introduit des affirmations sur la nature intégriste/suprémaciste de l'événement, la non-participation de la famille Deranque et l'approbation de l'interdiction, tout en omettant les critiques initiales sur la police et la liberté d'expression.",
+      "info_lost": [
+        "La mention de la police protégeant les manifestants",
+        "La critique de la démocratie et de la liberté d'expression comme permettant le racisme",
+        "L'idée que le projet politique des manifestants est de revenir à l'inégalité naturelle"
+      ],
+      "info_added": [
+        "L'adresse directe au Président de la République",
+        "La négation que la manifestation soit un moment de recueillement",
+        "La précision que la famille de Quentin Deranque ne participe pas à la manifestation",
+        "L'approbation de la demande d'interdiction du maire de Lyon",
+        "La qualification des groupes comme 'intégristes' et 'suprémacistes'"
+      ],
+      "tone_shift": "more_partisan",
+      "distortion_score": 0.6
+    },
+    {
+      "step": 2,
+      "from_author": "@cyriellechatelain.fr",
+      "to_author": "@marinetondelier.fr",
+      "what_changed": "Le post introduit la présence de militants d'extrême droite européens et qualifie l'événement de 'démonstration de force néofasciste'. Il omet les détails sur la famille Deranque et la demande d'interdiction du maire, ajoutant une critique sur la non-interdiction de la manifestation et un 'deux poids, deux mesures' en France.",
+      "info_lost": [
+        "La manifestation n'est pas un moment de recueillement.",
+        "La famille de Quentin Deranque ne participe pas à la manifestation.",
+        "Le maire de Lyon a demandé l'interdiction de la manifestation."
+      ],
+      "info_added": [
+        "Des militants d'extrême droite de toute l'Europe sont à Lyon.",
+        "La manifestation est une démonstration de force néofasciste.",
+        "La manifestation n'a pas été interdite malgré les risques.",
+        "Il y a un 'deux poids, deux mesures' en France."
+      ],
+      "tone_shift": "more_partisan",
+      "distortion_score": 0.6
+    },
+    {
+      "step": 3,
+      "from_author": "@marinetondelier.fr",
+      "to_author": "@mathieuhourdin.bsky.social",
+      "what_changed": "Le focus se déplace entièrement vers le reportage d'un journaliste de BFM. Le post introduit des affirmations sur les observations du journaliste (participants masquant leur appartenance, croix gammées, qualification de néonazis) et exprime une approbation. Tout le contexte précédent sur les militants européens et la nature néofasciste de la manifestation est perdu.",
+      "info_lost": [
+        "La présence de militants d'extrême droite de toute l'Europe à Lyon.",
+        "L'objectif principal du rassemblement est une démonstration de force néofasciste, plus qu'un hommage à Quentin.",
+        "Les risques présentés par la manifestation.",
+        "Le fait que la manifestation n'a pas été interdite.",
+        "La critique du 'deux poids, deux mesures' en France."
+      ],
+      "info_added": [
+        "L'existence d'un journaliste de BFM sur place.",
+        "Le fait que le journaliste répète que les participants essaient de masquer leur appartenance.",
+        "Le fait que le journaliste voit des croix gammées et qualifie les participants de néonazis.",
+        "L'approbation du journaliste de BFM par l'auteur du post récent ('Bravo au journaliste')."
+      ],
+      "tone_shift": "more_partisan",
+      "distortion_score": 0.7
+    }
+  ],
+  "verdict": "Le post analysé est très éloigné de la source primaire. Bien que le thème des néonazis soit maintenu, les affirmations spécifiques de la source originale ont été entièrement remplacées par de nouvelles informations concernant le reportage d'un journaliste.",
+  "veracity_score": 0.042,
+  "narrative": "L'information a débuté par une critique générale sur la protection policière des néonazis et l'utilisation de la liberté d'expression pour le racisme. Au premier relais, le discours s'est focalisé sur une manifestation spécifique à Lyon, la qualifiant d'intégriste/suprémaciste et mentionnant la non-participation de la famille Deranque, perdant la critique initiale. Le deuxième relais a amplifié cette focalisation en introduisant la présence de militants d'extrême droite européens et en décrivant l'événement comme une démonstration de force néofasciste, tout en critiquant sa non-interdiction. Finalement, le post analysé a complètement dévié pour se concentrer sur les observations d'un journaliste de BFM sur place, qui aurait vu des croix gammées et qualifié les participants de néonazis, perdant ainsi tout le contexte politique et les détails des étapes précédentes. La propagation a été majoritairement linéaire, avec une déformation progressive et significative à chaque étape.",
+  "top_amplifiers": [
+    "@mathieuhourdin.bsky.social"
+  ]
+}

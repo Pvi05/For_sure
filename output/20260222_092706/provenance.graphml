@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d15" for="node" attr.name="claims" attr.type="string" />
+  <key id="d14" for="node" attr.name="entities" attr.type="string" />
+  <key id="d13" for="node" attr.name="keywords" attr.type="string" />
+  <key id="d12" for="node" attr.name="virality_score" attr.type="double" />
+  <key id="d11" for="node" attr.name="fiability_score" attr.type="double" />
+  <key id="d10" for="node" attr.name="is_primary" attr.type="boolean" />
+  <key id="d9" for="node" attr.name="is_root" attr.type="boolean" />
+  <key id="d8" for="node" attr.name="depth" attr.type="long" />
+  <key id="d7" for="node" attr.name="replies" attr.type="long" />
+  <key id="d6" for="node" attr.name="reposts" attr.type="long" />
+  <key id="d5" for="node" attr.name="likes" attr.type="long" />
+  <key id="d4" for="node" attr.name="text_preview" attr.type="string" />
+  <key id="d3" for="node" attr.name="date" attr.type="string" />
+  <key id="d2" for="node" attr.name="author_did" attr.type="string" />
+  <key id="d1" for="node" attr.name="author_handle" attr.type="string" />
+  <key id="d0" for="node" attr.name="uri" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="at://did:plc:u3vos2rmh3ly2hntwgj5x2ea/app.bsky.feed.post/3mfg4m7n4js2j">
+      <data key="d0">at://did:plc:u3vos2rmh3ly2hntwgj5x2ea/app.bsky.feed.post/3mfg4m7n4js2j</data>
+      <data key="d1">geopolitis.bsky.social</data>
+      <data key="d2">did:plc:u3vos2rmh3ly2hntwgj5x2ea</data>
+      <data key="d3">2026-02-22T02:45:06.540Z</data>
+      <data key="d4">Echec cuisant de la russie au Sahel.
+
+"Fondé au Mali en 2017, le Jama’at Nusrat al-Islam wal-Muslimin (Jnim) est aujourd’hui le principal gr…</data>
+      <data key="d5">7</data>
+      <data key="d6">0</data>
+      <data key="d7">1</data>
+      <data key="d8">0</data>
+      <data key="d9">True</data>
+      <data key="d10">True</data>
+      <data key="d11">0.2</data>
+      <data key="d12">0.147</data>
+      <data key="d13">["Russie", "Sahel", "échec", "Jnim", "jihadiste", "violences"]</data>
+      <data key="d14">["Russie", "Sahel", "Mali", "Jama’at Nusrat al-Islam wal-Muslimin", "Jnim", "al-Qaeda"]</data>
+      <data key="d15">["Le Jama’at Nusrat al-Islam wal-Muslimin (Jnim) a été fondé au Mali en 2017.", "Le Jnim est le principal groupe jihadiste au Sahel central.", "Depuis 2019, les violences du Jnim se sont propagées."]</data>
+    </node>
+  </graph>
+</graphml>

@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "built_at": "2026-02-22T09:28:21.989401",
+    "node_count": 2,
+    "edge_count": 1,
+    "max_depth": 4,
+    "global_distortion": null,
+    "primary_source_ids": []
+  },
+  "nodes": [
+    {
+      "id": "at://did:plc:u3vos2rmh3ly2hntwgj5x2ea/app.bsky.feed.post/3mfg6jmb3wc2j",
+      "uri": "at://did:plc:u3vos2rmh3ly2hntwgj5x2ea/app.bsky.feed.post/3mfg6jmb3wc2j",
+      "author_handle": "geopolitis.bsky.social",
+      "author_did": "did:plc:u3vos2rmh3ly2hntwgj5x2ea",
+      "date": "2026-02-22T03:19:26.598Z",
+      "text_preview": "Attaques ukrainiennes sur Saratov et Engels, russsie\nProbablement raffinerie.",
+      "likes": 13,
+      "reposts": 1,
+      "replies": 0,
+      "depth": 0,
+      "is_root": true,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.189,
+      "keywords": [
+        "attaques",
+        "ukrainiennes",
+        "Saratov",
+        "Engels",
+        "Russie",
+        "raffinerie"
+      ],
+      "entities": [
+        "Ukraine",
+        "Saratov",
+        "Engels",
+        "Russie"
+      ],
+      "claims": [
+        "Des attaques ukrainiennes ont eu lieu sur Saratov et Engels, en Russie.",
+        "Une raffinerie est probablement la cible de ces attaques."
+      ]
+    },
+    {
+      "id": "at://did:plc:3fblwf3cqm26ffysek3x3zbe/app.bsky.feed.post/3mffrtnnia22y",
+      "uri": "at://did:plc:3fblwf3cqm26ffysek3x3zbe/app.bsky.feed.post/3mffrtnnia22y",
+      "author_handle": "twmcltd.bsky.social",
+      "author_did": "did:plc:3fblwf3cqm26ffysek3x3zbe",
+      "date": "2026-02-21T23:32:24.951Z",
+      "text_preview": "Now to Engels in Saratov region, where the airport is closed.\n\nTwo big potential targets here for Ukraine: the military airfield and a refin…",
+      "likes": 52,
+      "reposts": 6,
+      "replies": 2,
+      "depth": 1,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.299,
+      "keywords": []
+    }
+  ],
+  "links": [
+    {
+      "source": "at://did:plc:3fblwf3cqm26ffysek3x3zbe/app.bsky.feed.post/3mffrtnnia22y",
+      "target": "at://did:plc:u3vos2rmh3ly2hntwgj5x2ea/app.bsky.feed.post/3mfg6jmb3wc2j",
+      "similarity_score": 0.95,
+      "info_lost": [
+        "La mention spécifique de la région de Saratov pour Engels.",
+        "La fermeture de l'aéroport d'Engels.",
+        "Les deux cibles potentielles identifiées : l'aérodrome militaire et la raffinerie.",
+        "L'observation de fumée et le témoignage d'une femme sur deux frappes claires."
+      ],
+      "info_added": [],
+      "distortion_score": 0.4,
+      "tone_shift": "neutral",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T09:29:05.077288"
+    }
+  ]
+}

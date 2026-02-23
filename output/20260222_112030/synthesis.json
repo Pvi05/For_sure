@@ -1,0 +1,9 @@
+{
+  "original_fact": "Le métro B et D à Lyon sont déconseillés, surtout pour les minorités.",
+  "final_version": "Le journaliste de bfm affirme que les participants au rassemblement de Lyon essaient de masquer leur appartenance.",
+  "distortions": [],
+  "verdict": "Analyse automatique indisponible — résultat de secours.",
+  "veracity_score": 0.5,
+  "narrative": "L'analyse narrative n'a pas pu être produite automatiquement. Le graphe contient 2 chemin(s) de propagation. Source primaire : @gouglov.bsky.social. Post analysé : @mathieuhourdin.bsky.social.",
+  "top_amplifiers": []
+}

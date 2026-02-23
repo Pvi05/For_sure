@@ -1,0 +1,108 @@
+{
+  "original_fact": "Les parents de Quentin Deranque ont appelé au calme et ont déclaré qu'ils ne participeraient pas à la marche prévue samedi à Lyon, tandis qu'un utilisateur a critiqué la couverture de FranceInfo sur une manifestation à Lyon et a mentionné être passé sur BFM.",
+  "final_version": "Le journaliste de BFM sur place affirme que les participants au rassemblement de Lyon essaient de masquer leur appartenance, qu'il voit des croix gammées parmi eux et les qualifie de néonazis.",
+  "distortions": [
+    {
+      "step": 1,
+      "from_author": "@fabulousfab.bsky.social",
+      "to_author": "@mathieuhourdin.bsky.social",
+      "what_changed": "Le post original critiquait la couverture de FranceInfo et mentionnait un passage sur BFM. Le post final déforme cette information en attribuant au journaliste de BFM des observations spécifiques et des qualifications (participants masqués, croix gammées, néonazis) qui étaient absentes de la source primaire, transformant une critique médiatique en une affirmation factuelle non étayée.",
+      "info_lost": [
+        "La critique de la couverture de FranceInfo jugée 'pathétique' par l'utilisateur de ti-1.",
+        "L'absence de mention du 'pédigrée de l'organisatrice' dans la couverture de FranceInfo.",
+        "La description des participants masqués, en lunettes noires, doudounes noires, bérets noirs."
+      ],
+      "info_added": [
+        "L'éloge du journaliste de BFM pour sa couverture.",
+        "La mention explicite que le journaliste de BFM répète que les participants essaient de masquer leur appartenance.",
+        "L'affirmation que le journaliste de BFM voit des 'croix gammées' et qualifie les participants de 'néonazis'."
+      ],
+      "tone_shift": "more_partisan",
+      "distortion_score": 0.7
+    },
+    {
+      "step": 1,
+      "from_author": "@leparisien.fr",
+      "to_author": "@sandrousseau.bsky.social",
+      "what_changed": "Le post original rapportait l'appel au calme et la non-participation des parents de Quentin Deranque à une marche. Ce relais a complètement omis ces informations, introduisant à la place une caractérisation partisane de la manifestation comme un rassemblement de 'nazillons' avec une allusion à 'Travail famille patrie'.",
+      "info_lost": [
+        "L'appel au calme des parents de Quentin Deranque.",
+        "La non-participation des parents de Quentin Deranque à la marche."
+      ],
+      "info_added": [
+        "La référence à 'Travail famille patrie'.",
+        "La caractérisation des participants à la manifestation comme 'nazillons de France et de Navarre'.",
+        "L'expression 'On est pas mal là sur le plan du barrage…'."
+      ],
+      "tone_shift": "more_partisan",
+      "distortion_score": 0.8
+    },
+    {
+      "step": 2,
+      "from_author": "@sandrousseau.bsky.social",
+      "to_author": "@gdeleur.bsky.social",
+      "what_changed": "Ce relais a transformé la caractérisation générale de 'nazillons' en une description plus spécifique et alarmiste de la marche comme 'suprémaciste blanche des néonazis', ajoutant des détails sur le lieu et la date, tout en omettant les allusions historiques et l'hyperbole du post précédent.",
+      "info_lost": [
+        "La référence à 'Travail famille patrie', qui est une allusion historique spécifique au régime de Vichy, suggérant une idéologie d'extrême droite.",
+        "L'expression 'Manif autorisée', qui soulève la question de l'approbation officielle de l'événement.",
+        "La mention 'de tous les nazillons de France et de Navarre', qui est une hyperbole pour souligner l'ampleur nationale de la mobilisation.",
+        "Le commentaire 'On est pas mal là sur le plan du barrage…', qui exprime une opinion sur la situation politique ou la capacité à faire barrage à l'extrême droite."
+      ],
+      "info_added": [
+        "La désignation 'marche suprémaciste blanche des nénonazis', qui est une caractérisation plus spécifique et accusatrice de la nature de la manifestation.",
+        "La précision du lieu de départ : 'place Jean-Jaurès à Lyon'.",
+        "La précision de la date : 'demain'.",
+        "Le commentaire 'Le cynisme atteint son climax', qui exprime une indignation plus directe et un jugement moral."
+      ],
+      "tone_shift": "more_alarmist",
+      "distortion_score": 0.6
+    },
+    {
+      "step": 3,
+      "from_author": "@gdeleur.bsky.social",
+      "to_author": "@mathildelarrere.bsky.social",
+      "what_changed": "Ce relais a déplacé le focus de la description spécifique de la marche vers une commémoration historique de l'exécution du groupe Manouchian, établissant un lien direct et partisan entre les nazis historiques et les manifestants actuels, perdant les détails précis de la marche mentionnés précédemment.",
+      "info_lost": [
+        "L'heure ou le moment précis du départ de la marche (demain)",
+        "La mention explicite de 'suprémaciste blanche'"
+      ],
+      "info_added": [
+        "La date du 21 février comme anniversaire de l'exécution de résistants",
+        "La référence au groupe Manouchian",
+        "La citation '20 et 3 étrangers et nos frères pourtant'",
+        "La mention de '23 résistants, 23 antifascistes'",
+        "L'expression 'Honneur au groupe Manouchian'",
+        "L'expression 'Honneur à celle et ceux qui ont combattu les nazis'",
+        "L'établissement d'un lien direct entre les nazis historiques et les manifestants actuels ('nazis dont on laisse les héritiers défiler')"
+      ],
+      "tone_shift": "more_partisan",
+      "distortion_score": 0.4
+    },
+    {
+      "step": 4,
+      "from_author": "@mathildelarrere.bsky.social",
+      "to_author": "@mathieuhourdin.bsky.social",
+      "what_changed": "Ce dernier relais a complètement abandonné le contexte historique et la commémoration du groupe Manouchian pour introduire des affirmations entièrement nouvelles concernant les observations d'un journaliste de BFM TV sur le rassemblement de Lyon, notamment la présence de croix gammées et la qualification des participants de néonazis, sans aucune base dans les posts précédents de ce chemin.",
+      "info_lost": [
+        "Le contexte historique de l'exécution du groupe Manouchian et son anniversaire.",
+        "La citation '20 et 3 étrangers et nos frères pourtant'.",
+        "L'hommage aux 23 résistants et antifascistes.",
+        "L'hommage à ceux et celles qui ont combattu les nazis."
+      ],
+      "info_added": [
+        "La mention d'un journaliste de BFM TV sur place.",
+        "Le fait que le journaliste répète que les participants au rassemblement de Lyon essaient de masquer leur appartenance.",
+        "L'observation du journaliste de la présence de croix gammées.",
+        "L'affirmation du journaliste que les participants sont des néonazis."
+      ],
+      "tone_shift": "more_partisan",
+      "distortion_score": 0.8
+    }
+  ],
+  "verdict": "Le post analysé est hautement infidèle à ses sources primaires. Ses affirmations centrales concernant les observations spécifiques et les qualifications attribuées à un journaliste de BFM sont des informations entièrement nouvelles, non présentes ou étayées par les sources initiales.",
+  "veracity_score": 0.375,
+  "narrative": "Cette analyse retrace la propagation d'informations concernant un rassemblement à Lyon depuis deux sources primaires. La première, de faible fiabilité, critiquait la couverture de FranceInfo et mentionnait un passage sur BFM. La seconde, de haute fiabilité, rapportait que les parents de Quentin Deranque appelaient au calme et ne participeraient pas à une marche à Lyon. Le post final, cependant, introduit des affirmations entièrement nouvelles, déclarant qu'un journaliste de BFM sur place a décrit les participants comme masquant leur affiliation, a vu des croix gammées et les a qualifiés de néonazis. Ces allégations spécifiques ne sont étayées par aucune des sources primaires. Le chemin issu de la source fiable a subi des distorsions significatives, notamment par @sandrousseau.bsky.social qui a introduit des caractérisations partisanes de la marche, amplifiées par les relais suivants. Finalement, le post de @mathieuhourdin.bsky.social a introduit les affirmations non vérifiées sur le journaliste de BFM, s'éloignant complètement de toutes les informations précédentes dans les deux chemins de propagation.",
+  "top_amplifiers": [
+    "@sandrousseau.bsky.social"
+  ]
+}

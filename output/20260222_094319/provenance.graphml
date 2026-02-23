@@ -1,0 +1,471 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d22" for="edge" attr.name="analyzed_at" attr.type="string" />
+  <key id="d21" for="edge" attr.name="is_fact_check" attr.type="boolean" />
+  <key id="d20" for="edge" attr.name="tone_shift" attr.type="string" />
+  <key id="d19" for="edge" attr.name="distortion_score" attr.type="double" />
+  <key id="d18" for="edge" attr.name="info_added" attr.type="string" />
+  <key id="d17" for="edge" attr.name="info_lost" attr.type="string" />
+  <key id="d16" for="edge" attr.name="similarity_score" attr.type="double" />
+  <key id="d15" for="node" attr.name="claims" attr.type="string" />
+  <key id="d14" for="node" attr.name="entities" attr.type="string" />
+  <key id="d13" for="node" attr.name="keywords" attr.type="string" />
+  <key id="d12" for="node" attr.name="virality_score" attr.type="double" />
+  <key id="d11" for="node" attr.name="fiability_score" attr.type="double" />
+  <key id="d10" for="node" attr.name="is_primary" attr.type="boolean" />
+  <key id="d9" for="node" attr.name="is_root" attr.type="boolean" />
+  <key id="d8" for="node" attr.name="depth" attr.type="long" />
+  <key id="d7" for="node" attr.name="replies" attr.type="long" />
+  <key id="d6" for="node" attr.name="reposts" attr.type="long" />
+  <key id="d5" for="node" attr.name="likes" attr.type="long" />
+  <key id="d4" for="node" attr.name="text_preview" attr.type="string" />
+  <key id="d3" for="node" attr.name="date" attr.type="string" />
+  <key id="d2" for="node" attr.name="author_did" attr.type="string" />
+  <key id="d1" for="node" attr.name="author_handle" attr.type="string" />
+  <key id="d0" for="node" attr.name="uri" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z">
+      <data key="d0">at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z</data>
+      <data key="d1">mathieuhourdin.bsky.social</data>
+      <data key="d2">did:plc:jyszdkkd7q4ejj4mah36jgde</data>
+      <data key="d3">2026-02-21T14:35:04.993Z</data>
+      <data key="d4">Bravo au journaliste de bfm sur place, qui répète à chaque fois qu'il prend la parole que les participants au rassemblement de Lyon essaient…</data>
+      <data key="d5">423</data>
+      <data key="d6">123</data>
+      <data key="d7">12</data>
+      <data key="d8">0</data>
+      <data key="d9">True</data>
+      <data key="d10">False</data>
+      <data key="d11">0.2</data>
+      <data key="d12">0.48</data>
+      <data key="d13">["journaliste", "bfm", "rassemblement", "Lyon", "croix gammées", "néonazis"]</data>
+      <data key="d14">["bfm", "Lyon"]</data>
+      <data key="d15">["Le journaliste de bfm affirme que les participants au rassemblement de Lyon essaient de masquer leur appartenance.", "Le journaliste de bfm voit des croix gammées parmi les participants.", "Le journaliste de bfm qualifie les participants de néonazis."]</data>
+    </node>
+    <node id="at://did:plc:rtbuijtxr7u3vh2rvja3rgid/app.bsky.feed.post/3mfc5xb2dp22z">
+      <data key="d0">at://did:plc:rtbuijtxr7u3vh2rvja3rgid/app.bsky.feed.post/3mfc5xb2dp22z</data>
+      <data key="d1">libertalialivre.bsky.social</data>
+      <data key="d2">did:plc:rtbuijtxr7u3vh2rvja3rgid</data>
+      <data key="d3">2026-02-20T12:58:31.903Z</data>
+      <data key="d4">Ce samedi 21 février, alors que des milliers de néonazis venant de toute l'Europe défileront en toute légalité dans Lyon, on aura une pensée…</data>
+      <data key="d5">621</data>
+      <data key="d6">309</data>
+      <data key="d7">14</data>
+      <data key="d8">1</data>
+      <data key="d9">False</data>
+      <data key="d10">True</data>
+      <data key="d11">0.2</data>
+      <data key="d12">0.53</data>
+      <data key="d13">["néonazis", "défilé", "Lyon", "résistant", "juif", "communiste"]</data>
+      <data key="d14">["Lyon", "Alter Mojsze Goldman", "FTP-MOI", "Europe"]</data>
+      <data key="d15">["Des milliers de néonazis défileront à Lyon le 21 février.", "Alter Mojsze Goldman était un résistant juif et communiste.", "Alter Mojsze Goldman était à la tête du groupe lyonnais FTP-MOI."]</data>
+    </node>
+    <node id="at://did:plc:smyamtbmvzxl7obpxh3fzmhj/app.bsky.feed.post/3mfemcltqfs22">
+      <data key="d0">at://did:plc:smyamtbmvzxl7obpxh3fzmhj/app.bsky.feed.post/3mfemcltqfs22</data>
+      <data key="d1">solidaires69.bsky.social</data>
+      <data key="d2">did:plc:smyamtbmvzxl7obpxh3fzmhj</data>
+      <data key="d3">2026-02-21T12:20:44.185Z</data>
+      <data key="d4">Communiqué du collectif Fermons les locaux fascistes dont Solidaires Rhône est membre, sur la situation à Lyon vis à vis de l'extrême droite</data>
+      <data key="d5">111</data>
+      <data key="d6">61</data>
+      <data key="d7">5</data>
+      <data key="d8">1</data>
+      <data key="d9">False</data>
+      <data key="d10">False</data>
+      <data key="d11">0.2</data>
+      <data key="d12">0.405</data>
+      <data key="d13">[]</data>
+    </node>
+    <node id="at://did:plc:xoywspomddm3u4jkadnl5ed6/app.bsky.feed.post/3mfc7ntzd7c2m">
+      <data key="d0">at://did:plc:xoywspomddm3u4jkadnl5ed6/app.bsky.feed.post/3mfc7ntzd7c2m</data>
+      <data key="d1">ricardoparreira.com</data>
+      <data key="d2">did:plc:xoywspomddm3u4jkadnl5ed6</data>
+      <data key="d3">2026-02-20T13:29:03.736Z</data>
+      <data key="d4">Ces néonazis sont bien à l’aise.
+
+Et ils auront la police pour les protéger. Elle est belle, la démocratie.
+
+La liberté (d’expression) d’êtr…</data>
+      <data key="d5">225</data>
+      <data key="d6">99</data>
+      <data key="d7">11</data>
+      <data key="d8">1</data>
+      <data key="d9">False</data>
+      <data key="d10">True</data>
+      <data key="d11">0.7</data>
+      <data key="d12">0.449</data>
+      <data key="d13">[]</data>
+    </node>
+    <node id="at://did:plc:h7aaqh3rdzxn4u5nxojpglch/app.bsky.feed.post/3mfcyuzdroc24">
+      <data key="d0">at://did:plc:h7aaqh3rdzxn4u5nxojpglch/app.bsky.feed.post/3mfcyuzdroc24</data>
+      <data key="d1">matthieusuc.bsky.social</data>
+      <data key="d2">did:plc:h7aaqh3rdzxn4u5nxojpglch</data>
+      <data key="d3">2026-02-20T21:00:27.748Z</data>
+      <data key="d4">ALERTE PERCÉE CONCEPTUELLE : Derrière la marche en hommage à Quentin Deranque, le groupuscule néofasciste Lyon Populaire, supposé dissous...…</data>
+      <data key="d5">85</data>
+      <data key="d6">45</data>
+      <data key="d7">2</data>
+      <data key="d8">1</data>
+      <data key="d9">False</data>
+      <data key="d10">False</data>
+      <data key="d11">0.2</data>
+      <data key="d12">0.382</data>
+      <data key="d13">[]</data>
+    </node>
+    <node id="at://did:plc:mgpekbbv6q3i6jdwhtr4l36d/app.bsky.feed.post/3mfeqol4sk22g">
+      <data key="d0">at://did:plc:mgpekbbv6q3i6jdwhtr4l36d/app.bsky.feed.post/3mfeqol4sk22g</data>
+      <data key="d1">mmompontet.bsky.social</data>
+      <data key="d2">did:plc:mgpekbbv6q3i6jdwhtr4l36d</data>
+      <data key="d3">2026-02-21T13:39:01.046Z</data>
+      <data key="d4">Quel symbole ! Tandis que ce 21 février à Lyon on laisse défiler impunément des racailles néonazis, se souvenir que c'était aussi un 21 févr…</data>
+      <data key="d5">298</data>
+      <data key="d6">186</data>
+      <data key="d7">9</data>
+      <data key="d8">1</data>
+      <data key="d9">False</data>
+      <data key="d10">False</data>
+      <data key="d11">0.2</data>
+      <data key="d12">0.485</data>
+      <data key="d13">[]</data>
+    </node>
+    <node id="at://did:plc:omtqqkwusnfvxos7pxvl4fgo/app.bsky.feed.post/3mfacctrbfs2e">
+      <data key="d0">at://did:plc:omtqqkwusnfvxos7pxvl4fgo/app.bsky.feed.post/3mfacctrbfs2e</data>
+      <data key="d1">blast-info.fr</data>
+      <data key="d2">did:plc:omtqqkwusnfvxos7pxvl4fgo</data>
+      <data key="d3">2026-02-19T19:11:16.124Z</data>
+      <data key="d4">Mort de Quentin à Lyon : contre-enquête au cœur d’une ville gangrénée par la violence d’extrême-droite</data>
+      <data key="d5">278</data>
+      <data key="d6">197</data>
+      <data key="d7">12</data>
+      <data key="d8">1</data>
+      <data key="d9">False</data>
+      <data key="d10">False</data>
+      <data key="d11">0.7</data>
+      <data key="d12">0.486</data>
+      <data key="d13">["Mort", "Quentin", "Lyon", "Contre-enquête", "Violence", "Extrême-droite"]</data>
+      <data key="d14">["Quentin", "Lyon"]</data>
+      <data key="d15">["Quentin est mort à Lyon.", "Une contre-enquête est menée à Lyon.", "Lyon est gangrénée par la violence d'extrême-droite."]</data>
+    </node>
+    <node id="at://did:plc:fyn5u4oplkkqv557z52wpmpy/app.bsky.feed.post/3mfbnt3cisc2k">
+      <data key="d0">at://did:plc:fyn5u4oplkkqv557z52wpmpy/app.bsky.feed.post/3mfbnt3cisc2k</data>
+      <data key="d1">jslnrbd.bsky.social</data>
+      <data key="d2">did:plc:fyn5u4oplkkqv557z52wpmpy</data>
+      <data key="d3">2026-02-20T08:09:51.793Z</data>
+      <data key="d4">L’union des droites on va appeler ça le Rassemblement National Socialiste…</data>
+      <data key="d5">222</data>
+      <data key="d6">56</data>
+      <data key="d7">36</data>
+      <data key="d8">1</data>
+      <data key="d9">False</data>
+      <data key="d10">False</data>
+      <data key="d11">0.2</data>
+      <data key="d12">0.435</data>
+      <data key="d13">[]</data>
+    </node>
+    <node id="at://did:plc:akyr42wq6jadj4m4kbnkhspf/app.bsky.feed.post/3mfeca4xhcc2g">
+      <data key="d0">at://did:plc:akyr42wq6jadj4m4kbnkhspf/app.bsky.feed.post/3mfeca4xhcc2g</data>
+      <data key="d1">thenest.bsky.social</data>
+      <data key="d2">did:plc:akyr42wq6jadj4m4kbnkhspf</data>
+      <data key="d3">2026-02-21T09:20:24.054Z</data>
+      <data key="d4">Faites attention si vous êtes à Rennes Brest Saint Brieuc Quimperlé, Nantes, Lille.
+Lyon n'est pas la seule concernée par l'invasion fascist…</data>
+      <data key="d5">216</data>
+      <data key="d6">79</data>
+      <data key="d7">25</data>
+      <data key="d8">1</data>
+      <data key="d9">False</data>
+      <data key="d10">False</data>
+      <data key="d11">0.2</data>
+      <data key="d12">0.442</data>
+      <data key="d13">[]</data>
+    </node>
+    <node id="at://did:plc:tytyo7jhiuo5gnd6tq6pwyif/app.bsky.feed.post/3mfeq4rfl4s2a">
+      <data key="d0">at://did:plc:tytyo7jhiuo5gnd6tq6pwyif/app.bsky.feed.post/3mfeq4rfl4s2a</data>
+      <data key="d1">panettonepazzo.bsky.social</data>
+      <data key="d2">did:plc:tytyo7jhiuo5gnd6tq6pwyif</data>
+      <data key="d3">2026-02-21T13:29:03.652Z</data>
+      <data key="d4">La fascisme ne s’installe pas ex-nihilo.
+Il a besoin de soutiens, de relais, de complaisances, de collaboration active, de compromissions.
+P…</data>
+      <data key="d5">800</data>
+      <data key="d6">413</data>
+      <data key="d7">59</data>
+      <data key="d8">1</data>
+      <data key="d9">False</data>
+      <data key="d10">False</data>
+      <data key="d11">0.2</data>
+      <data key="d12">0.553</data>
+      <data key="d13">["fascisme", "soutiens", "relais", "collaboration", "compromissions", "normalisation"]</data>
+      <data key="d14">["Région", "Lyon"]</data>
+      <data key="d15">["Le fascisme a besoin de soutiens, de relais, de complaisances, de collaboration active et de compromissions pour s'installer et prospérer.", "L'action de la Région à Lyon est un exemple de normalisation du fascisme."]</data>
+    </node>
+    <node id="at://did:plc:evxarlbhxnctuonzh3ms2vn7/app.bsky.feed.post/3mfe5ps3etc2u">
+      <data key="d0">at://did:plc:evxarlbhxnctuonzh3ms2vn7/app.bsky.feed.post/3mfe5ps3etc2u</data>
+      <data key="d1">cecileblanchard.bsky.social</data>
+      <data key="d2">did:plc:evxarlbhxnctuonzh3ms2vn7</data>
+      <data key="d3">2026-02-21T07:59:40.805Z</data>
+      <data key="d4">"Depuis l’annonce de la mort du jeune militant nationaliste à Lyon, le garde des Sceaux a multiplié les déclarations intempestives, au mépri…</data>
+      <data key="d5">8</data>
+      <data key="d6">5</data>
+      <data key="d7">0</data>
+      <data key="d8">2</data>
+      <data key="d9">False</data>
+      <data key="d10">False</data>
+      <data key="d11">0.2</data>
+      <data key="d12">0.214</data>
+      <data key="d13">[]</data>
+    </node>
+    <node id="at://did:plc:frhtlnejrsyxb6g4cwr7ge3w/app.bsky.feed.post/3mfcx5qda222l">
+      <data key="d0">at://did:plc:frhtlnejrsyxb6g4cwr7ge3w/app.bsky.feed.post/3mfcx5qda222l</data>
+      <data key="d1">anttonrouget.bsky.social</data>
+      <data key="d2">did:plc:frhtlnejrsyxb6g4cwr7ge3w</data>
+      <data key="d3">2026-02-20T20:29:32.785Z</data>
+      <data key="d4">Qui est ce «Vincent, ami de #Quentin», mis en avant pour la manifestation de samedi ? 
+
+Un membre de Lyon Populaire - groupe dissous en 2025…</data>
+      <data key="d5">919</data>
+      <data key="d6">579</data>
+      <data key="d7">42</data>
+      <data key="d8">2</data>
+      <data key="d9">False</data>
+      <data key="d10">False</data>
+      <data key="d11">0.2</data>
+      <data key="d12">0.572</data>
+      <data key="d13">["Vincent", "Quentin", "manifestation", "Lyon Populaire", "nazisme", "députée RN"]</data>
+      <data key="d14">["Vincent", "Quentin", "Lyon Populaire", "Mediapart", "RN"]</data>
+      <data key="d15">["Vincent, ami de Quentin, est mis en avant pour la manifestation de samedi.", "Vincent est un membre de Lyon Populaire, groupe dissous en 2025 pour son exaltation du nazisme.", "Vincent travaille pour une députée RN."]</data>
+    </node>
+    <node id="at://did:plc:x6iwiot43norkasv6mnxvfgs/app.bsky.feed.post/3mfcghtwn3s2y">
+      <data key="d0">at://did:plc:x6iwiot43norkasv6mnxvfgs/app.bsky.feed.post/3mfcghtwn3s2y</data>
+      <data key="d1">cedricmas.bsky.social</data>
+      <data key="d2">did:plc:x6iwiot43norkasv6mnxvfgs</data>
+      <data key="d3">2026-02-20T15:30:58.515Z</data>
+      <data key="d4">Hommage à Quentin : Ne venez pas comme vous êtes d'habitude... cachez vos sigles, tatouages et symboles...
+
+"Soyez le moins néonazi possible…</data>
+      <data key="d5">434</data>
+      <data key="d6">167</data>
+      <data key="d7">15</data>
+      <data key="d8">3</data>
+      <data key="d9">False</data>
+      <data key="d10">False</data>
+      <data key="d11">0.2</data>
+      <data key="d12">0.493</data>
+      <data key="d13">["hommage", "néonazi", "taqiya", "sigles", "tatouages", "symboles"]</data>
+      <data key="d14">["Quentin"]</data>
+      <data key="d15">["Le post fait référence à un hommage à Quentin.", "Le post cite une instruction demandant de cacher les sigles, tatouages et symboles.", "Le post cite une instruction demandant d'être le moins néonazi possible sur les images."]</data>
+    </node>
+    <node id="at://did:plc:ew7owxcivlwt7k52dg6mt3o2/app.bsky.feed.post/3mfcf2wasl22u">
+      <data key="d0">at://did:plc:ew7owxcivlwt7k52dg6mt3o2/app.bsky.feed.post/3mfcf2wasl22u</data>
+      <data key="d1">mrnawak.bsky.social</data>
+      <data key="d2">did:plc:ew7owxcivlwt7k52dg6mt3o2</data>
+      <data key="d3">2026-02-20T15:05:50.996Z</data>
+      <data key="d4">Reprise du post avec l'image et son ALT :
+Consignes néo nazies pour samedi. Ces gens ont peur d’eux-mêmes.</data>
+      <data key="d5">30</data>
+      <data key="d6">15</data>
+      <data key="d7">2</data>
+      <data key="d8">4</data>
+      <data key="d9">False</data>
+      <data key="d10">False</data>
+      <data key="d11">0.2</data>
+      <data key="d12">0.303</data>
+      <data key="d13">[]</data>
+    </node>
+    <node id="at://did:plc:ew7owxcivlwt7k52dg6mt3o2/app.bsky.feed.post/3mfbt6yy3nc2u">
+      <data key="d0">at://did:plc:ew7owxcivlwt7k52dg6mt3o2/app.bsky.feed.post/3mfbt6yy3nc2u</data>
+      <data key="d1">mrnawak.bsky.social</data>
+      <data key="d2">did:plc:ew7owxcivlwt7k52dg6mt3o2</data>
+      <data key="d3">2026-02-20T09:46:00.721Z</data>
+      <data key="d4">Reprise du post, et son image avec le ALT :
+ça donne ce genre de consignes, comme ça, full premier degré, mais tkt les fachos c'est la gauch…</data>
+      <data key="d5">64</data>
+      <data key="d6">37</data>
+      <data key="d7">10</data>
+      <data key="d8">4</data>
+      <data key="d9">False</data>
+      <data key="d10">False</data>
+      <data key="d11">0.2</data>
+      <data key="d12">0.37</data>
+      <data key="d13">[]</data>
+    </node>
+    <node id="at://did:plc:yhai2lodxljiaof5xww7hpkf/app.bsky.feed.post/3mf6w4dxmgx23">
+      <data key="d0">at://did:plc:yhai2lodxljiaof5xww7hpkf/app.bsky.feed.post/3mf6w4dxmgx23</data>
+      <data key="d1">revolutionpermanente.fr</data>
+      <data key="d2">did:plc:yhai2lodxljiaof5xww7hpkf</data>
+      <data key="d3">2026-02-19T06:00:12.606Z</data>
+      <data key="d4">⚫️ Mort de Quentin : c’est l’extrême droite qui a tendu une embuscade aux antifascistes
+
+Une enquête du média Contre Attaque, confirmée par …</data>
+      <data key="d5">48</data>
+      <data key="d6">31</data>
+      <data key="d7">1</data>
+      <data key="d8">2</data>
+      <data key="d9">False</data>
+      <data key="d10">False</data>
+      <data key="d11">0.7</data>
+      <data key="d12">0.348</data>
+      <data key="d13">[]</data>
+    </node>
+    <node id="at://did:plc:3sur65jk7flosjvu724yvqwd/app.bsky.feed.post/3mf7w4yf6cc2g">
+      <data key="d0">at://did:plc:3sur65jk7flosjvu724yvqwd/app.bsky.feed.post/3mf7w4yf6cc2g</data>
+      <data key="d1">greubelinux.bsky.social</data>
+      <data key="d2">did:plc:3sur65jk7flosjvu724yvqwd</data>
+      <data key="d3">2026-02-19T15:33:14.741Z</data>
+      <data key="d4">⚫️ Mort de Quentin : c’est l’extrême droite qui a tendu une embuscade aux antifascistes
+
+Une enquête du média Contre Attaque, confirmée par …</data>
+      <data key="d5">16</data>
+      <data key="d6">14</data>
+      <data key="d7">0</data>
+      <data key="d8">2</data>
+      <data key="d9">False</data>
+      <data key="d10">False</data>
+      <data key="d11">0.2</data>
+      <data key="d12">0.281</data>
+      <data key="d13">[]</data>
+    </node>
+    <node id="at://did:plc:omtqqkwusnfvxos7pxvl4fgo/app.bsky.feed.post/3mfabxws4rk2e">
+      <data key="d0">at://did:plc:omtqqkwusnfvxos7pxvl4fgo/app.bsky.feed.post/3mfabxws4rk2e</data>
+      <data key="d1">blast-info.fr</data>
+      <data key="d2">did:plc:omtqqkwusnfvxos7pxvl4fgo</data>
+      <data key="d3">2026-02-19T19:05:10.197Z</data>
+      <data key="d4">Pour Blast, Elian Delacôte, journaliste à @rue89lyon.fr, nous éclaire sur l'ancrage de l'extrême droite radicale à Lyon, qui s'est illustrée…</data>
+      <data key="d5">84</data>
+      <data key="d6">40</data>
+      <data key="d7">3</data>
+      <data key="d8">2</data>
+      <data key="d9">False</data>
+      <data key="d10">False</data>
+      <data key="d11">0.7</data>
+      <data key="d12">0.377</data>
+      <data key="d13">[]</data>
+    </node>
+    <node id="at://did:plc:7igznywwdqkarznjtm73lmjc/app.bsky.feed.post/3mf5l2q3b6k2l">
+      <data key="d0">at://did:plc:7igznywwdqkarznjtm73lmjc/app.bsky.feed.post/3mf5l2q3b6k2l</data>
+      <data key="d1">gfoa-w.bsky.social</data>
+      <data key="d2">did:plc:7igznywwdqkarznjtm73lmjc</data>
+      <data key="d3">2026-02-18T17:09:48.281Z</data>
+      <data key="d4">Vor knapp einer Woche starb der junge Rechtsextremist #Quentin #Deranque nach einer Auseinandersetzung mit Linken. 
+
+Neonazis, Identitäre un…</data>
+      <data key="d5">8</data>
+      <data key="d6">2</data>
+      <data key="d7">1</data>
+      <data key="d8">2</data>
+      <data key="d9">False</data>
+      <data key="d10">False</data>
+      <data key="d11">0.2</data>
+      <data key="d12">0.186</data>
+      <data key="d13">[]</data>
+    </node>
+    <edge source="at://did:plc:rtbuijtxr7u3vh2rvja3rgid/app.bsky.feed.post/3mfc5xb2dp22z" target="at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z">
+      <data key="d16">0.6579</data>
+      <data key="d17">["La date précise du défilé (samedi 21 février)", "Le nombre de participants (milliers)", "La provenance des participants (toute l'Europe)", "La légalité du défilé", "La référence à Alter Mojsze Goldman, résistant juif et communiste, et son rôle dans le FTP-MOI lyonnais"]</data>
+      <data key="d18">["La mention d'un journaliste de BFM sur place", "Le fait que les participants essaient de masquer leur appartenance", "L'observation de croix gammées par le journaliste", "L'affirmation que le journaliste qualifie les participants de néonazis"]</data>
+      <data key="d19">0.6</data>
+      <data key="d20">more_partisan</data>
+      <data key="d21">False</data>
+      <data key="d22">2026-02-22T09:46:36.062500</data>
+    </edge>
+    <edge source="at://did:plc:xoywspomddm3u4jkadnl5ed6/app.bsky.feed.post/3mfc7ntzd7c2m" target="at://did:plc:x6iwiot43norkasv6mnxvfgs/app.bsky.feed.post/3mfcghtwn3s2y">
+      <data key="d16">0.3935</data>
+      <data key="d17">["La mention explicite de la police protégeant les néonazis.", "La critique de la démocratie et de la liberté d'expression comme permettant le racisme.", "L'affirmation que le projet politique des néonazis est de revenir à l'inégalité naturelle."]</data>
+      <data key="d18">["La référence à un 'Hommage à Quentin'.", "L'instruction 'Ne venez pas comme vous êtes d'habitude... cachez vos sigles, tatouages et symboles...'.", "La citation 'Soyez le moins néonazi possible sur les images. Faites un effort on y est presque, c'est pas le moment de flancher'.", "Le terme 'Taqiya' pour décrire le comportement des personnes mentionnées."]</data>
+      <data key="d19">0.7</data>
+      <data key="d20">more_partisan</data>
+      <data key="d21">False</data>
+      <data key="d22">2026-02-22T09:46:26.517645</data>
+    </edge>
+    <edge source="at://did:plc:omtqqkwusnfvxos7pxvl4fgo/app.bsky.feed.post/3mfacctrbfs2e" target="at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z">
+      <data key="d16">0.4956</data>
+      <data key="d17">["Le décès de Quentin à Lyon comme événement central", "La notion de 'contre-enquête'", "L'affirmation que Lyon est 'gangrénée par la violence d'extrême-droite'"]</data>
+      <data key="d18">["La présence d'un journaliste de BFM sur place", "Le fait que le journaliste répète des informations", "L'observation par le journaliste de tentatives de masquer l'appartenance des participants", "L'observation par le journaliste de 'croix gammées etc.'", "L'affirmation par le journaliste que les participants sont des 'néonazis'", "L'expression d'un 'bravo' au journaliste"]</data>
+      <data key="d19">0.7</data>
+      <data key="d20">more_partisan</data>
+      <data key="d21">False</data>
+      <data key="d22">2026-02-22T09:47:20.995948</data>
+    </edge>
+    <edge source="at://did:plc:tytyo7jhiuo5gnd6tq6pwyif/app.bsky.feed.post/3mfeq4rfl4s2a" target="at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z">
+      <data key="d16">0.3971</data>
+      <data key="d17">["L'analyse générale sur la normalisation du fascisme et les conditions de son installation (soutiens, relais, complaisances, collaboration active, compromissions).", "La référence spécifique à l'action de la Région à Lyon comme un exemple 'chimiquement pur' de ce processus."]</data>
+      <data key="d18">["La mention d'un journaliste de BFM TV sur place.", "Le fait que ce journaliste répète que les participants au rassemblement de Lyon essaient de masquer leur appartenance.", "L'observation par le journaliste de 'croix gammées etc'.", "L'affirmation du journaliste que les participants sont des 'néonazis'."]</data>
+      <data key="d19">0.8</data>
+      <data key="d20">more_partisan</data>
+      <data key="d21">False</data>
+      <data key="d22">2026-02-22T09:44:13.487917</data>
+    </edge>
+    <edge source="at://did:plc:evxarlbhxnctuonzh3ms2vn7/app.bsky.feed.post/3mfe5ps3etc2u" target="at://did:plc:tytyo7jhiuo5gnd6tq6pwyif/app.bsky.feed.post/3mfeq4rfl4s2a">
+      <data key="d16">0.3875</data>
+      <data key="d17">["L'identité du ministre mis en cause (garde des Sceaux)", "La nature des déclarations (intempestives, au mépris des principes juridiques)", "Le lien avec la mort d'un jeune militant nationaliste à Lyon", "La référence à un article de Libération"]</data>
+      <data key="d18">["Le concept de l'installation du fascisme (ex-nihilo, soutiens, relais, complaisances, collaboration active, compromissions)", "L'idée de normalisation et de prospérité du fascisme", "L'accusation directe que la Région à Lyon est un exemple 'chimiquement pur' de ce processus"]</data>
+      <data key="d19">0.9</data>
+      <data key="d20">more_partisan</data>
+      <data key="d21">False</data>
+      <data key="d22">2026-02-22T09:46:33.637287</data>
+    </edge>
+    <edge source="at://did:plc:frhtlnejrsyxb6g4cwr7ge3w/app.bsky.feed.post/3mfcx5qda222l" target="at://did:plc:tytyo7jhiuo5gnd6tq6pwyif/app.bsky.feed.post/3mfeq4rfl4s2a">
+      <data key="d16">0.3708</data>
+      <data key="d17">["L'identité spécifique de 'Vincent, ami de Quentin' (membre de Lyon Populaire, groupe dissous pour exaltation du nazisme, et travaillant pour une députée RN).", "La référence à la manifestation de samedi.", "La source spécifique de l'information (Mediapart)."]</data>
+      <data key="d18">["Une généralisation sur la manière dont le fascisme s'installe (besoin de soutiens, relais, complaisances, collaboration active, compromissions).", "L'affirmation que 'Ce que fait la Région à Lyon en est un exemple chimiquement pur'."]</data>
+      <data key="d19">0.8</data>
+      <data key="d20">more_alarmist</data>
+      <data key="d21">False</data>
+      <data key="d22">2026-02-22T09:44:58.860748</data>
+    </edge>
+    <edge source="at://did:plc:x6iwiot43norkasv6mnxvfgs/app.bsky.feed.post/3mfcghtwn3s2y" target="at://did:plc:frhtlnejrsyxb6g4cwr7ge3w/app.bsky.feed.post/3mfcx5qda222l">
+      <data key="d16">0.4833</data>
+      <data key="d17">["L'appel à cacher les sigles, tatouages et symboles lors de l'hommage à Quentin.", "La citation ironique : \"Soyez le moins néonazi possible sur les images. Faites un effort on y est presque, c'est pas le moment de flancher\".", "La mention du 'niveau de Taqiya' de ces gens."]</data>
+      <data key="d18">["L'identification de «Vincent, ami de #Quentin» comme un membre de Lyon Populaire.", "L'information que Lyon Populaire a été dissous en 2025 pour son exaltation du nazisme.", "L'information que Vincent travaille pour une députée RN.", "La référence à Mediapart comme source de l'information sur Vincent.", "Le lien vers l'article de Mediapart."]</data>
+      <data key="d19">0.6</data>
+      <data key="d20">more_partisan</data>
+      <data key="d21">False</data>
+      <data key="d22">2026-02-22T09:45:39.023503</data>
+    </edge>
+    <edge source="at://did:plc:ew7owxcivlwt7k52dg6mt3o2/app.bsky.feed.post/3mfcf2wasl22u" target="at://did:plc:x6iwiot43norkasv6mnxvfgs/app.bsky.feed.post/3mfcghtwn3s2y">
+      <data key="d16">0.5204</data>
+      <data key="d17">["L'image et son texte ALT qui accompagnaient le post original de @mrnawak.bsky.social."]</data>
+      <data key="d18">["La mention explicite de 'Hommage à Quentin'.", "La citation directe des consignes : 'Ne venez pas comme vous êtes d'habitude... cachez vos sigles, tatouages et symboles...' et 'Soyez le moins néonazi possible sur les images. Faites un effort on y est presque, c'est pas le moment de flancher'.", "L'interprétation de ces consignes comme du 'Taqiya'."]</data>
+      <data key="d19">0.4</data>
+      <data key="d20">more_partisan</data>
+      <data key="d21">False</data>
+      <data key="d22">2026-02-22T09:46:31.359089</data>
+    </edge>
+    <edge source="at://did:plc:ew7owxcivlwt7k52dg6mt3o2/app.bsky.feed.post/3mfbt6yy3nc2u" target="at://did:plc:x6iwiot43norkasv6mnxvfgs/app.bsky.feed.post/3mfcghtwn3s2y">
+      <data key="d16">0.3814</data>
+      <data key="d17">["Le fait que les consignes sont présentées comme 'full premier degré' dans ti-1, ce qui est une interprétation de l'auteur de ti-1."]</data>
+      <data key="d18">["La mention 'Hommage à Quentin'", "La citation 'Soyez le moins néonazi possible sur les images. Faites un effort on y est presque, c'est pas le moment de flancher'", "L'expression 'Le niveau de Taqiya de ces gens.'"]</data>
+      <data key="d19">0.6</data>
+      <data key="d20">more_partisan</data>
+      <data key="d21">False</data>
+      <data key="d22">2026-02-22T09:46:29.069845</data>
+    </edge>
+    <edge source="at://did:plc:yhai2lodxljiaof5xww7hpkf/app.bsky.feed.post/3mf6w4dxmgx23" target="at://did:plc:omtqqkwusnfvxos7pxvl4fgo/app.bsky.feed.post/3mfacctrbfs2e">
+      <data key="d16">0.6631</data>
+      <data key="d17">["L'affirmation spécifique que 'c'est l'extrême droite qui a tendu une embuscade aux antifascistes'.", "La mention d'une enquête du média Contre Attaque.", "La confirmation de cette enquête par Le Canard enchaîné.", "Le détail que l'affrontement a été initié par un groupe d'une quinzaine de néofascistes."]</data>
+      <data key="d18">["L'expression 'contre-enquête'.", "La description de Lyon comme 'une ville gangrénée par la violence d'extrême-droite'."]</data>
+      <data key="d19">0.6</data>
+      <data key="d20">more_partisan</data>
+      <data key="d21">False</data>
+      <data key="d22">2026-02-22T09:48:20.656148</data>
+    </edge>
+    <edge source="at://did:plc:3sur65jk7flosjvu724yvqwd/app.bsky.feed.post/3mf7w4yf6cc2g" target="at://did:plc:omtqqkwusnfvxos7pxvl4fgo/app.bsky.feed.post/3mfacctrbfs2e">
+      <data key="d16">0.6558</data>
+      <data key="d17">["L'affirmation explicite que l'extrême droite a tendu une embuscade aux antifascistes.", "La mention des médias 'Contre Attaque' et 'Le Canard enchaîné' comme sources confirmant l'enquête.", "Le lien vers l'article de 'revolutionpermanente.fr'."]</data>
+      <data key="d18">["L'expression 'contre-enquête' suggérant une investigation approfondie ou une remise en question d'une version précédente.", "La caractérisation de Lyon comme 'une ville gangrénée par la violence d'extrême-droite'."]</data>
+      <data key="d19">0.6</data>
+      <data key="d20">more_partisan</data>
+      <data key="d21">False</data>
+      <data key="d22">2026-02-22T09:48:23.426522</data>
+    </edge>
+    <edge source="at://did:plc:omtqqkwusnfvxos7pxvl4fgo/app.bsky.feed.post/3mfabxws4rk2e" target="at://did:plc:omtqqkwusnfvxos7pxvl4fgo/app.bsky.feed.post/3mfacctrbfs2e">
+      <data key="d16">0.5696</data>
+      <data key="d17">["L'identité du journaliste (Elian Delacôte) et sa source (Rue89Lyon) qui éclairent sur l'ancrage de l'extrême droite radicale à Lyon.", "La mention que l'extrême droite s'est illustrée dans de nombreuses agressions 'ces dernières décennies', ce qui donne une perspective historique."]</data>
+      <data key="d18">["La mention spécifique de la 'Mort de Quentin à Lyon' comme sujet central de l'enquête.", "L'expression 'contre-enquête' pour décrire le travail journalistique.", "La caractérisation de Lyon comme 'une ville gangrénée par la violence d’extrême-droite'."]</data>
+      <data key="d19">0.6</data>
+      <data key="d20">more_alarmist</data>
+      <data key="d21">False</data>
+      <data key="d22">2026-02-22T09:48:17.863104</data>
+    </edge>
+  </graph>
+</graphml>

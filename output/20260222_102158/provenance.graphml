@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d22" for="edge" attr.name="analyzed_at" attr.type="string" />
+  <key id="d21" for="edge" attr.name="is_fact_check" attr.type="boolean" />
+  <key id="d20" for="edge" attr.name="tone_shift" attr.type="string" />
+  <key id="d19" for="edge" attr.name="distortion_score" attr.type="double" />
+  <key id="d18" for="edge" attr.name="info_added" attr.type="string" />
+  <key id="d17" for="edge" attr.name="info_lost" attr.type="string" />
+  <key id="d16" for="edge" attr.name="similarity_score" attr.type="double" />
+  <key id="d15" for="node" attr.name="claims" attr.type="string" />
+  <key id="d14" for="node" attr.name="entities" attr.type="string" />
+  <key id="d13" for="node" attr.name="keywords" attr.type="string" />
+  <key id="d12" for="node" attr.name="virality_score" attr.type="double" />
+  <key id="d11" for="node" attr.name="fiability_score" attr.type="double" />
+  <key id="d10" for="node" attr.name="is_primary" attr.type="boolean" />
+  <key id="d9" for="node" attr.name="is_root" attr.type="boolean" />
+  <key id="d8" for="node" attr.name="depth" attr.type="long" />
+  <key id="d7" for="node" attr.name="replies" attr.type="long" />
+  <key id="d6" for="node" attr.name="reposts" attr.type="long" />
+  <key id="d5" for="node" attr.name="likes" attr.type="long" />
+  <key id="d4" for="node" attr.name="text_preview" attr.type="string" />
+  <key id="d3" for="node" attr.name="date" attr.type="string" />
+  <key id="d2" for="node" attr.name="author_did" attr.type="string" />
+  <key id="d1" for="node" attr.name="author_handle" attr.type="string" />
+  <key id="d0" for="node" attr.name="uri" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z">
+      <data key="d0">at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z</data>
+      <data key="d1">mathieuhourdin.bsky.social</data>
+      <data key="d2">did:plc:jyszdkkd7q4ejj4mah36jgde</data>
+      <data key="d3">2026-02-21T14:35:04.993Z</data>
+      <data key="d4">Bravo au journaliste de bfm sur place, qui répète à chaque fois qu'il prend la parole que les participants au rassemblement de Lyon essaient…</data>
+      <data key="d5">425</data>
+      <data key="d6">123</data>
+      <data key="d7">12</data>
+      <data key="d8">0</data>
+      <data key="d9">True</data>
+      <data key="d10">False</data>
+      <data key="d11">0.2</data>
+      <data key="d12">0.48</data>
+      <data key="d13">["journaliste", "bfm", "rassemblement", "Lyon", "croix gammées", "néonazis"]</data>
+      <data key="d14">["bfm", "Lyon"]</data>
+      <data key="d15">["Le journaliste de bfm affirme que les participants au rassemblement de Lyon essaient de masquer leur appartenance.", "Le journaliste de bfm voit des croix gammées parmi les participants.", "Le journaliste de bfm qualifie les participants de néonazis."]</data>
+    </node>
+    <node id="at://did:plc:66gl2bn6tpnq374x33nh66t2/app.bsky.feed.post/3mfetpt2zfk25">
+      <data key="d0">at://did:plc:66gl2bn6tpnq374x33nh66t2/app.bsky.feed.post/3mfetpt2zfk25</data>
+      <data key="d1">fabulousfab.bsky.social</data>
+      <data key="d2">did:plc:66gl2bn6tpnq374x33nh66t2</data>
+      <data key="d3">2026-02-21T14:33:24.165Z</data>
+      <data key="d4">Manif de Lyon : on vient de passer de Francetv infos à BFM tant la couverture de FranceInfos était pathétique. pas un mot sur le pédigrée de…</data>
+      <data key="d5">14</data>
+      <data key="d6">6</data>
+      <data key="d7">1</data>
+      <data key="d8">1</data>
+      <data key="d9">False</data>
+      <data key="d10">False</data>
+      <data key="d11">0.2</data>
+      <data key="d12">0.241</data>
+      <data key="d13">[]</data>
+    </node>
+    <edge source="at://did:plc:66gl2bn6tpnq374x33nh66t2/app.bsky.feed.post/3mfetpt2zfk25" target="at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z">
+      <data key="d16">0.7036</data>
+      <data key="d17">["La critique de la couverture de FranceInfo jugée 'pathétique' par l'utilisateur de ti-1.", "L'absence de mention du 'pédigrée de l'organisatrice' dans la couverture de FranceInfo.", "La description des participants masqués, en lunettes noires, doudounes noires, bérets noirs."]</data>
+      <data key="d18">["L'éloge du journaliste de BFM pour sa couverture.", "La mention explicite que le journaliste de BFM répète que les participants essaient de masquer leur appartenance.", "L'affirmation que le journaliste de BFM voit des 'croix gammées' et qualifie les participants de 'néonazis'."]</data>
+      <data key="d19">0.7</data>
+      <data key="d20">more_partisan</data>
+      <data key="d21">False</data>
+      <data key="d22">2026-02-22T10:22:30.033277</data>
+    </edge>
+  </graph>
+</graphml>

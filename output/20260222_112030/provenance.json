@@ -1,0 +1,303 @@
+{
+  "meta": {
+    "built_at": "2026-02-22T11:20:30.407782",
+    "node_count": 6,
+    "edge_count": 5,
+    "max_depth": 4,
+    "global_distortion": 0.978,
+    "primary_source_ids": [
+      "at://did:plc:fzrirjjqh2bbvmi5crwucd4o/app.bsky.feed.post/3mfepd6vatc2y",
+      "at://did:plc:n2ne6buxjl3ve323cu2j7edz/app.bsky.feed.post/3mfcgiy5usc2o"
+    ]
+  },
+  "nodes": [
+    {
+      "id": "at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z",
+      "uri": "at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z",
+      "author_handle": "mathieuhourdin.bsky.social",
+      "author_did": "did:plc:jyszdkkd7q4ejj4mah36jgde",
+      "date": "2026-02-21T14:35:04.993Z",
+      "text_preview": "Bravo au journaliste de bfm sur place, qui répète à chaque fois qu'il prend la parole que les participants au rassemblement de Lyon essaient…",
+      "likes": 432,
+      "reposts": 127,
+      "replies": 12,
+      "depth": 0,
+      "is_root": true,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.482,
+      "keywords": [
+        "journaliste",
+        "bfm",
+        "rassemblement",
+        "Lyon",
+        "croix gammées",
+        "néonazis"
+      ],
+      "entities": [
+        "bfm",
+        "Lyon"
+      ],
+      "claims": [
+        "Le journaliste de bfm affirme que les participants au rassemblement de Lyon essaient de masquer leur appartenance.",
+        "Le journaliste de bfm voit des croix gammées parmi les participants.",
+        "Le journaliste de bfm qualifie les participants de néonazis."
+      ]
+    },
+    {
+      "id": "at://did:plc:66gl2bn6tpnq374x33nh66t2/app.bsky.feed.post/3mfetpt2zfk25",
+      "uri": "at://did:plc:66gl2bn6tpnq374x33nh66t2/app.bsky.feed.post/3mfetpt2zfk25",
+      "author_handle": "fabulousfab.bsky.social",
+      "author_did": "did:plc:66gl2bn6tpnq374x33nh66t2",
+      "date": "2026-02-21T14:33:24.165Z",
+      "text_preview": "Manif de Lyon : on vient de passer de Francetv infos à BFM tant la couverture de FranceInfos était pathétique. pas un mot sur le pédigrée de…",
+      "likes": 14,
+      "reposts": 6,
+      "replies": 1,
+      "depth": 1,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.241,
+      "keywords": [
+        "manif",
+        "Lyon",
+        "couverture",
+        "médias",
+        "rassemblement",
+        "organisatrice"
+      ],
+      "entities": [
+        "Lyon",
+        "Francetv infos",
+        "BFM",
+        "FranceInfos"
+      ],
+      "claims": [
+        "La couverture de FranceInfos sur la manif de Lyon est jugée pathétique.",
+        "FranceInfos n'a pas mentionné le pédigrée de l'organisatrice du rassemblement.",
+        "FranceInfos n'a pas mentionné la présence de types masqués et vêtus de noir."
+      ]
+    },
+    {
+      "id": "at://did:plc:fzrirjjqh2bbvmi5crwucd4o/app.bsky.feed.post/3mfepd6vatc2y",
+      "uri": "at://did:plc:fzrirjjqh2bbvmi5crwucd4o/app.bsky.feed.post/3mfepd6vatc2y",
+      "author_handle": "gouglov.bsky.social",
+      "author_did": "did:plc:fzrirjjqh2bbvmi5crwucd4o",
+      "date": "2026-02-21T13:14:45.386Z",
+      "text_preview": "Je suis à Lyon. Ne prenez pas le métro B voire même le D, surtout si vous faites partie d'une minorité. C'est vraiment infernal : les fachos…",
+      "likes": 356,
+      "reposts": 286,
+      "replies": 10,
+      "depth": 2,
+      "is_root": false,
+      "is_primary": true,
+      "fiability_score": 0.2,
+      "virality_score": 0.511,
+      "keywords": [
+        "Lyon",
+        "métro",
+        "agression",
+        "fachos",
+        "Primevère",
+        "tram"
+      ],
+      "entities": [
+        "Lyon",
+        "Métro B",
+        "Métro D",
+        "Jaurès",
+        "Primevère"
+      ],
+      "claims": [
+        "Le métro B et D à Lyon sont déconseillés, surtout pour les minorités.",
+        "Des personnes agressives sont présentes dans le métro et se regroupent à Jaurès.",
+        "Le tram est recommandé pour se rendre à Primevère afin de contourner la zone."
+      ]
+    },
+    {
+      "id": "at://did:plc:jgmbaxorgcfqlv2xuxmcdbfh/app.bsky.feed.post/3mfeaezlav222",
+      "uri": "at://did:plc:jgmbaxorgcfqlv2xuxmcdbfh/app.bsky.feed.post/3mfeaezlav222",
+      "author_handle": "pierrebat.cpesr.fr",
+      "author_did": "did:plc:jgmbaxorgcfqlv2xuxmcdbfh",
+      "date": "2026-02-21T08:47:20.678Z",
+      "text_preview": "Donc aujourd'hui, on va autoriser une manif de nazis dont le point d'arrivée se trouve à moins de 200 mètres du centre opérationnel de la Ge…",
+      "likes": 138,
+      "reposts": 69,
+      "replies": 12,
+      "depth": 2,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.7,
+      "virality_score": 0.419,
+      "keywords": [
+        "manifestation",
+        "nazis",
+        "Lyon",
+        "Gestapo",
+        "torture",
+        "mises à mort"
+      ],
+      "entities": [
+        "Gestapo",
+        "Lyon",
+        "MSH"
+      ],
+      "claims": [
+        "Une manifestation de nazis est autorisée à Lyon.",
+        "Le point d'arrivée de la manifestation est à moins de 200 mètres du centre opérationnel de la Gestapo à Lyon (la MSH).",
+        "La MSH était le lieu de tortures et de mises à mort."
+      ]
+    },
+    {
+      "id": "at://did:plc:wdg72jzh2bx7kuslzapb6eud/app.bsky.feed.post/3mfe76wujvk2z",
+      "uri": "at://did:plc:wdg72jzh2bx7kuslzapb6eud/app.bsky.feed.post/3mfe76wujvk2z",
+      "author_handle": "mathildelarrere.bsky.social",
+      "author_did": "did:plc:wdg72jzh2bx7kuslzapb6eud",
+      "date": "2026-02-21T08:26:02.883Z",
+      "text_preview": "Ils étaient \"20 et 3 étrangers et nos frères pourtant\"\n\nC'est aujourd'hui le triste anniversaire de l'exécution de 23 résistants, 23 antifas…",
+      "likes": 754,
+      "reposts": 414,
+      "replies": 13,
+      "depth": 3,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.549,
+      "keywords": [
+        "anniversaire",
+        "exécution",
+        "résistants",
+        "antifascistes",
+        "nazis",
+        "combat"
+      ],
+      "entities": [
+        "groupe Manouchian",
+        "Lyon"
+      ],
+      "claims": [
+        "23 résistants et antifascistes ont été exécutés.",
+        "Le groupe Manouchian est honoré.",
+        "Des héritiers de nazis défilent à Lyon."
+      ]
+    },
+    {
+      "id": "at://did:plc:n2ne6buxjl3ve323cu2j7edz/app.bsky.feed.post/3mfcgiy5usc2o",
+      "uri": "at://did:plc:n2ne6buxjl3ve323cu2j7edz/app.bsky.feed.post/3mfcgiy5usc2o",
+      "author_handle": "gdeleur.bsky.social",
+      "author_did": "did:plc:n2ne6buxjl3ve323cu2j7edz",
+      "date": "2026-02-20T15:31:36.501Z",
+      "text_preview": "La marche suprémaciste blanche des nénonazis partira demain de la place Jean-Jaurès à Lyon. Le cynisme atteint son climax.",
+      "likes": 594,
+      "reposts": 155,
+      "replies": 31,
+      "depth": 4,
+      "is_root": false,
+      "is_primary": true,
+      "fiability_score": 0.2,
+      "virality_score": 0.504,
+      "keywords": []
+    }
+  ],
+  "links": [
+    {
+      "source": "at://did:plc:66gl2bn6tpnq374x33nh66t2/app.bsky.feed.post/3mfetpt2zfk25",
+      "target": "at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z",
+      "similarity_score": 0.7036,
+      "info_lost": [
+        "La critique de la couverture de FranceInfo jugée 'pathétique' par l'utilisateur de ti-1.",
+        "L'absence de mention du 'pédigrée de l'organisatrice' dans la couverture de FranceInfo.",
+        "La description des participants masqués, en lunettes noires, doudounes noires, bérets noirs."
+      ],
+      "info_added": [
+        "L'éloge du journaliste de BFM pour sa couverture.",
+        "La mention explicite que le journaliste de BFM répète que les participants essaient de masquer leur appartenance.",
+        "L'affirmation que le journaliste de BFM voit des 'croix gammées' et qualifie les participants de 'néonazis'."
+      ],
+      "distortion_score": 0.7,
+      "tone_shift": "more_partisan",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T11:21:06.633604"
+    },
+    {
+      "source": "at://did:plc:fzrirjjqh2bbvmi5crwucd4o/app.bsky.feed.post/3mfepd6vatc2y",
+      "target": "at://did:plc:66gl2bn6tpnq374x33nh66t2/app.bsky.feed.post/3mfetpt2zfk25",
+      "similarity_score": 0.3729,
+      "info_lost": [
+        "La localisation spécifique des incidents (métro B, D, Jaurès)",
+        "La cible des agressions (minorités)",
+        "La nature des agresseurs (fachos)",
+        "Le conseil de privilégier le tram pour Primevère"
+      ],
+      "info_added": [
+        "La critique de la couverture médiatique de FranceInfo et BFM",
+        "La mention du 'pédigrée de l'organisatrice de ce rassemblement'",
+        "La description des participants masqués (lunettes noires, doudounes noires, bérets noirs)"
+      ],
+      "distortion_score": 0.8,
+      "tone_shift": "more_partisan",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T11:21:34.589897"
+    },
+    {
+      "source": "at://did:plc:jgmbaxorgcfqlv2xuxmcdbfh/app.bsky.feed.post/3mfeaezlav222",
+      "target": "at://did:plc:66gl2bn6tpnq374x33nh66t2/app.bsky.feed.post/3mfetpt2zfk25",
+      "similarity_score": 0.3209,
+      "info_lost": [
+        "La nature 'nazie' de la manifestation",
+        "La localisation spécifique du point d'arrivée de la manifestation (moins de 200 mètres du centre opérationnel de la Gestapo à Lyon, la MSH)",
+        "La référence aux tortures et mises à mort ayant eu lieu à la MSH",
+        "L'interrogation sur la prise de conscience de la situation"
+      ],
+      "info_added": [
+        "La comparaison de la couverture médiatique entre Francetv infos et BFM",
+        "La critique de la couverture de FranceInfos comme 'pathétique'",
+        "L'absence de mention du 'pédigrée de l'organisatrice'",
+        "La description des participants : 'types masqués, en lunettes noires, doudounes noires, bérets noirs...'"
+      ],
+      "distortion_score": 0.8,
+      "tone_shift": "more_partisan",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T11:22:11.072462"
+    },
+    {
+      "source": "at://did:plc:wdg72jzh2bx7kuslzapb6eud/app.bsky.feed.post/3mfe76wujvk2z",
+      "target": "at://did:plc:jgmbaxorgcfqlv2xuxmcdbfh/app.bsky.feed.post/3mfeaezlav222",
+      "similarity_score": 0.566,
+      "info_lost": [
+        "Le contexte de l'anniversaire de l'exécution du groupe Manouchian et des 23 résistants/antifascistes.",
+        "La citation \"20 et 3 étrangers et nos frères pourtant\"."
+      ],
+      "info_added": [
+        "La localisation précise du centre opérationnel de la Gestapo à Lyon (la MSH) et sa proximité avec le point d'arrivée de la manifestation.",
+        "La mention des tortures et mises à mort ayant eu lieu à la MSH."
+      ],
+      "distortion_score": 0.4,
+      "tone_shift": "more_alarmist",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T11:22:43.907505"
+    },
+    {
+      "source": "at://did:plc:n2ne6buxjl3ve323cu2j7edz/app.bsky.feed.post/3mfcgiy5usc2o",
+      "target": "at://did:plc:wdg72jzh2bx7kuslzapb6eud/app.bsky.feed.post/3mfe76wujvk2z",
+      "similarity_score": 0.3996,
+      "info_lost": [
+        "L'heure ou le moment précis du départ de la marche (demain)",
+        "La mention du 'cynisme atteint son climax'"
+      ],
+      "info_added": [
+        "La référence à la citation '20 et 3 étrangers et nos frères pourtant'",
+        "La date du 21 février comme anniversaire de l'exécution de 23 résistants/antifascistes",
+        "La mention du groupe Manouchian",
+        "L'hommage à ceux qui ont combattu les nazis",
+        "L'expression 'Honneur au groupe Manouchian' et 'Honneur à celle et ceux qui ont combattu les nazis'",
+        "La qualification des participants à la marche de Lyon comme 'héritiers' des nazis"
+      ],
+      "distortion_score": 0.4,
+      "tone_shift": "more_partisan",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T11:23:13.891770"
+    }
+  ]
+}

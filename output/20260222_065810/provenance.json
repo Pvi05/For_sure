@@ -1,0 +1,279 @@
+{
+  "meta": {
+    "built_at": "2026-02-22T06:58:10.773183",
+    "node_count": 6,
+    "edge_count": 5,
+    "max_depth": 4,
+    "global_distortion": null,
+    "primary_source_ids": []
+  },
+  "nodes": [
+    {
+      "id": "at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z",
+      "uri": "at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z",
+      "author_handle": "mathieuhourdin.bsky.social",
+      "author_did": "did:plc:jyszdkkd7q4ejj4mah36jgde",
+      "date": "2026-02-21T14:35:04.993Z",
+      "text_preview": "Bravo au journaliste de bfm sur place, qui répète à chaque fois qu'il prend la parole que les participants au rassemblement de Lyon essaient…",
+      "likes": 404,
+      "reposts": 120,
+      "replies": 10,
+      "depth": 0,
+      "is_root": true,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.477,
+      "keywords": [
+        "journaliste",
+        "bfm",
+        "rassemblement",
+        "Lyon",
+        "croix gammées",
+        "néonazis"
+      ],
+      "entities": [
+        "bfm",
+        "Lyon"
+      ],
+      "claims": [
+        "Le journaliste de bfm affirme que les participants au rassemblement de Lyon essaient de masquer leur appartenance.",
+        "Le journaliste de bfm voit des croix gammées.",
+        "Le journaliste de bfm qualifie les participants de néonazis."
+      ]
+    },
+    {
+      "id": "at://did:plc:wdg72jzh2bx7kuslzapb6eud/app.bsky.feed.post/3mfe76wujvk2z",
+      "uri": "at://did:plc:wdg72jzh2bx7kuslzapb6eud/app.bsky.feed.post/3mfe76wujvk2z",
+      "author_handle": "mathildelarrere.bsky.social",
+      "author_did": "did:plc:wdg72jzh2bx7kuslzapb6eud",
+      "date": "2026-02-21T08:26:02.883Z",
+      "text_preview": "Ils étaient \"20 et 3 étrangers et nos frères pourtant\"\n\nC'est aujourd'hui le triste anniversaire de l'exécution de 23 résistants, 23 antifas…",
+      "likes": 743,
+      "reposts": 411,
+      "replies": 13,
+      "depth": 1,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.548,
+      "keywords": [
+        "anniversaire",
+        "exécution",
+        "résistants",
+        "antifascistes",
+        "nazis",
+        "combat"
+      ],
+      "entities": [
+        "groupe Manouchian",
+        "Lyon"
+      ],
+      "claims": [
+        "C'est l'anniversaire de l'exécution de 23 résistants.",
+        "Le groupe Manouchian était composé de 23 résistants antifascistes."
+      ]
+    },
+    {
+      "id": "at://did:plc:66gl2bn6tpnq374x33nh66t2/app.bsky.feed.post/3mfetpt2zfk25",
+      "uri": "at://did:plc:66gl2bn6tpnq374x33nh66t2/app.bsky.feed.post/3mfetpt2zfk25",
+      "author_handle": "fabulousfab.bsky.social",
+      "author_did": "did:plc:66gl2bn6tpnq374x33nh66t2",
+      "date": "2026-02-21T14:33:24.165Z",
+      "text_preview": "Manif de Lyon : on vient de passer de Francetv infos à BFM tant la couverture de FranceInfos était pathétique. pas un mot sur le pédigrée de…",
+      "likes": 14,
+      "reposts": 6,
+      "replies": 1,
+      "depth": 1,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.241,
+      "keywords": []
+    },
+    {
+      "id": "at://did:plc:n2ne6buxjl3ve323cu2j7edz/app.bsky.feed.post/3mfcgiy5usc2o",
+      "uri": "at://did:plc:n2ne6buxjl3ve323cu2j7edz/app.bsky.feed.post/3mfcgiy5usc2o",
+      "author_handle": "gdeleur.bsky.social",
+      "author_did": "did:plc:n2ne6buxjl3ve323cu2j7edz",
+      "date": "2026-02-20T15:31:36.501Z",
+      "text_preview": "La marche suprémaciste blanche des nénonazis partira demain de la place Jean-Jaurès à Lyon. Le cynisme atteint son climax.",
+      "likes": 594,
+      "reposts": 155,
+      "replies": 31,
+      "depth": 2,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.504,
+      "keywords": [
+        "marche",
+        "suprémaciste",
+        "blanche",
+        "néonazis",
+        "Lyon",
+        "demain"
+      ],
+      "entities": [
+        "Jean-Jaurès",
+        "Lyon"
+      ],
+      "claims": [
+        "Une marche suprémaciste blanche de néonazis partira de la place Jean-Jaurès à Lyon.",
+        "La marche est prévue pour demain."
+      ]
+    },
+    {
+      "id": "at://did:plc:zvgnnx7oncrqqqlwmhqiccpv/app.bsky.feed.post/3mfbxz45bfs2u",
+      "uri": "at://did:plc:zvgnnx7oncrqqqlwmhqiccpv/app.bsky.feed.post/3mfbxz45bfs2u",
+      "author_handle": "sandrousseau.bsky.social",
+      "author_did": "did:plc:zvgnnx7oncrqqqlwmhqiccpv",
+      "date": "2026-02-20T11:12:11.420Z",
+      "text_preview": "Travail famille patrie.\nManif autorisée à Lyon de tous les nazillons de France et de Navarre\n\nOn est pas mal là sur le plan du barrage…",
+      "likes": 1337,
+      "reposts": 303,
+      "replies": 70,
+      "depth": 3,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.2,
+      "virality_score": 0.561,
+      "keywords": [
+        "travail",
+        "famille",
+        "patrie",
+        "manifestation",
+        "nazillons",
+        "barrage"
+      ],
+      "entities": [
+        "Lyon",
+        "France",
+        "Navarre"
+      ],
+      "claims": [
+        "Une manifestation autorisée a lieu à Lyon.",
+        "La manifestation rassemble des nazillons de France et de Navarre."
+      ]
+    },
+    {
+      "id": "at://did:plc:anpfslmr5xhyw7oqzai3dprd/app.bsky.feed.post/3mf7aoctojz2a",
+      "uri": "at://did:plc:anpfslmr5xhyw7oqzai3dprd/app.bsky.feed.post/3mf7aoctojz2a",
+      "author_handle": "leparisien.fr",
+      "author_did": "did:plc:anpfslmr5xhyw7oqzai3dprd",
+      "date": "2026-02-19T09:09:11.000Z",
+      "text_preview": "Les parents de Quentin Deranque «appellent au calme» et ne participeront pas à la marche samedi à Lyon ➡️ https://l.leparisien.fr/O4PF",
+      "likes": 8,
+      "reposts": 7,
+      "replies": 2,
+      "depth": 4,
+      "is_root": false,
+      "is_primary": false,
+      "fiability_score": 0.7,
+      "virality_score": 0.237,
+      "keywords": []
+    }
+  ],
+  "links": [
+    {
+      "source": "at://did:plc:wdg72jzh2bx7kuslzapb6eud/app.bsky.feed.post/3mfe76wujvk2z",
+      "target": "at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z",
+      "similarity_score": 0.9,
+      "info_lost": [
+        "Le contexte historique de l'exécution du groupe Manouchian et son anniversaire.",
+        "La citation '20 et 3 étrangers et nos frères pourtant'.",
+        "L'hommage aux 23 résistants et antifascistes.",
+        "L'hommage à ceux et celles qui ont combattu les nazis."
+      ],
+      "info_added": [
+        "La mention d'un journaliste de BFM TV sur place.",
+        "Le fait que le journaliste répète que les participants au rassemblement de Lyon essaient de masquer leur appartenance.",
+        "L'observation du journaliste de la présence de croix gammées.",
+        "L'affirmation du journaliste que les participants sont des néonazis."
+      ],
+      "distortion_score": 0.8,
+      "tone_shift": "more_partisan",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T06:58:47.854564"
+    },
+    {
+      "source": "at://did:plc:66gl2bn6tpnq374x33nh66t2/app.bsky.feed.post/3mfetpt2zfk25",
+      "target": "at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z",
+      "similarity_score": 0.9,
+      "info_lost": [
+        "La critique de la couverture de FranceInfo jugée 'pathétique' par l'utilisateur de ti-1.",
+        "L'absence de mention du 'pédigrée de l'organisatrice' dans la couverture de FranceInfo.",
+        "La description des participants masqués, en lunettes noires, doudounes noires, bérets noirs."
+      ],
+      "info_added": [
+        "L'éloge du journaliste de BFM pour sa couverture.",
+        "La mention explicite que le journaliste de BFM répète que les participants essaient de masquer leur appartenance.",
+        "L'affirmation que le journaliste de BFM voit des 'croix gammées' et qualifie les participants de 'néonazis'."
+      ],
+      "distortion_score": 0.7,
+      "tone_shift": "more_partisan",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T07:00:48.269070"
+    },
+    {
+      "source": "at://did:plc:n2ne6buxjl3ve323cu2j7edz/app.bsky.feed.post/3mfcgiy5usc2o",
+      "target": "at://did:plc:wdg72jzh2bx7kuslzapb6eud/app.bsky.feed.post/3mfe76wujvk2z",
+      "similarity_score": 0.9,
+      "info_lost": [
+        "L'heure ou le moment précis du départ de la marche (demain)",
+        "La mention explicite de 'suprémaciste blanche'"
+      ],
+      "info_added": [
+        "La date du 21 février comme anniversaire de l'exécution de résistants",
+        "La référence au groupe Manouchian",
+        "La citation '20 et 3 étrangers et nos frères pourtant'",
+        "La mention de '23 résistants, 23 antifascistes'",
+        "L'expression 'Honneur au groupe Manouchian'",
+        "L'expression 'Honneur à celle et ceux qui ont combattu les nazis'",
+        "L'établissement d'un lien direct entre les nazis historiques et les manifestants actuels ('nazis dont on laisse les héritiers défiler')"
+      ],
+      "distortion_score": 0.4,
+      "tone_shift": "more_partisan",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T06:59:20.091576"
+    },
+    {
+      "source": "at://did:plc:zvgnnx7oncrqqqlwmhqiccpv/app.bsky.feed.post/3mfbxz45bfs2u",
+      "target": "at://did:plc:n2ne6buxjl3ve323cu2j7edz/app.bsky.feed.post/3mfcgiy5usc2o",
+      "similarity_score": 0.9,
+      "info_lost": [
+        "La référence à 'Travail famille patrie', qui est une allusion historique spécifique au régime de Vichy, suggérant une idéologie d'extrême droite.",
+        "L'expression 'Manif autorisée', qui soulève la question de l'approbation officielle de l'événement.",
+        "La mention 'de tous les nazillons de France et de Navarre', qui est une hyperbole pour souligner l'ampleur nationale de la mobilisation.",
+        "Le commentaire 'On est pas mal là sur le plan du barrage…', qui exprime une opinion sur la situation politique ou la capacité à faire barrage à l'extrême droite."
+      ],
+      "info_added": [
+        "La désignation 'marche suprémaciste blanche des nénonazis', qui est une caractérisation plus spécifique et accusatrice de la nature de la manifestation.",
+        "La précision du lieu de départ : 'place Jean-Jaurès à Lyon'.",
+        "La précision de la date : 'demain'.",
+        "Le commentaire 'Le cynisme atteint son climax', qui exprime une indignation plus directe et un jugement moral."
+      ],
+      "distortion_score": 0.6,
+      "tone_shift": "more_alarmist",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T06:59:56.930535"
+    },
+    {
+      "source": "at://did:plc:anpfslmr5xhyw7oqzai3dprd/app.bsky.feed.post/3mf7aoctojz2a",
+      "target": "at://did:plc:zvgnnx7oncrqqqlwmhqiccpv/app.bsky.feed.post/3mfbxz45bfs2u",
+      "similarity_score": 0.9,
+      "info_lost": [
+        "L'appel au calme des parents de Quentin Deranque.",
+        "La non-participation des parents de Quentin Deranque à la marche."
+      ],
+      "info_added": [
+        "La référence à 'Travail famille patrie'.",
+        "La caractérisation des participants à la manifestation comme 'nazillons de France et de Navarre'.",
+        "L'expression 'On est pas mal là sur le plan du barrage…'."
+      ],
+      "distortion_score": 0.9,
+      "tone_shift": "more_partisan",
+      "is_fact_check": false,
+      "analyzed_at": "2026-02-22T07:00:45.578055"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+
+<div class="py-5">
+<h1 class="display-4 text-center fst-italic fw-bold">For Sure ?</h1>
+</div>
+
+
+<%# min-vh-100 align-items-center justify-content-center card p-3 shadow%>
+<div class="min-vh-100 card p-4 shadow w-75 mx-auto">
+<%= form_with url: "/checks", method: :post, data: { turbo: false }, class: "w-100" do |f| %>
+  
+<div class="d-flex gap-2">
+  <%= f.text_field :claim,
+        placeholder: "https://bsky.app/profile/…/post/…",
+        class: "form-control",
+        pattern: "https://bsky\\.app/profile/.+/post/\\w+|at://.+",
+        title: "Colle l'URL d'un post Bluesky" %>
+  <%= f.submit "Check this", class: "btn btn-info" %>
+</div>
+
+<% if flash[:alert] %>
+  <div class="alert alert-warning mt-3 mb-0 py-2">
+    <%= flash[:alert] %>
+  </div>
+<% end %>
+
+<% if flash[:result] %>
+  <div class="mt-4">
+    <%= flash[:result] %>
+  </div>
+<% end %>
+
+  <% end %>
+</div>
+
+
+

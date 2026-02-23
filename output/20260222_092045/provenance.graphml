@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d22" for="edge" attr.name="analyzed_at" attr.type="string" />
+  <key id="d21" for="edge" attr.name="is_fact_check" attr.type="boolean" />
+  <key id="d20" for="edge" attr.name="tone_shift" attr.type="string" />
+  <key id="d19" for="edge" attr.name="distortion_score" attr.type="double" />
+  <key id="d18" for="edge" attr.name="info_added" attr.type="string" />
+  <key id="d17" for="edge" attr.name="info_lost" attr.type="string" />
+  <key id="d16" for="edge" attr.name="similarity_score" attr.type="double" />
+  <key id="d15" for="node" attr.name="claims" attr.type="string" />
+  <key id="d14" for="node" attr.name="entities" attr.type="string" />
+  <key id="d13" for="node" attr.name="keywords" attr.type="string" />
+  <key id="d12" for="node" attr.name="virality_score" attr.type="double" />
+  <key id="d11" for="node" attr.name="fiability_score" attr.type="double" />
+  <key id="d10" for="node" attr.name="is_primary" attr.type="boolean" />
+  <key id="d9" for="node" attr.name="is_root" attr.type="boolean" />
+  <key id="d8" for="node" attr.name="depth" attr.type="long" />
+  <key id="d7" for="node" attr.name="replies" attr.type="long" />
+  <key id="d6" for="node" attr.name="reposts" attr.type="long" />
+  <key id="d5" for="node" attr.name="likes" attr.type="long" />
+  <key id="d4" for="node" attr.name="text_preview" attr.type="string" />
+  <key id="d3" for="node" attr.name="date" attr.type="string" />
+  <key id="d2" for="node" attr.name="author_did" attr.type="string" />
+  <key id="d1" for="node" attr.name="author_handle" attr.type="string" />
+  <key id="d0" for="node" attr.name="uri" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z">
+      <data key="d0">at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z</data>
+      <data key="d1">mathieuhourdin.bsky.social</data>
+      <data key="d2">did:plc:jyszdkkd7q4ejj4mah36jgde</data>
+      <data key="d3">2026-02-21T14:35:04.993Z</data>
+      <data key="d4">Bravo au journaliste de bfm sur place, qui répète à chaque fois qu'il prend la parole que les participants au rassemblement de Lyon essaient…</data>
+      <data key="d5">421</data>
+      <data key="d6">123</data>
+      <data key="d7">12</data>
+      <data key="d8">0</data>
+      <data key="d9">True</data>
+      <data key="d10">False</data>
+      <data key="d11">0.2</data>
+      <data key="d12">0.48</data>
+      <data key="d13">["journaliste", "bfm", "rassemblement", "Lyon", "croix gammées", "néonazis"]</data>
+      <data key="d14">["bfm", "Lyon"]</data>
+      <data key="d15">["Le journaliste de bfm affirme que les participants au rassemblement de Lyon essaient de masquer leur appartenance.", "Le journaliste de bfm voit des croix gammées parmi les participants.", "Le journaliste de bfm qualifie les participants de néonazis."]</data>
+    </node>
+    <node id="at://did:plc:wdg72jzh2bx7kuslzapb6eud/app.bsky.feed.post/3mfe76wujvk2z">
+      <data key="d0">at://did:plc:wdg72jzh2bx7kuslzapb6eud/app.bsky.feed.post/3mfe76wujvk2z</data>
+      <data key="d1">mathildelarrere.bsky.social</data>
+      <data key="d2">did:plc:wdg72jzh2bx7kuslzapb6eud</data>
+      <data key="d3">2026-02-21T08:26:02.883Z</data>
+      <data key="d4">Ils étaient "20 et 3 étrangers et nos frères pourtant"
+
+C'est aujourd'hui le triste anniversaire de l'exécution de 23 résistants, 23 antifas…</data>
+      <data key="d5">747</data>
+      <data key="d6">412</data>
+      <data key="d7">13</data>
+      <data key="d8">1</data>
+      <data key="d9">False</data>
+      <data key="d10">False</data>
+      <data key="d11">0.2</data>
+      <data key="d12">0.548</data>
+      <data key="d13">["anniversaire", "exécution", "résistants", "antifascistes", "nazis", "combat"]</data>
+      <data key="d14">["groupe Manouchian", "Lyon"]</data>
+      <data key="d15">["C'est l'anniversaire de l'exécution de 23 résistants.", "Le groupe Manouchian était composé de 23 résistants antifascistes."]</data>
+    </node>
+    <node id="at://did:plc:66gl2bn6tpnq374x33nh66t2/app.bsky.feed.post/3mfetpt2zfk25">
+      <data key="d0">at://did:plc:66gl2bn6tpnq374x33nh66t2/app.bsky.feed.post/3mfetpt2zfk25</data>
+      <data key="d1">fabulousfab.bsky.social</data>
+      <data key="d2">did:plc:66gl2bn6tpnq374x33nh66t2</data>
+      <data key="d3">2026-02-21T14:33:24.165Z</data>
+      <data key="d4">Manif de Lyon : on vient de passer de Francetv infos à BFM tant la couverture de FranceInfos était pathétique. pas un mot sur le pédigrée de…</data>
+      <data key="d5">14</data>
+      <data key="d6">6</data>
+      <data key="d7">1</data>
+      <data key="d8">1</data>
+      <data key="d9">False</data>
+      <data key="d10">False</data>
+      <data key="d11">0.2</data>
+      <data key="d12">0.241</data>
+      <data key="d13">[]</data>
+    </node>
+    <node id="at://did:plc:n2ne6buxjl3ve323cu2j7edz/app.bsky.feed.post/3mfcgiy5usc2o">
+      <data key="d0">at://did:plc:n2ne6buxjl3ve323cu2j7edz/app.bsky.feed.post/3mfcgiy5usc2o</data>
+      <data key="d1">gdeleur.bsky.social</data>
+      <data key="d2">did:plc:n2ne6buxjl3ve323cu2j7edz</data>
+      <data key="d3">2026-02-20T15:31:36.501Z</data>
+      <data key="d4">La marche suprémaciste blanche des nénonazis partira demain de la place Jean-Jaurès à Lyon. Le cynisme atteint son climax.</data>
+      <data key="d5">594</data>
+      <data key="d6">155</data>
+      <data key="d7">31</data>
+      <data key="d8">2</data>
+      <data key="d9">False</data>
+      <data key="d10">False</data>
+      <data key="d11">0.2</data>
+      <data key="d12">0.504</data>
+      <data key="d13">["marche", "suprémaciste", "blanche", "néonazis", "Lyon", "demain"]</data>
+      <data key="d14">["Jean-Jaurès", "Lyon"]</data>
+      <data key="d15">["Une marche suprémaciste blanche de néonazis partira demain de la place Jean-Jaurès à Lyon."]</data>
+    </node>
+    <node id="at://did:plc:zvgnnx7oncrqqqlwmhqiccpv/app.bsky.feed.post/3mfbxz45bfs2u">
+      <data key="d0">at://did:plc:zvgnnx7oncrqqqlwmhqiccpv/app.bsky.feed.post/3mfbxz45bfs2u</data>
+      <data key="d1">sandrousseau.bsky.social</data>
+      <data key="d2">did:plc:zvgnnx7oncrqqqlwmhqiccpv</data>
+      <data key="d3">2026-02-20T11:12:11.420Z</data>
+      <data key="d4">Travail famille patrie.
+Manif autorisée à Lyon de tous les nazillons de France et de Navarre
+
+On est pas mal là sur le plan du barrage…</data>
+      <data key="d5">1337</data>
+      <data key="d6">303</data>
+      <data key="d7">70</data>
+      <data key="d8">3</data>
+      <data key="d9">False</data>
+      <data key="d10">False</data>
+      <data key="d11">0.2</data>
+      <data key="d12">0.561</data>
+      <data key="d13">["travail", "famille", "patrie", "manifestation", "nazillons", "barrage"]</data>
+      <data key="d14">["Lyon", "France", "Navarre"]</data>
+      <data key="d15">["Une manifestation autorisée a lieu à Lyon.", "La manifestation rassemble des nazillons de France et de Navarre."]</data>
+    </node>
+    <node id="at://did:plc:anpfslmr5xhyw7oqzai3dprd/app.bsky.feed.post/3mf7aoctojz2a">
+      <data key="d0">at://did:plc:anpfslmr5xhyw7oqzai3dprd/app.bsky.feed.post/3mf7aoctojz2a</data>
+      <data key="d1">leparisien.fr</data>
+      <data key="d2">did:plc:anpfslmr5xhyw7oqzai3dprd</data>
+      <data key="d3">2026-02-19T09:09:11.000Z</data>
+      <data key="d4">Les parents de Quentin Deranque «appellent au calme» et ne participeront pas à la marche samedi à Lyon ➡️ https://l.leparisien.fr/O4PF</data>
+      <data key="d5">8</data>
+      <data key="d6">7</data>
+      <data key="d7">2</data>
+      <data key="d8">4</data>
+      <data key="d9">False</data>
+      <data key="d10">False</data>
+      <data key="d11">0.7</data>
+      <data key="d12">0.237</data>
+      <data key="d13">[]</data>
+    </node>
+    <edge source="at://did:plc:wdg72jzh2bx7kuslzapb6eud/app.bsky.feed.post/3mfe76wujvk2z" target="at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z">
+      <data key="d16">0.9</data>
+      <data key="d17">["Le contexte historique de l'exécution du groupe Manouchian et son anniversaire.", "La référence aux '20 et 3 étrangers et nos frères pourtant' et l'hommage aux 23 résistants antifascistes.", "L'appel à l'honneur pour ceux qui ont combattu les nazis."]</data>
+      <data key="d18">["La mention d'un journaliste de BFM sur place à Lyon.", "Le fait que le journaliste répète que les participants au rassemblement de Lyon essaient de masquer leur appartenance.", "L'observation du journaliste de la présence de croix gammées et l'affirmation que ce sont des néonazis."]</data>
+      <data key="d19">0.7</data>
+      <data key="d20">more_partisan</data>
+      <data key="d21">False</data>
+      <data key="d22">2026-02-22T09:21:21.507993</data>
+    </edge>
+    <edge source="at://did:plc:66gl2bn6tpnq374x33nh66t2/app.bsky.feed.post/3mfetpt2zfk25" target="at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z">
+      <data key="d16">0.9</data>
+      <data key="d17">["La critique de la couverture de FranceInfo jugée 'pathétique' par l'utilisateur de ti-1.", "L'absence de mention du 'pédigrée de l'organisatrice' dans la couverture de FranceInfo.", "La description des participants masqués, en lunettes noires, doudounes noires, bérets noirs."]</data>
+      <data key="d18">["L'éloge du journaliste de BFM pour sa couverture.", "La mention explicite que le journaliste de BFM répète que les participants essaient de masquer leur appartenance.", "L'affirmation que le journaliste de BFM voit des 'croix gammées' et qualifie les participants de 'néonazis'."]</data>
+      <data key="d19">0.7</data>
+      <data key="d20">more_partisan</data>
+      <data key="d21">False</data>
+      <data key="d22">2026-02-22T09:23:26.534836</data>
+    </edge>
+    <edge source="at://did:plc:n2ne6buxjl3ve323cu2j7edz/app.bsky.feed.post/3mfcgiy5usc2o" target="at://did:plc:wdg72jzh2bx7kuslzapb6eud/app.bsky.feed.post/3mfe76wujvk2z">
+      <data key="d16">0.9</data>
+      <data key="d17">["L'heure ou le moment précis du départ de la marche (demain)", "La mention explicite de 'suprémaciste blanche'"]</data>
+      <data key="d18">["La date du 21 février comme anniversaire de l'exécution de résistants", "La référence au groupe Manouchian", "La citation '20 et 3 étrangers et nos frères pourtant'", "La mention de '23 résistants, 23 antifascistes'", "L'expression 'Honneur au groupe Manouchian'", "L'expression 'Honneur à celle et ceux qui ont combattu les nazis'", "L'établissement d'un lien direct entre les nazis historiques et les manifestants actuels ('nazis dont on laisse les héritiers défiler')"]</data>
+      <data key="d19">0.4</data>
+      <data key="d20">more_partisan</data>
+      <data key="d21">False</data>
+      <data key="d22">2026-02-22T09:21:55.604882</data>
+    </edge>
+    <edge source="at://did:plc:zvgnnx7oncrqqqlwmhqiccpv/app.bsky.feed.post/3mfbxz45bfs2u" target="at://did:plc:n2ne6buxjl3ve323cu2j7edz/app.bsky.feed.post/3mfcgiy5usc2o">
+      <data key="d16">0.95</data>
+      <data key="d17">["La référence à 'Travail famille patrie', qui est une allusion historique spécifique au régime de Vichy, suggérant une idéologie d'extrême droite.", "L'expression 'Manif autorisée', qui soulève la question de l'approbation officielle de l'événement.", "La mention 'de tous les nazillons de France et de Navarre', qui est une hyperbole pour souligner l'ampleur nationale de la mobilisation.", "Le commentaire 'On est pas mal là sur le plan du barrage…', qui exprime une opinion sur la situation politique ou la capacité à faire barrage à l'extrême droite."]</data>
+      <data key="d18">["La désignation 'marche suprémaciste blanche des nénonazis', qui est une caractérisation plus spécifique et accusatrice de la nature de la manifestation.", "La précision du lieu de départ : 'place Jean-Jaurès à Lyon'.", "La précision de la date : 'demain'.", "Le commentaire 'Le cynisme atteint son climax', qui exprime une indignation plus directe et un jugement moral."]</data>
+      <data key="d19">0.6</data>
+      <data key="d20">more_alarmist</data>
+      <data key="d21">False</data>
+      <data key="d22">2026-02-22T09:22:34.004304</data>
+    </edge>
+    <edge source="at://did:plc:anpfslmr5xhyw7oqzai3dprd/app.bsky.feed.post/3mf7aoctojz2a" target="at://did:plc:zvgnnx7oncrqqqlwmhqiccpv/app.bsky.feed.post/3mfbxz45bfs2u">
+      <data key="d16">0.9</data>
+      <data key="d17">["L'appel au calme des parents de Quentin Deranque.", "La non-participation des parents de Quentin Deranque à la marche."]</data>
+      <data key="d18">["La référence à 'Travail famille patrie'.", "La caractérisation des participants à la manifestation comme 'nazillons de France et de Navarre'.", "L'expression 'On est pas mal là sur le plan du barrage…'."]</data>
+      <data key="d19">0.9</data>
+      <data key="d20">more_partisan</data>
+      <data key="d21">False</data>
+      <data key="d22">2026-02-22T09:23:23.770092</data>
+    </edge>
+  </graph>
+</graphml>

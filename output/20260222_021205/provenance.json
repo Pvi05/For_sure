@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "built_at": "2026-02-22T02:12:05.144632",
+    "node_count": 1,
+    "edge_count": 0,
+    "max_depth": 4,
+    "global_distortion": 0.0,
+    "primary_source_ids": [
+      "at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z"
+    ]
+  },
+  "nodes": [
+    {
+      "id": "at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z",
+      "uri": "at://did:plc:jyszdkkd7q4ejj4mah36jgde/app.bsky.feed.post/3mfetst7zbc2z",
+      "author_handle": "mathieuhourdin.bsky.social",
+      "author_did": "did:plc:jyszdkkd7q4ejj4mah36jgde",
+      "date": "2026-02-21T14:35:04.993Z",
+      "text_preview": "Bravo au journaliste de bfm sur place, qui répète à chaque fois qu'il prend la parole que les participants au rassemblement de Lyon essaient…",
+      "likes": 397,
+      "reposts": 120,
+      "replies": 10,
+      "depth": 0,
+      "is_root": true,
+      "is_primary": true,
+      "is_trusted_source": false,
+      "keywords": []
+    }
+  ],
+  "links": []
+}

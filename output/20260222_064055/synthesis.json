@@ -1,0 +1,88 @@
+{
+  "original_fact": "Les parents de Quentin Deranque «appellent au calme» et ne participeront pas à la marche samedi à Lyon.",
+  "final_version": "Un journaliste de BFM sur place à Lyon affirme que les participants au rassemblement essaient de masquer leur appartenance, voit des croix gammées et les qualifie de néonazis.",
+  "distortions": [
+    {
+      "step": 1,
+      "from_author": "@leparisien.fr",
+      "to_author": "@sandrousseau.bsky.social",
+      "what_changed": "Le post a complètement omis l'appel au calme des parents de Quentin Deranque et leur non-participation à la marche. Il a introduit une caractérisation partisane de la manifestation à Lyon comme un rassemblement de \"nazillons\", avec une allusion au régime de Vichy (\"Travail famille patrie\"). Le ton est devenu plus partisan.",
+      "info_lost": [
+        "L'appel au calme des parents de Quentin Deranque.",
+        "La non-participation des parents de Quentin Deranque à la marche."
+      ],
+      "info_added": [
+        "La référence à 'Travail famille patrie'.",
+        "La caractérisation des participants à la manifestation comme 'nazillons de France et de Navarre'.",
+        "L'expression 'On est pas mal là sur le plan du barrage…'."
+      ],
+      "tone_shift": "more_partisan",
+      "distortion_score": 0.8
+    },
+    {
+      "step": 2,
+      "from_author": "@sandrousseau.bsky.social",
+      "to_author": "@gdeleur.bsky.social",
+      "what_changed": "Le post a spécifié la nature de la marche comme \"suprémaciste blanche des néonazis\" et a précisé le lieu de départ (\"place Jean-Jaurès\"), renforçant le ton alarmiste. Il a perdu les allusions historiques et le commentaire politique général du post précédent.",
+      "info_lost": [
+        "La référence à 'Travail famille patrie', qui est une allusion historique spécifique au régime de Vichy, suggérant une idéologie d'extrême droite.",
+        "L'expression 'Manif autorisée', qui soulève la question de l'approbation officielle de l'événement.",
+        "La mention 'de tous les nazillons de France et de Navarre', qui est une hyperbole pour souligner l'ampleur nationale de la mobilisation.",
+        "Le commentaire 'On est pas mal là sur le plan du barrage…', qui exprime une opinion sur la situation politique ou la capacité à faire barrage à l'extrême droite."
+      ],
+      "info_added": [
+        "La désignation 'marche suprémaciste blanche des nénonazis', qui est une caractérisation plus spécifique et accusatrice de la nature de la manifestation.",
+        "La précision du lieu de départ : 'place Jean-Jaurès à Lyon'.",
+        "La précision de la date : 'demain'.",
+        "Le commentaire 'Le cynisme atteint son climax', qui exprime une indignation plus directe et un jugement moral."
+      ],
+      "tone_shift": "more_alarmist",
+      "distortion_score": 0.6
+    },
+    {
+      "step": 3,
+      "from_author": "@gdeleur.bsky.social",
+      "to_author": "@mathildelarrere.bsky.social",
+      "what_changed": "Le post a introduit un nouveau contexte historique, l'anniversaire de l'exécution du groupe Manouchian, pour établir un parallèle partisan avec la marche de Lyon, qualifiant implicitement ses participants d'\"héritiers\" des nazis. Il a omis les détails spécifiques de la marche mentionnés précédemment.",
+      "info_lost": [
+        "L'heure ou le moment précis du départ de la marche (demain)",
+        "La mention du 'cynisme atteint son climax'"
+      ],
+      "info_added": [
+        "La référence à la citation '20 et 3 étrangers et nos frères pourtant'",
+        "La date du 21 février comme anniversaire de l'exécution de 23 résistants/antifascistes",
+        "La mention du groupe Manouchian",
+        "L'hommage à ceux qui ont combattu les nazis",
+        "L'expression 'Honneur au groupe Manouchian' et 'Honneur à celle et ceux qui ont combattu les nazis'",
+        "La qualification des participants à la marche de Lyon comme 'héritiers' des nazis"
+      ],
+      "tone_shift": "more_partisan",
+      "distortion_score": 0.4
+    },
+    {
+      "step": 4,
+      "from_author": "@mathildelarrere.bsky.social",
+      "to_author": "@mathieuhourdin.bsky.social",
+      "what_changed": "Le post a déplacé l'attention vers le reportage médiatique, citant un journaliste de BFM affirmant que les participants à la marche de Lyon masquent leur appartenance et affichent des croix gammées, les qualifiant de néonazis. Le contexte historique du groupe Manouchian a été entièrement perdu.",
+      "info_lost": [
+        "Le contexte historique de l'exécution du groupe Manouchian et son anniversaire.",
+        "La référence aux '20 et 3 étrangers et nos frères pourtant' et l'hommage aux 23 résistants antifascistes.",
+        "L'appel à l'honneur pour ceux qui ont combattu les nazis."
+      ],
+      "info_added": [
+        "La mention d'un journaliste de BFM sur place à Lyon.",
+        "Le fait que le journaliste répète que les participants au rassemblement de Lyon essaient de masquer leur appartenance.",
+        "L'observation du journaliste de la présence de croix gammées et l'affirmation que ce sont des néonazis."
+      ],
+      "tone_shift": "more_partisan",
+      "distortion_score": 0.7
+    }
+  ],
+  "verdict": "Le post analysé est totalement infidèle à la source primaire. L'information originale concernant l'appel au calme des parents de Quentin Deranque et leur non-participation à la marche a été entièrement perdue et remplacée par des allégations sur la nature des participants à la marche et leur couverture médiatique.",
+  "veracity_score": 0.013,
+  "narrative": "La propagation de l'information sur Bluesky a transformé un appel au calme des parents de Quentin Deranque concernant une marche à Lyon en une discussion sur la nature des participants à cette marche et sa couverture médiatique. Initialement, Le Parisien rapportait que les parents de Quentin Deranque appelaient au calme et ne participeraient pas à la marche. Cette information a été rapidement déformée par @sandrousseau.bsky.social qui a caractérisé la marche comme un rassemblement de \"nazillons\". Par la suite, @gdeleur.bsky.social a précisé qu'il s'agissait d'une \"marche suprémaciste blanche de néonazis\". @mathildelarrere.bsky.social a ensuite introduit un parallèle historique avec le groupe Manouchian. Finalement, le post analysé par @mathieuhourdin.bsky.social se concentre sur le reportage d'un journaliste de BFM décrivant les participants comme des néonazis masquant leur appartenance et affichant des croix gammées. L'information originale a été entièrement perdue au profit d'une nouvelle narrative axée sur la nature extrémiste de la marche et sa perception médiatique.",
+  "top_amplifiers": [
+    "@mathildelarrere.bsky.social",
+    "@sandrousseau.bsky.social"
+  ]
+}

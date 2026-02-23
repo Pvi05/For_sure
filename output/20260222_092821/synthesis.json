@@ -1,0 +1,27 @@
+{
+  "original_fact": "Une situation est en cours à Engels, dans la région de Saratov, où l'aéroport est fermé, et un aérodrome militaire ainsi qu'une raffinerie sont identifiés comme deux cibles potentielles pour l'Ukraine.",
+  "final_version": "Des attaques ukrainiennes ont eu lieu sur Saratov et Engels, en Russie, et une raffinerie est probablement la cible de ces attaques.",
+  "distortions": [
+    {
+      "step": 1,
+      "from_author": "@twmcltd.bsky.social",
+      "to_author": "@geopolitis.bsky.social",
+      "what_changed": "Le post final transforme l'observation de cibles potentielles et d'un aéroport fermé en une affirmation d'attaques ukrainiennes avérées. Il omet également la mention de l'aérodrome militaire comme cible potentielle et d'autres détails contextuels.",
+      "info_lost": [
+        "La mention spécifique de la région de Saratov pour Engels.",
+        "La fermeture de l'aéroport d'Engels.",
+        "Les deux cibles potentielles identifiées : l'aérodrome militaire et la raffinerie.",
+        "L'observation de fumée et le témoignage d'une femme sur deux frappes claires."
+      ],
+      "info_added": [
+        "L'affirmation que des attaques ukrainiennes ont eu lieu sur Saratov et Engels."
+      ],
+      "tone_shift": "neutral",
+      "distortion_score": 0.4
+    }
+  ],
+  "verdict": "Le post analysé déforme l'information de la source primaire en transformant des observations et des cibles potentielles en une affirmation d'attaques avérées, tout en omettant des détails importants.",
+  "veracity_score": 0.16,
+  "narrative": "L'information initiale, provenant d'une source à faible fiabilité (@twmcltd.bsky.social), faisait état d'une situation à Engels, région de Saratov, avec un aéroport fermé et l'identification d'un aérodrome militaire et d'une raffinerie comme cibles potentielles pour l'Ukraine. Lors de sa propagation vers le post analysé par @geopolitis.bsky.social, l'information a subi une distorsion modérée. Le post final a transformé ces observations et cibles potentielles en une affirmation directe d'attaques ukrainiennes sur Saratov et Engels, tout en se concentrant uniquement sur la raffinerie comme cible probable et en omettant la fermeture de l'aéroport et l'aérodrome militaire. La structure du graphe de propagation, très dense, suggère un risque élevé d'amplification de désinformation, bien qu'aucun hub dominant n'ait été identifié dans ce cas précis.",
+  "top_amplifiers": []
+}
